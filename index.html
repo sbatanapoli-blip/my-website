@@ -152,7 +152,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>✨ Impression élégante ✨</h1>
+            <h1>✨Activation✨</h1>
         </header>
 
         <section class="code-section">
@@ -162,32 +162,26 @@
             </div>
             
             <div class="code-content">
-                <div class="code-text" id="codeText">"code": "246810"</div>
+                <div class="code-text" id="codeText">"code": "A32FC80K411"</div>
             </div>
         </section>
 
         <footer class="footer">
-            <p>© 2026 Impression élégante | Made with ❤️</p>
+            <p>© 2026 Impression élégante | Galil Tv ❤️</p>
         </footer>
     </div>
 
     <script>
     function copyCode() {
-        // 1. جلب النص الكامل من الصفحة
+       
         let fullText = document.getElementById('codeText').innerText;
-        // النص الآن هو: "code": "12345"
-
-        // 2. استخراج ما بداخل علامتي التنصيص الأخيرة
-        // نبحث عن النص الذي يأتي بعد النقطتين (:)
+       
         let parts = fullText.split(':'); 
-        // النتيجة مصفوفة: [ '"code"', ' "12345"' ]
         
         let rawValue = parts[1]; // نأخذ الجزء الثاني
         
-        // 3. تنظيف النص (حذف المسافات وعلامات التنصيص "")
         let codeToCopy = rawValue.replace(/"/g, '').trim();
 
-        // 4. عملية النسخ
         navigator.clipboard.writeText(codeToCopy).then(() => {
             const btn = document.querySelector('.copy-btn');
             const originalText = btn.textContent;
@@ -204,17 +198,14 @@
         });
     }
 
-
-    // إضافة تأثير عند تحميل الصفحة
     document.addEventListener('DOMContentLoaded', () => {
         console.log('✨ Impression élégante loaded successfully');
     });
-
-        // إضافة تأثير عند تحميل الصفحة
+  
         document.addEventListener('DOMContentLoaded', () => {
             console.log('✨ Impression élégante loaded successfully');
         });
-        // يمكنك تعديل النص هنا بسهولة
+       
         const customCode = {
             code: "000000",
             message: "Welcome to my elegant page",
