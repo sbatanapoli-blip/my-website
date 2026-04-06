@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع عرض النصوص والأكواد">
+    <meta name="author" content="Your Name">
+    <title>Impression élégante</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0a;
+            color: #ffffff;
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border: 1px solid #2d2d44;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            color: #e0e0e0;
+            font-weight: 300;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .code-section {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        .code-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #333;
+        }
+
+        .code-title {
+            color: #00ff88;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .code-content {
+            background-color: #0d0d0d;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #00ff88;
+            overflow-x: auto;
+        }
+
+        .code-text {
+            color: #00ff88;
+            font-size: 1.2rem;
+            line-height: 2;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .json-key {
+            color: #ff79c6;
+        }
+
+        .json-value {
+            color: #f1fa8c;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        .copy-btn {
+            background-color: #00ff88;
+            color: #0a0a0a;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        .copy-btn:hover {
+            background-color: #00cc6a;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 255, 136, 0.3);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+            
+            .code-text {
+                font-size: 1rem;
+            }
+            
+            .code-section {
+                padding: 20px;
+            }
+        }
+
+        /* تأثيرات حركية */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        header, .code-section {            animation: fadeIn 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✨ Impression élégante ✨</h1>
+        </header>
+
+        <section class="code-section">
+            <div class="code-header">
+                <span class="code-title">📄 Code Output</span>
+                <button class="copy-btn" onclick="copyCode()">📋 نسخ</button>
+            </div>
+            
+            <div class="code-content">
+                <div class="code-text" id="codeText">"code": "808080"</div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>© 2026 Impression élégante | Made with ❤️</p>
+        </footer>
+    </div>
+
+    <script>
+    function copyCode() {
+        // 1. جلب النص الكامل من الصفحة
+        let fullText = document.getElementById('codeText').innerText;
+        // النص الآن هو: "code": "12345"
+
+        // 2. استخراج ما بداخل علامتي التنصيص الأخيرة
+        // نبحث عن النص الذي يأتي بعد النقطتين (:)
+        let parts = fullText.split(':'); 
+        // النتيجة مصفوفة: [ '"code"', ' "12345"' ]
+        
+        let rawValue = parts[1]; // نأخذ الجزء الثاني
+        
+        // 3. تنظيف النص (حذف المسافات وعلامات التنصيص "")
+        let codeToCopy = rawValue.replace(/"/g, '').trim();
+
+        // 4. عملية النسخ
+        navigator.clipboard.writeText(codeToCopy).then(() => {
+            const btn = document.querySelector('.copy-btn');
+            const originalText = btn.textContent;
+            btn.textContent = '✅ تم نسخ الكود!';
+            btn.style.backgroundColor = '#4CAF50';
+            
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.style.backgroundColor = '#00ff88';
+            }, 2000);
+        }).catch(err => {
+            console.error('فشل النسخ: ', err);
+            alert('فشل نسخ النص');
+        });
+    }
+
+
+    // إضافة تأثير عند تحميل الصفحة
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('✨ Impression élégante loaded successfully');
+    });
+
+        // إضافة تأثير عند تحميل الصفحة
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('✨ Impression élégante loaded successfully');
+        });
+        // يمكنك تعديل النص هنا بسهولة
+        const customCode = {
+            code: "000000",
+            message: "Welcome to my elegant page",
+            timestamp: new Date().toISOString()
+        };
+
+        // لعرض JSON منسق، استخدم هذا الكود:
+        // document.getElementById('codeText').textContent = JSON.stringify(customCode, null, 2);
+    </script>
+</body>
+</html>
