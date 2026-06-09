@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="?android:colorBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/player_container"
+        android:background="@android:color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        app:layout_constraintDimensionRatio="H,16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.media3.ui.PlayerView
+            android:id="@id/player_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:keepScreenOn="true"
+            app:auto_show="false"
+            app:controller_layout_id="@layout/custom_exo_player_control_view"
+            app:hide_on_touch="true"
+            app:resize_mode="fit"
+            app:show_buffering="never"
+            app:show_timeout="5000"
+            app:surface_type="texture_view"
+            app:use_controller="true" />
+        <ImageView
+            android:layout_gravity="end|bottom|center"
+            android:id="@id/player_overlay_logo"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="50.0dip"
+            android:layout_marginBottom="16.0dip"
+            android:src="@drawable/app_logo_overlay"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:alpha="0.0"
+            android:layout_marginEnd="16.0dip" />
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/progress_bar"
+            android:visibility="gone"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:indeterminate="true"
+            android:indeterminateTint="@android:color/white" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:weightSum="2.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/player_container">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="8.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.85">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:src="@drawable/ic_ctg_tv"
+                    android:contentDescription="@null"
+                    app:tint="?colorOnSurface" />
+                <TextView
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="?colorOnSurface"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/packages"
+                    android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <EditText
+                android:textSize="12.0sp"
+                android:textColor="?colorOnSurface"
+                android:textColorHint="@color/bottom_nav_icon_unselected"
+                android:id="@id/et_search_packages"
+                android:background="#20888888"
+                android:layout_width="fill_parent"
+                android:layout_height="30.0dip"
+                android:layout_marginLeft="4.0dip"
+                android:layout_marginRight="4.0dip"
+                android:layout_marginBottom="8.0dip"
+                android:hint="Search Packages..."
+                android:maxLines="1"
+                android:drawablePadding="0.0dip"
+                android:inputType="text"
+                android:imeOptions="actionSearch"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:paddingStart="0.0dip"
+                android:paddingEnd="8.0dip" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/packages_recycler_view"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View
+            android:id="@id/moving_divider"
+            android:background="#ff808080"
+            android:layout_width="1.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10.0dip"
+            android:layout_marginBottom="10.0dip"
+            android:alpha="0.4" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="7.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.2">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="8.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="20.0dip"
+                    android:layout_height="20.0dip"
+                    android:src="@drawable/ic_tv"
+                    android:contentDescription="@null"
+                    app:tint="?colorOnSurface" />
+                <TextView
+                    android:textSize="16.0sp"
+                    android:textStyle="bold"
+                    android:textColor="?colorOnSurface"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/channels"
+                    android:layout_marginStart="8.0dip" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25.0dip"
+                android:layout_marginRight="25.0dip"
+                android:layout_marginBottom="8.0dip">
+                <EditText
+                    android:textSize="12.0sp"
+                    android:textColor="?colorOnSurface"
+                    android:textColorHint="@color/bottom_nav_icon_unselected"
+                    android:id="@id/et_search_channels"
+                    android:background="#20888888"
+                    android:layout_width="0.0dip"
+                    android:layout_height="30.0dip"
+                    android:hint="Search Channels..."
+                    android:maxLines="1"
+                    android:drawablePadding="4.0dip"
+                    android:layout_weight="1.0"
+                    android:inputType="text"
+                    android:imeOptions="actionSearch"
+                    android:drawableStart="@android:drawable/ic_menu_search"
+                    android:paddingStart="0.0dip"
+                    android:paddingEnd="8.0dip" />
+                <ImageView
+                    android:id="@id/iv_fav_filter_icon"
+                    android:background="#20888888"
+                    android:padding="4.0dip"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="30.0dip"
+                    android:layout_height="30.0dip"
+                    android:src="@drawable/ic_favorite_red"
+                    android:layout_marginStart="8.0dip"
+                    app:tint="#ffa0a0a0" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@id/channels_recycler_view"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

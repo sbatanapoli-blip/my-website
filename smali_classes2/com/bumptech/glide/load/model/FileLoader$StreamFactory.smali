@@ -1,0 +1,36 @@
+.class public Lcom/bumptech/glide/load/model/FileLoader$StreamFactory;
+.super Lcom/bumptech/glide/load/model/FileLoader$Factory;
+.source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bumptech/glide/load/model/FileLoader;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "StreamFactory"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/bumptech/glide/load/model/FileLoader$Factory<",
+        "Ljava/io/InputStream;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    new-instance v0, Lcom/bumptech/glide/load/model/FileLoader$StreamFactory$1;
+
+    invoke-direct {v0}, Lcom/bumptech/glide/load/model/FileLoader$StreamFactory$1;-><init>()V
+
+    invoke-direct {p0, v0}, Lcom/bumptech/glide/load/model/FileLoader$Factory;-><init>(Lcom/bumptech/glide/load/model/FileLoader$FileOpener;)V
+
+    return-void
+.end method

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="#ff1e1e1e"
+    android:padding="24.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@id/security_warning_animation"
+        android:layout_width="130.0dip"
+        android:layout_height="130.0dip"
+        android:layout_marginTop="32.0dip"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/security_warning" />
+    <TextView
+        android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="#ffff5252"
+        android:id="@id/warning_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:text=" تحذير أمني"
+        android:fontFamily="@font/kufi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/security_warning_animation" />
+    <TextView
+        android:textSize="15.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/bottom_nav_text_selected"
+        android:id="@id/threat_count_text"
+        android:background="#ff2a2a2a"
+        android:padding="7.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:text="تم اكتشاف 0 تطبيق تجسس"
+        android:fontFamily="@font/kufi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/warning_title" />
+    <TextView
+        android:textSize="12.0sp"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:id="@id/warning_message"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:text="تم اكتشاف تطبيقات تجسس أو VPN نشط على جهازك.\n\nلحماية خصوصيتك وأمان بياناتك، يُرجى إزالة هذه التطبيقات أدناه."
+        android:lineSpacingExtra="6.0dip"
+        android:fontFamily="@font/kufi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/threat_count_text"
+        app:layout_constraintWidth_max="350.0dip" />
+    <androidx.cardview.widget.CardView
+        android:id="@id/apps_card"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        app:cardBackgroundColor="#ff2a2a2a"
+        app:cardCornerRadius="16.0dip"
+        app:cardElevation="4.0dip"
+        app:layout_constraintBottom_toTopOf="@id/exit_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/warning_message">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/detected_apps_recycler_view"
+            android:padding="0.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.button.MaterialButton
+        android:textSize="10.0sp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:id="@id/exit_button"
+        android:paddingTop="18.0dip"
+        android:paddingBottom="18.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14.0dip"
+        android:text="الخروج من التطبيق"
+        android:fontFamily="@font/kufi"
+        app:backgroundTint="@color/bottom_nav_icon_unselected"
+        app:cornerRadius="24.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_max="300.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

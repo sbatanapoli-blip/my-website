@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    android:id="@id/drawerLayout"
+    android:background="?android:colorBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@id/toolbar"
+            android:background="?colorOnPrimary"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:elevation="0.0dip"
+            app:layout_constraintTop_toTopOf="parent">
+            <ImageView
+                android:layout_gravity="start"
+                android:id="@id/menuIcon"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="8.0dip"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:src="@drawable/ic_menu"
+                android:contentDescription="@string/menu"
+                android:stateListAnimator="@animator/button_elevation_anim"
+                app:tint="@color/bottom_nav_icon_unselected" />
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@id/appLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/logo_tv"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:maxWidth="260.0dip"
+                android:contentDescription="@string/app_name" />
+            <ImageView
+                android:layout_gravity="end"
+                android:id="@id/settingsIcon"
+                android:background="?selectableItemBackgroundBorderless"
+                android:padding="8.0dip"
+                android:focusable="true"
+                android:clickable="true"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:src="@drawable/ic_settings"
+                android:contentDescription="@string/settings"
+                android:layout_marginEnd="8.0dip"
+                android:stateListAnimator="@animator/button_elevation_anim"
+                app:tint="@color/bottom_nav_icon_unselected" />
+        </com.google.android.material.appbar.MaterialToolbar>
+        <View
+            android:id="@id/toolbarDivider"
+            android:background="#22ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="0.8000001dip"
+            app:layout_constraintTop_toBottomOf="@id/toolbar" />
+        <androidx.fragment.app.FragmentContainerView
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:id="@id/navHostFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toTopOf="@id/bottomDivider"
+            app:layout_constraintTop_toBottomOf="@id/toolbarDivider"
+            app:navGraph="@navigation/nav_graph" />
+        <View
+            android:id="@id/bottomDivider"
+            android:background="#22ffffff"
+            android:layout_width="fill_parent"
+            android:layout_height="0.8000001dip"
+            app:layout_constraintBottom_toTopOf="@id/bottomNavigation" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@id/bottomNavigation"
+            android:background="?colorOnPrimary"
+            android:layout_width="fill_parent"
+            android:layout_height="65.0dip"
+            android:elevation="0.0dip"
+            app:itemHorizontalTranslationEnabled="false"
+            app:itemIconSize="25.0dip"
+            app:itemIconTint="@color/bottom_nav_icon_unselected"
+            app:itemTextColor="@color/bottom_nav_icon_unselected"
+            app:labelVisibilityMode="labeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/bottom_nav_menu" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_gravity="start"
+        android:id="@id/navigationView"
+        android:background="?colorSurface"
+        android:layout_width="220.0dip"
+        android:layout_height="fill_parent"
+        app:headerLayout="@layout/nav_header"
+        app:itemIconTint="@color/sidebar_content_color"
+        app:itemTextColor="@color/sidebar_content_color"
+        app:menu="@menu/drawer_menu" />
+</androidx.drawerlayout.widget.DrawerLayout>

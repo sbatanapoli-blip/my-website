@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="2.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="38.0dip"
+        android:layout_height="38.0dip"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="24.0dip"
+        app:cardElevation="3.0dip">
+        <ImageView
+            android:id="@id/img_player_photo"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_player_placeholder"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:textSize="10.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:id="@id/tv_player_number"
+        android:background="@drawable/bg_player_number"
+        android:paddingLeft="6.0dip"
+        android:paddingTop="1.0dip"
+        android:paddingRight="6.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:text="10"
+        android:elevation="2.0dip"
+        android:paddingHorizontal="6.0dip"
+        android:paddingVertical="1.0dip" />
+    <TextView
+        android:textSize="10.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:id="@id/tv_player_name"
+        android:background="#aa000000"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="1.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.0dip"
+        android:text="اسم"
+        android:maxLines="1"
+        android:paddingHorizontal="4.0dip"
+        android:paddingVertical="1.0dip" />
+    <TextView
+        android:textSize="9.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow_button"
+        android:id="@id/tv_player_rating"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.5" />
+</LinearLayout>

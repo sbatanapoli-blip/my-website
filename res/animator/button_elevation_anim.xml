@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true">
+        <set>
+            <objectAnimator
+                android:duration="100"
+                android:valueTo="8.0dip"
+                android:propertyName="translationZ" />
+            <objectAnimator
+                android:duration="100"
+                android:valueTo="12.0dip"
+                android:propertyName="elevation" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator
+                android:duration="200"
+                android:valueTo="0.0dip"
+                android:propertyName="translationZ" />
+            <objectAnimator
+                android:duration="200"
+                android:valueTo="0.0dip"
+                android:propertyName="elevation" />
+        </set>
+    </item>
+</selector>

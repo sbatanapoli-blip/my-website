@@ -1,0 +1,76 @@
+.class public abstract Ll7/a;
+.super Lu7/i0;
+.source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
+
+
+# direct methods
+.method public static Y(Ljava/nio/file/Path;)Ljava/lang/String;
+    .locals 2
+
+    .line 1
+    invoke-interface {p0}, Ljava/nio/file/Path;->getFileName()Ljava/nio/file/Path;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    const-string v0, ""
+
+    .line 6
+    .line 7
+    if-eqz p0, :cond_0
+
+    .line 8
+    .line 9
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    .line 10
+    .line 11
+    .line 12
+    move-result-object p0
+
+    .line 13
+    if-eqz p0, :cond_0
+
+    .line 14
+    .line 15
+    const/16 v1, 0x2e
+
+    .line 16
+    .line 17
+    invoke-static {v1, p0, v0}, Lfa/v;->V0(CLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object p0
+
+    .line 21
+    return-object p0
+
+    .line 22
+    :cond_0
+    return-object v0
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+.end method

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    android:id="@id/nav_graph"
+    app:startDestination="@id/liveTvFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment
+        android:label="@string/live_tv"
+        android:name="com.primetv.watch.ui.livetv.LiveTvFragment"
+        android:id="@id/liveTvFragment" />
+    <fragment
+        android:label="@string/live_events"
+        android:name="com.primetv.watch.ui.liveevents.LiveEventsFragment"
+        android:id="@id/liveEventsFragment" />
+    <fragment
+        android:label="@string/leagues"
+        android:name="com.primetv.watch.ui.leagues.LeaguesFragment"
+        android:id="@id/leaguesFragment">
+        <action
+            android:id="@id/action_leaguesFragment_to_standingsFragment"
+            app:destination="@id/standingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:label="@string/settings"
+        android:name="com.primetv.watch.ui.settings.SettingsFragment"
+        android:id="@id/settingsFragment" />
+    <fragment
+        android:label="@string/standings"
+        android:name="com.primetv.watch.ui.standings.StandingsFragment"
+        android:id="@id/standingsFragment">
+        <argument
+            android:name="season"
+            app:argType="string" />
+        <argument
+            android:name="slug"
+            app:argType="string" />
+        <argument
+            android:name="leagueName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:label="No Internet"
+        android:name="com.primetv.watch.NoInternetFragment"
+        android:id="@id/noInternetFragment" />
+    <fragment
+        android:label="Security Warning"
+        android:name="com.primetv.watch.SecurityWarningFragment"
+        android:id="@id/securityWarningFragment" />
+</navigation>

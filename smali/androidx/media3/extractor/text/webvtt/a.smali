@@ -1,0 +1,60 @@
+.class public final synthetic Landroidx/media3/extractor/text/webvtt/a;
+.super Ljava/lang/Object;
+.source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# instance fields
+.field public final synthetic b:I
+
+
+# direct methods
+.method public synthetic constructor <init>(I)V
+    .locals 0
+
+    iput p1, p0, Landroidx/media3/extractor/text/webvtt/a;->b:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 1
+
+    iget v0, p0, Landroidx/media3/extractor/text/webvtt/a;->b:I
+
+    packed-switch v0, :pswitch_data_0
+
+    check-cast p1, Landroidx/media3/extractor/text/webvtt/WebvttCueInfo;
+
+    check-cast p2, Landroidx/media3/extractor/text/webvtt/WebvttCueInfo;
+
+    invoke-static {p1, p2}, Landroidx/media3/extractor/text/webvtt/WebvttSubtitle;->a(Landroidx/media3/extractor/text/webvtt/WebvttCueInfo;Landroidx/media3/extractor/text/webvtt/WebvttCueInfo;)I
+
+    move-result p1
+
+    return p1
+
+    :pswitch_0
+    check-cast p1, Landroidx/media3/extractor/text/webvtt/WebvttCueParser$Element;
+
+    check-cast p2, Landroidx/media3/extractor/text/webvtt/WebvttCueParser$Element;
+
+    invoke-static {p1, p2}, Landroidx/media3/extractor/text/webvtt/WebvttCueParser$Element;->a(Landroidx/media3/extractor/text/webvtt/WebvttCueParser$Element;Landroidx/media3/extractor/text/webvtt/WebvttCueParser$Element;)I
+
+    move-result p1
+
+    return p1
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

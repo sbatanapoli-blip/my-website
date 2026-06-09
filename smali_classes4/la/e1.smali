@@ -1,0 +1,51 @@
+.class public final Lla/e1;
+.super Ljava/lang/Object;
+.source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
+
+
+# instance fields
+.field public final a:Lna/t;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Lna/t;
+
+    .line 5
+    .line 6
+    sget-object v1, Lla/d1;->b:Lla/d1;
+
+    .line 7
+    .line 8
+    invoke-direct {v0, v1}, Lna/t;-><init>(Lu7/l;)V
+
+    .line 9
+    .line 10
+    .line 11
+    iput-object v0, p0, Lla/e1;->a:Lna/t;
+
+    .line 12
+    .line 13
+    return-void
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+.end method

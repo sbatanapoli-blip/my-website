@@ -1,0 +1,15 @@
+.class public abstract Landroidx/core/app/f2;
+.super Ljava/lang/Object;
+.source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
+
+
+# direct methods
+.method public static a(Landroid/content/Context;I[Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/PendingIntent;
+    .locals 0
+
+    invoke-static {p0, p1, p2, p3, p4}, Landroid/app/PendingIntent;->getActivities(Landroid/content/Context;I[Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/PendingIntent;
+
+    move-result-object p0
+
+    return-object p0
+.end method
