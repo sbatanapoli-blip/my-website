@@ -1,4 +1,4 @@
-.class public final synthetic Lcom/primetv/watch/AppSettings$$serializer;
+.class public final synthetic Lcom/galiltv/watch/AppSettings$$serializer;
 .super Ljava/lang/Object;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -58,7 +58,7 @@
 
 
 # static fields
-.field public static final INSTANCE:Lcom/primetv/watch/AppSettings$$serializer;
+.field public static final INSTANCE:Lcom/galiltv/watch/AppSettings$$serializer;
 
 .field private static final descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
@@ -67,11 +67,11 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    new-instance v0, Lcom/primetv/watch/AppSettings$$serializer;
+    new-instance v0, Lcom/galiltv/watch/AppSettings$$serializer;
 
-    invoke-direct {v0}, Lcom/primetv/watch/AppSettings$$serializer;-><init>()V
+    invoke-direct {v0}, Lcom/galiltv/watch/AppSettings$$serializer;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/AppSettings$$serializer;->INSTANCE:Lcom/primetv/watch/AppSettings$$serializer;
+    sput-object v0, Lcom/galiltv/watch/AppSettings$$serializer;->INSTANCE:Lcom/galiltv/watch/AppSettings$$serializer;
 
     new-instance v1, Lkotlinx/serialization/internal/PluginGeneratedSerialDescriptor;
 
@@ -95,7 +95,7 @@
 
     invoke-virtual {v1, v0, v2}, Lkotlinx/serialization/internal/PluginGeneratedSerialDescriptor;->addElement(Ljava/lang/String;Z)V
 
-    sput-object v1, Lcom/primetv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sput-object v1, Lcom/galiltv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     return-void
 .end method
@@ -156,7 +156,7 @@
 .method public bridge synthetic deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
     .locals 0
 
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/AppSettings$$serializer;->deserialize(Lkotlinx/serialization/encoding/Decoder;)Lz5/b;
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/AppSettings$$serializer;->deserialize(Lkotlinx/serialization/encoding/Decoder;)Lz5/b;
 
     move-result-object p1
 
@@ -170,7 +170,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/primetv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v0, Lcom/galiltv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     invoke-interface {p1, v0}, Lkotlinx/serialization/encoding/Decoder;->beginStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)Lkotlinx/serialization/encoding/CompositeDecoder;
 
@@ -312,7 +312,7 @@
 .method public final getDescriptor()Lkotlinx/serialization/descriptors/SerialDescriptor;
     .locals 1
 
-    sget-object v0, Lcom/primetv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v0, Lcom/galiltv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     return-object v0
 .end method
@@ -322,7 +322,7 @@
 
     check-cast p2, Lz5/b;
 
-    invoke-virtual {p0, p1, p2}, Lcom/primetv/watch/AppSettings$$serializer;->serialize(Lkotlinx/serialization/encoding/Encoder;Lz5/b;)V
+    invoke-virtual {p0, p1, p2}, Lcom/galiltv/watch/AppSettings$$serializer;->serialize(Lkotlinx/serialization/encoding/Encoder;Lz5/b;)V
 
     return-void
 .end method
@@ -344,7 +344,7 @@
 
     iget-object p2, p2, Lz5/b;->a:Ljava/lang/String;
 
-    sget-object v2, Lcom/primetv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v2, Lcom/galiltv/watch/AppSettings$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     invoke-interface {p1, v2}, Lkotlinx/serialization/encoding/Encoder;->beginStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)Lkotlinx/serialization/encoding/CompositeEncoder;
 

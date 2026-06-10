@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/MainActivity;
+.class public final Lcom/galiltv/watch/MainActivity;
 .super Landroidx/appcompat/app/AppCompatActivity;
 
 # interfaces
@@ -11,7 +11,7 @@
         "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 \u00052\u00020\u00012\u00020\u0002:\u0001\u0006B\u0007\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0007"
     }
     d2 = {
-        "Lcom/primetv/watch/MainActivity;",
+        "Lcom/galiltv/watch/MainActivity;",
         "Landroidx/appcompat/app/AppCompatActivity;",
         "Le5/r;",
         "<init>",
@@ -64,13 +64,13 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lcom/primetv/watch/MainActivity;->short:[S
+    sput-object v0, Lcom/galiltv/watch/MainActivity;->short:[S
 
     new-instance v0, Lz5/m;
 
     invoke-direct {v0}, Lz5/m;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/MainActivity;->Companion:Lz5/m;
+    sput-object v0, Lcom/galiltv/watch/MainActivity;->Companion:Lz5/m;
 
     return-void
 
@@ -988,16 +988,16 @@
 
     const/4 v0, 0x1
 
-    iput-boolean v0, p0, Lcom/primetv/watch/MainActivity;->G:Z
+    iput-boolean v0, p0, Lcom/galiltv/watch/MainActivity;->G:Z
 
     const v0, 0x7f0b024b
 
-    iput v0, p0, Lcom/primetv/watch/MainActivity;->H:I
+    iput v0, p0, Lcom/galiltv/watch/MainActivity;->H:I
 
     return-void
 .end method
 
-.method public static final x(Lcom/primetv/watch/MainActivity;)V
+.method public static final x(Lcom/galiltv/watch/MainActivity;)V
     .locals 15
 
     const v6, 0x7f0b0059
@@ -1008,7 +1008,7 @@
 
     const/4 v9, 0x0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -1026,7 +1026,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -1050,7 +1050,7 @@
 
     move-result v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -1071,7 +1071,7 @@
     if-ne v0, v1, :cond_2
 
     :cond_0
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -1091,7 +1091,7 @@
 
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lcom/primetv/watch/TvMainActivity;
+    const-class v1, Lcom/galiltv/watch/TvMainActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -1108,7 +1108,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -1196,7 +1196,7 @@
 
     if-eqz v0, :cond_28
 
-    sget v0, Lcom/primetv/watch/data/api/ۥۧۧ۠;->۟۠ۢۤ:I
+    sget v0, Lcom/galiltv/watch/data/api/ۥۧۧ۠;->۟۠ۢۤ:I
 
     xor-int v11, v6, v0
 
@@ -1268,7 +1268,7 @@
 
     invoke-direct/range {v0 .. v7}, Lr/c4;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/MainActivity;->B:Lr/c4;
+    iput-object v0, p0, Lcom/galiltv/watch/MainActivity;->B:Lr/c4;
 
     invoke-static {p0, v1}, Landroidx/work/ktx/۟ۧۥۢۦ;->۟۟ۥۦۧ(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1315,7 +1315,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -1424,7 +1424,7 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/primetv/watch/MainActivity;->D:Landroidx/navigation/NavController;
+    iput-object v0, p0, Lcom/galiltv/watch/MainActivity;->D:Landroidx/navigation/NavController;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1438,7 +1438,7 @@
 
     if-lt v0, v1, :cond_5
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -1511,7 +1511,7 @@
 
     invoke-direct {v2, v3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v3
 
@@ -1537,7 +1537,7 @@
 
     invoke-direct {v2, v0}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -1567,7 +1567,7 @@
 
     xor-int/2addr v2, v3
 
-    invoke-static {v0, v2, v1}, Lcom/primetv/watch/ui/tv/۠۟ۢۡ;->ۣ۟۟ۧۦ(Ljava/lang/Object;ILjava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/galiltv/watch/ui/tv/۠۟ۢۡ;->ۣ۟۟ۧۦ(Ljava/lang/Object;ILjava/lang/Object;)V
 
     invoke-static {p0}, Lio/ktor/websocket/serialization/۟ۦۡۥۦ;->ۣ۟ۨۤ(Ljava/lang/Object;)Lr/c4;
 
@@ -1654,7 +1654,7 @@
     :catch_0
     move-exception v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -1703,7 +1703,7 @@
     throw v9
 
     :cond_d
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -1769,7 +1769,7 @@
 
     new-instance v1, Lz5/l;
 
-    invoke-direct {v1, p0, v13}, Lz5/l;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v1, p0, v13}, Lz5/l;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     invoke-static {v0, v1}, Le4/ۧۧۥۡ;->۟ۢ۟ۦۡ(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1794,7 +1794,7 @@
 
     new-instance v1, Lz5/l;
 
-    invoke-direct {v1, p0, v14}, Lz5/l;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v1, p0, v14}, Lz5/l;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     invoke-static {v0, v1}, Le4/ۧۧۥۡ;->۟ۢ۟ۦۡ(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1868,7 +1868,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -1939,7 +1939,7 @@
 
     new-instance v1, Lz5/k;
 
-    invoke-direct {v1, p0}, Lz5/k;-><init>(Lcom/primetv/watch/MainActivity;)V
+    invoke-direct {v1, p0}, Lz5/k;-><init>(Lcom/galiltv/watch/MainActivity;)V
 
     invoke-static {v0, v1}, Landroidx/lifecycle/livedata/۟۠ۡۢۥ;->ۣ۟۠ۧ۠(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1957,7 +1957,7 @@
 
     new-instance v1, Lz5/k;
 
-    invoke-direct {v1, p0}, Lz5/k;-><init>(Lcom/primetv/watch/MainActivity;)V
+    invoke-direct {v1, p0}, Lz5/k;-><init>(Lcom/galiltv/watch/MainActivity;)V
 
     invoke-static {v0, v1}, Lcom/airbnb/lottie/model/animatable/ۣۧۦ;->ۣ۟ۧ۠ۤ(Ljava/lang/Object;Ljava/lang/Object;)V
 
@@ -1979,12 +1979,12 @@
 
     xor-int/lit16 v2, v2, -0x1ca
 
-    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     invoke-static {v0, v1}, Lga/ۦ۠ۥۧ;->۠ۡۢۦ(Ljava/lang/Object;Ljava/lang/Object;)Z
 
     :try_start_3
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -2004,7 +2004,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -2024,7 +2024,7 @@
 
     check-cast v0, Landroid/net/ConnectivityManager;
 
-    iput-object v0, p0, Lcom/primetv/watch/MainActivity;->E:Landroid/net/ConnectivityManager;
+    iput-object v0, p0, Lcom/galiltv/watch/MainActivity;->E:Landroid/net/ConnectivityManager;
 
     new-instance v0, Landroid/net/NetworkRequest$Builder;
 
@@ -2048,9 +2048,9 @@
 
     invoke-direct {v1, p0, v2}, Lcom/google/android/gms/internal/cast/j0;-><init>(Ljava/lang/Object;I)V
 
-    iput-object v1, p0, Lcom/primetv/watch/MainActivity;->F:Lcom/google/android/gms/internal/cast/j0;
+    iput-object v1, p0, Lcom/galiltv/watch/MainActivity;->F:Lcom/google/android/gms/internal/cast/j0;
 
-    invoke-static {p0}, Lcom/primetv/watch/data/api/۟ۡ۟ۥۡ;->۟ۦ۠ۦۢ(Ljava/lang/Object;)Landroid/net/ConnectivityManager;
+    invoke-static {p0}, Lcom/galiltv/watch/data/api/۟ۡ۟ۥۡ;->۟ۦ۠ۦۢ(Ljava/lang/Object;)Landroid/net/ConnectivityManager;
 
     move-result-object v2
 
@@ -2061,7 +2061,7 @@
     .catch Ljava/lang/Exception; {:try_start_3 .. :try_end_3} :catch_3
 
     :goto_6
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -2085,7 +2085,7 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v2
 
@@ -2103,7 +2103,7 @@
 
     invoke-static {v1, v2, v13}, Landroidx/media3/extractor/ogg/۟ۧۤۧۨ;->ۣ۟ۧۦ۠(Ljava/lang/Object;Ljava/lang/Object;I)Landroid/content/SharedPreferences$Editor;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v3
 
@@ -2123,7 +2123,7 @@
 
     invoke-static {v1}, Landroidx/navigation/ui/ktx/۟۟ۨ۟ۥ;->ۣ۟۠۟ۨ(Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -2155,7 +2155,7 @@
 
     new-instance v3, Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v4
 
@@ -2175,7 +2175,7 @@
 
     invoke-static {v3, v0}, Landroidx/leanback/animation/۟ۤ۠ۢۧ;->۟ۥۣۨ۠(Ljava/lang/Object;I)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v4
 
@@ -2195,7 +2195,7 @@
 
     invoke-static {v3, v2}, Lj7/۟ۥۧۥ۟;->ۣ۟ۤ۠ۨ(Ljava/lang/Object;Z)Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v5
 
@@ -2282,7 +2282,7 @@
 
     new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v2
 
@@ -2324,7 +2324,7 @@
 
     :cond_14
     :try_start_6
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -2349,7 +2349,7 @@
     :catch_3
     move-exception v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -2377,7 +2377,7 @@
     :cond_16
     new-instance v1, Ljava/lang/StringBuilder;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v3
 
@@ -2479,7 +2479,7 @@
 
     new-instance v1, Ljava/lang/NullPointerException;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v2
 
@@ -2543,7 +2543,7 @@
 
     if-ltz v0, :cond_0
 
-    sget-object v0, Lcom/primetv/watch/MainActivity;->short:[S
+    sget-object v0, Lcom/galiltv/watch/MainActivity;->short:[S
 
     :goto_0
     return-object v0
@@ -2570,7 +2570,7 @@
 
     move-result-object v2
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -2642,7 +2642,7 @@
 
     move-result-object v0
 
-    sget v3, Lcom/primetv/watch/data/api/ۥۧۧ۠;->۟۠ۢۤ:I
+    sget v3, Lcom/galiltv/watch/data/api/ۥۧۧ۠;->۟۠ۢۤ:I
 
     xor-int/lit16 v3, v3, 0xb6
 
@@ -2654,7 +2654,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v3
 
@@ -2685,7 +2685,7 @@
 
     xor-int/lit16 v5, v5, 0x16c
 
-    invoke-direct {v4, p0, v5}, Lz5/i;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v4, p0, v5}, Lz5/i;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     invoke-static {v0, v4}, Lga/ۦ۠ۥۧ;->۠ۡۢۦ(Ljava/lang/Object;Ljava/lang/Object;)Z
     :try_end_1
@@ -2802,7 +2802,7 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -2848,7 +2848,7 @@
 
     xor-int/lit8 v2, v2, 0x30
 
-    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     invoke-static {v0, v1}, Lga/ۦ۠ۥۧ;->۠ۡۢۦ(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -2866,7 +2866,7 @@
     throw v5
 
     :cond_3
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -2893,7 +2893,7 @@
     :try_start_0
     new-instance v0, Landroid/content/Intent;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -3040,7 +3040,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3097,13 +3097,13 @@
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/primetv/watch/MainActivity;->I:Ljava/lang/Boolean;
+    iput-object v0, p0, Lcom/galiltv/watch/MainActivity;->I:Ljava/lang/Boolean;
 
     invoke-static {p0}, Lio/ktor/websocket/serialization/۟ۦۡۥۦ;->ۣ۟ۨۤ(Ljava/lang/Object;)Lr/c4;
 
     move-result-object v0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v1
 
@@ -3362,7 +3362,7 @@
 
     xor-int/lit16 v2, v2, -0x1d0
 
-    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     const-wide/16 v2, 0x32f
 
@@ -3402,7 +3402,7 @@
 
     const/4 v4, 0x1
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3428,7 +3428,7 @@
 
     if-ne v0, v1, :cond_1
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3469,7 +3469,7 @@
 
     if-ne v0, v1, :cond_2
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3494,7 +3494,7 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3515,7 +3515,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3543,7 +3543,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {}, Lj$/time/zone/ۣ۟ۢۧ;->۟ۥۤۨۡ()Lcom/primetv/watch/utils/TamperProtection;
+    invoke-static {}, Lj$/time/zone/ۣ۟ۢۧ;->۟ۥۤۨۡ()Lcom/galiltv/watch/utils/TamperProtection;
 
     move-result-object v0
 
@@ -3557,7 +3557,7 @@
 
     invoke-super {p0, p1}, Landroidx/fragment/app/FragmentActivity;->onCreate(Landroid/os/Bundle;)V
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3579,11 +3579,11 @@
 
     move-result-object v2
 
-    iput-object v2, p0, Lcom/primetv/watch/MainActivity;->C:Landroid/content/SharedPreferences;
+    iput-object v2, p0, Lcom/galiltv/watch/MainActivity;->C:Landroid/content/SharedPreferences;
 
     if-eqz v2, :cond_2
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3620,7 +3620,7 @@
 
     new-instance v0, Landroid/content/Intent;
 
-    const-class v1, Lcom/primetv/watch/ui/activation/ActivationActivity;
+    const-class v1, Lcom/galiltv/watch/ui/activation/ActivationActivity;
 
     invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -3663,7 +3663,7 @@
     goto :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3696,7 +3696,7 @@
     if-eqz v0, :cond_0
 
     :try_start_0
-    invoke-static {p0}, Lcom/primetv/watch/data/api/۟ۡ۟ۥۡ;->۟ۦ۠ۦۢ(Ljava/lang/Object;)Landroid/net/ConnectivityManager;
+    invoke-static {p0}, Lcom/galiltv/watch/data/api/۟ۡ۟ۥۡ;->۟ۦ۠ۦۢ(Ljava/lang/Object;)Landroid/net/ConnectivityManager;
 
     move-result-object v1
 
@@ -3709,7 +3709,7 @@
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3742,7 +3742,7 @@
 .method public final onRequestPermissionsResult(I[Ljava/lang/String;[I)V
     .locals 4
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3760,7 +3760,7 @@
 
     invoke-static {p2, v0}, Lh0/ۣ۟ۧۢۧ;->ۦۣۥ۠(Ljava/lang/Object;Ljava/lang/Object;)V
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -3820,7 +3820,7 @@
 
     xor-int/lit16 v2, v2, 0x1f7
 
-    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     const-wide/16 v2, 0x71
 
@@ -3836,7 +3836,7 @@
     return-void
 
     :cond_1
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -4074,7 +4074,7 @@
     goto/16 :goto_0
 
     :cond_2
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -4104,7 +4104,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v0
 
@@ -4171,7 +4171,7 @@
     :cond_0
     const-class v0, Landroidx/drawerlayout/widget/DrawerLayout;
 
-    invoke-static {}, Lcom/primetv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
+    invoke-static {}, Lcom/galiltv/watch/MainActivity;->۟ۤ۠ۡۢ()[S
 
     move-result-object v2
 
@@ -4253,7 +4253,7 @@
 
     const/4 v4, 0x0
 
-    invoke-direct {v2, p0, v4}, Lz5/i;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v2, p0, v4}, Lz5/i;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     const-wide/16 v4, 0x145
 
@@ -4300,7 +4300,7 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/primetv/watch/MainActivity;I)V
+    invoke-direct {v1, p0, v2}, Lz5/i;-><init>(Lcom/galiltv/watch/MainActivity;I)V
 
     invoke-static {v0, v1}, Lga/ۦ۠ۥۧ;->۠ۡۢۦ(Ljava/lang/Object;Ljava/lang/Object;)Z
     :try_end_1

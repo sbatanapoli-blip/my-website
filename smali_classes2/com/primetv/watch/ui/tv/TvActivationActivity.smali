@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/tv/TvActivationActivity;
+.class public final Lcom/galiltv/watch/ui/tv/TvActivationActivity;
 .super Landroidx/appcompat/app/AppCompatActivity;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/tv/TvActivationActivity;",
+        "Lcom/galiltv/watch/ui/tv/TvActivationActivity;",
         "Landroidx/appcompat/app/AppCompatActivity;",
         "<init>",
         "()V",
@@ -109,11 +109,11 @@
 
     invoke-direct/range {v3 .. v8}, Landroid/support/v4/media/session/d0;-><init>(Landroid/view/ViewGroup;Landroid/view/View;Landroid/widget/TextView;Landroid/view/View;I)V
 
-    iput-object v3, p0, Lcom/primetv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
+    iput-object v3, p0, Lcom/galiltv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
 
     invoke-virtual {p0, v4}, Landroidx/appcompat/app/AppCompatActivity;->setContentView(Landroid/view/View;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
 
     const-string v0, "binding"
 
@@ -125,7 +125,7 @@
 
     invoke-virtual {p1}, Landroid/view/View;->requestFocus()Z
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
 
     if-eqz p1, :cond_1
 
@@ -141,7 +141,7 @@
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
 
     if-eqz p1, :cond_0
 
@@ -199,7 +199,7 @@
 .method public final x(Z)V
     .locals 4
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
 
     const/4 v1, 0x0
 
@@ -223,7 +223,7 @@
     :goto_0
     invoke-virtual {v0, v3}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
 
     if-eqz v0, :cond_2
 
@@ -235,7 +235,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/tv/TvActivationActivity;->B:Landroid/support/v4/media/session/d0;
 
     if-eqz v0, :cond_1
 

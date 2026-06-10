@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/data/model/Match$Creator;
+.class public final Lcom/galiltv/watch/data/model/Match$Creator;
 .super Ljava/lang/Object;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/primetv/watch/data/model/Match;
+    value = Lcom/galiltv/watch/data/model/Match;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Landroid/os/Parcelable$Creator<",
-        "Lcom/primetv/watch/data/model/Match;",
+        "Lcom/galiltv/watch/data/model/Match;",
         ">;"
     }
 .end annotation
@@ -47,7 +47,7 @@
 
 
 # virtual methods
-.method public final createFromParcel(Landroid/os/Parcel;)Lcom/primetv/watch/data/model/Match;
+.method public final createFromParcel(Landroid/os/Parcel;)Lcom/galiltv/watch/data/model/Match;
     .locals 16
 
     move-object/from16 v0, p1
@@ -56,7 +56,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v2, Lcom/primetv/watch/data/model/Match;
+    new-instance v2, Lcom/galiltv/watch/data/model/Match;
 
     invoke-virtual {v0}, Landroid/os/Parcel;->readString()Ljava/lang/String;
 
@@ -117,7 +117,7 @@
     goto :goto_0
 
     :cond_0
-    sget-object v1, Lcom/primetv/watch/data/model/MatchDetails;->CREATOR:Landroid/os/Parcelable$Creator;
+    sget-object v1, Lcom/galiltv/watch/data/model/MatchDetails;->CREATOR:Landroid/os/Parcelable$Creator;
 
     invoke-interface {v1, v0}, Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
@@ -126,9 +126,9 @@
     :goto_0
     move-object v15, v0
 
-    check-cast v15, Lcom/primetv/watch/data/model/MatchDetails;
+    check-cast v15, Lcom/galiltv/watch/data/model/MatchDetails;
 
-    invoke-direct/range {v2 .. v15}, Lcom/primetv/watch/data/model/Match;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;)V
+    invoke-direct/range {v2 .. v15}, Lcom/galiltv/watch/data/model/Match;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;)V
 
     return-object v2
 .end method
@@ -136,17 +136,17 @@
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 0
 
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/data/model/Match$Creator;->createFromParcel(Landroid/os/Parcel;)Lcom/primetv/watch/data/model/Match;
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/data/model/Match$Creator;->createFromParcel(Landroid/os/Parcel;)Lcom/galiltv/watch/data/model/Match;
 
     move-result-object p1
 
     return-object p1
 .end method
 
-.method public final newArray(I)[Lcom/primetv/watch/data/model/Match;
+.method public final newArray(I)[Lcom/galiltv/watch/data/model/Match;
     .locals 0
 
-    new-array p1, p1, [Lcom/primetv/watch/data/model/Match;
+    new-array p1, p1, [Lcom/galiltv/watch/data/model/Match;
 
     return-object p1
 .end method
@@ -154,7 +154,7 @@
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
 
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/data/model/Match$Creator;->newArray(I)[Lcom/primetv/watch/data/model/Match;
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/data/model/Match$Creator;->newArray(I)[Lcom/galiltv/watch/data/model/Match;
 
     move-result-object p1
 

@@ -1,11 +1,11 @@
-.class public final Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;
-.super Lcom/primetv/watch/data/model/MatchItem;
+.class public final Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;
+.super Lcom/galiltv/watch/data/model/MatchItem;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/primetv/watch/data/model/MatchItem;
+    value = Lcom/galiltv/watch/data/model/MatchItem;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -18,8 +18,8 @@
         "\u0000&\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\n\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0003\u0008\u0086\u0008\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u0012\u0006\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\t\u0010\u000c\u001a\u00020\u0003H\u00c6\u0003J\t\u0010\r\u001a\u00020\u0005H\u00c6\u0003J\u001d\u0010\u000e\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0002\u001a\u00020\u00032\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u0005H\u00c6\u0001J\u0013\u0010\u000f\u001a\u00020\u00102\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0012H\u00d6\u0003J\t\u0010\u0013\u001a\u00020\u0005H\u00d6\u0001J\t\u0010\u0014\u001a\u00020\u0003H\u00d6\u0001R\u0011\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0008\u0010\tR\u0011\u0010\u0004\u001a\u00020\u0005\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\n\u0010\u000b\u00a8\u0006\u0015"
     }
     d2 = {
-        "Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;",
-        "Lcom/primetv/watch/data/model/MatchItem;",
+        "Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;",
+        "Lcom/galiltv/watch/data/model/MatchItem;",
         "leagueName",
         "",
         "matchCount",
@@ -67,33 +67,33 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p0, v0}, Lcom/primetv/watch/data/model/MatchItem;-><init>(Lkotlin/jvm/internal/j;)V
+    invoke-direct {p0, v0}, Lcom/galiltv/watch/data/model/MatchItem;-><init>(Lkotlin/jvm/internal/j;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iput-object p1, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
-    iput p2, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iput p2, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
     return-void
 .end method
 
-.method public static synthetic copy$default(Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;Ljava/lang/String;IILjava/lang/Object;)Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;
+.method public static synthetic copy$default(Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;Ljava/lang/String;IILjava/lang/Object;)Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;
     .locals 0
 
     and-int/lit8 p4, p3, 0x1
 
     if-eqz p4, :cond_0
 
-    iget-object p1, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iget-object p1, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
     :cond_0
     and-int/lit8 p3, p3, 0x2
 
     if-eqz p3, :cond_1
 
-    iget p2, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iget p2, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
     :cond_1
-    invoke-virtual {p0, p1, p2}, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->copy(Ljava/lang/String;I)Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;
+    invoke-virtual {p0, p1, p2}, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->copy(Ljava/lang/String;I)Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;
 
     move-result-object p0
 
@@ -105,7 +105,7 @@
 .method public final component1()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -113,21 +113,21 @@
 .method public final component2()I
     .locals 1
 
-    iget v0, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iget v0, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
     return v0
 .end method
 
-.method public final copy(Ljava/lang/String;I)Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;
+.method public final copy(Ljava/lang/String;I)Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;
     .locals 1
 
     const-string v0, "leagueName"
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;
+    new-instance v0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;
 
-    invoke-direct {v0, p1, p2}, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;-><init>(Ljava/lang/String;I)V
+    invoke-direct {v0, p1, p2}, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;-><init>(Ljava/lang/String;I)V
 
     return-object v0
 .end method
@@ -142,7 +142,7 @@
     return v0
 
     :cond_0
-    instance-of v1, p1, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;
+    instance-of v1, p1, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;
 
     const/4 v2, 0x0
 
@@ -151,11 +151,11 @@
     return v2
 
     :cond_1
-    check-cast p1, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;
+    check-cast p1, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -166,9 +166,9 @@
     return v2
 
     :cond_2
-    iget v1, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iget v1, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
-    iget p1, p1, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iget p1, p1, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
     if-eq v1, p1, :cond_3
 
@@ -181,7 +181,7 @@
 .method public final getLeagueName()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -189,7 +189,7 @@
 .method public final getMatchCount()I
     .locals 1
 
-    iget v0, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iget v0, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
     return v0
 .end method
@@ -197,7 +197,7 @@
 .method public hashCode()I
     .locals 2
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
 
@@ -205,7 +205,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget v1, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iget v1, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
     add-int/2addr v0, v1
 
@@ -221,7 +221,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->leagueName:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -229,7 +229,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lcom/primetv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
+    iget v1, p0, Lcom/galiltv/watch/data/model/MatchItem$LeagueHeader;->matchCount:I
 
     const/16 v2, 0x29
 

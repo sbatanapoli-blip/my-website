@@ -1,4 +1,4 @@
-.class public Lcom/primetv/watch/data/api/ۥۧۧ۠;
+.class public Lcom/galiltv/watch/data/api/ۥۧۧ۠;
 .super Ljava/lang/Object;
 
 

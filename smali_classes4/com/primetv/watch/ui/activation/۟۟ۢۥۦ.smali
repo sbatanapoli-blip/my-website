@@ -1,4 +1,4 @@
-.class public Lcom/primetv/watch/ui/activation/۟۟ۢۥۦ;
+.class public Lcom/galiltv/watch/ui/activation/۟۟ۢۥۦ;
 .super Ljava/lang/Object;
 
 

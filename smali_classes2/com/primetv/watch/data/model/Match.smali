@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/data/model/Match;
+.class public final Lcom/galiltv/watch/data/model/Match;
 .super Ljava/lang/Object;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -15,7 +15,7 @@
         "\u0000:\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0017\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0012\u0008\u0087\u0008\u0018\u00002\u00020\u0001B\u0089\u0001\u0012\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\t\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\n\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\r\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u000e\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0010\u001a\u0004\u0018\u00010\u000f\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u001d\u0010\u0018\u001a\u00020\u00172\u0006\u0010\u0014\u001a\u00020\u00132\u0006\u0010\u0016\u001a\u00020\u0015\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\r\u0010\u001a\u001a\u00020\u0015\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ\u0012\u0010\u001c\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\u001c\u0010\u001dJ\u0012\u0010\u001e\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\u001e\u0010\u001dJ\u0012\u0010\u001f\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\u001f\u0010\u001dJ\u0012\u0010 \u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008 \u0010\u001dJ\u0012\u0010!\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008!\u0010\u001dJ\u0012\u0010\"\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\"\u0010\u001dJ\u0012\u0010#\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008#\u0010\u001dJ\u0012\u0010$\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008$\u0010\u001dJ\u0012\u0010%\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008%\u0010\u001dJ\u0012\u0010&\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008&\u0010\u001dJ\u0012\u0010\'\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\'\u0010\u001dJ\u0012\u0010(\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008(\u0010\u001dJ\u0012\u0010)\u001a\u0004\u0018\u00010\u000fH\u00c6\u0003\u00a2\u0006\u0004\u0008)\u0010*J\u00ac\u0001\u0010+\u001a\u00020\u00002\n\u0008\u0002\u0010\u0003\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0004\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0005\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0006\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0007\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0008\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\t\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\n\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u000b\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u000c\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\r\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u000e\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0010\u001a\u0004\u0018\u00010\u000fH\u00c6\u0001\u00a2\u0006\u0004\u0008+\u0010,J\u0010\u0010-\u001a\u00020\u0002H\u00d6\u0001\u00a2\u0006\u0004\u0008-\u0010\u001dJ\u0010\u0010.\u001a\u00020\u0015H\u00d6\u0001\u00a2\u0006\u0004\u0008.\u0010\u001bJ\u001a\u00102\u001a\u0002012\u0008\u00100\u001a\u0004\u0018\u00010/H\u00d6\u0003\u00a2\u0006\u0004\u00082\u00103R\u001c\u0010\u0003\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u00104\u001a\u0004\u00085\u0010\u001dR\u001c\u0010\u0004\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0004\u00104\u001a\u0004\u00086\u0010\u001dR\u001c\u0010\u0005\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0005\u00104\u001a\u0004\u00087\u0010\u001dR\u001c\u0010\u0006\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0006\u00104\u001a\u0004\u00088\u0010\u001dR\u001c\u0010\u0007\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0007\u00104\u001a\u0004\u00089\u0010\u001dR\u001c\u0010\u0008\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0008\u00104\u001a\u0004\u0008:\u0010\u001dR\u001c\u0010\t\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\t\u00104\u001a\u0004\u0008;\u0010\u001dR\u001c\u0010\n\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\n\u00104\u001a\u0004\u0008<\u0010\u001dR\u001c\u0010\u000b\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000b\u00104\u001a\u0004\u0008=\u0010\u001dR\u001c\u0010\u000c\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000c\u00104\u001a\u0004\u0008>\u0010\u001dR\u001c\u0010\r\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\r\u00104\u001a\u0004\u0008?\u0010\u001dR\u001c\u0010\u000e\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000e\u00104\u001a\u0004\u0008@\u0010\u001dR\u001c\u0010\u0010\u001a\u0004\u0018\u00010\u000f8\u0006X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010A\u001a\u0004\u0008B\u0010*\u00a8\u0006C"
     }
     d2 = {
-        "Lcom/primetv/watch/data/model/Match;",
+        "Lcom/galiltv/watch/data/model/Match;",
         "Landroid/os/Parcelable;",
         "",
         "id",
@@ -30,10 +30,10 @@
         "score",
         "liveScore",
         "matchPage",
-        "Lcom/primetv/watch/data/model/MatchDetails;",
+        "Lcom/galiltv/watch/data/model/MatchDetails;",
         "details",
         "<init>",
-        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;)V",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;)V",
         "Landroid/os/Parcel;",
         "dest",
         "",
@@ -57,9 +57,9 @@
         "component11",
         "component12",
         "component13",
-        "()Lcom/primetv/watch/data/model/MatchDetails;",
+        "()Lcom/galiltv/watch/data/model/MatchDetails;",
         "copy",
-        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;)Lcom/primetv/watch/data/model/Match;",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;)Lcom/galiltv/watch/data/model/Match;",
         "toString",
         "hashCode",
         "",
@@ -80,7 +80,7 @@
         "getScore",
         "getLiveScore",
         "getMatchPage",
-        "Lcom/primetv/watch/data/model/MatchDetails;",
+        "Lcom/galiltv/watch/data/model/MatchDetails;",
         "getDetails",
         "app_release"
     }
@@ -99,7 +99,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroid/os/Parcelable$Creator<",
-            "Lcom/primetv/watch/data/model/Match;",
+            "Lcom/galiltv/watch/data/model/Match;",
             ">;"
         }
     .end annotation
@@ -119,7 +119,7 @@
     .end annotation
 .end field
 
-.field private final details:Lcom/primetv/watch/data/model/MatchDetails;
+.field private final details:Lcom/galiltv/watch/data/model/MatchDetails;
     .annotation runtime Lcom/google/gson/annotations/SerializedName;
         value = "details"
     .end annotation
@@ -190,50 +190,50 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcom/primetv/watch/data/model/Match$Creator;
+    new-instance v0, Lcom/galiltv/watch/data/model/Match$Creator;
 
-    invoke-direct {v0}, Lcom/primetv/watch/data/model/Match$Creator;-><init>()V
+    invoke-direct {v0}, Lcom/galiltv/watch/data/model/Match$Creator;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/data/model/Match;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/galiltv/watch/data/model/Match;->CREATOR:Landroid/os/Parcelable$Creator;
 
     return-void
 .end method
 
-.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;)V
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;)V
     .locals 0
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iput-object p1, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iput-object p2, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iput-object p3, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iput-object p4, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
-    iput-object p5, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iput-object p5, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
-    iput-object p6, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iput-object p6, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
-    iput-object p7, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iput-object p7, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
-    iput-object p8, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iput-object p8, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
-    iput-object p9, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iput-object p9, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
-    iput-object p10, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iput-object p10, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
-    iput-object p11, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iput-object p11, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
-    iput-object p12, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iput-object p12, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
-    iput-object p13, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iput-object p13, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     return-void
 .end method
 
-.method public static synthetic copy$default(Lcom/primetv/watch/data/model/Match;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;ILjava/lang/Object;)Lcom/primetv/watch/data/model/Match;
+.method public static synthetic copy$default(Lcom/galiltv/watch/data/model/Match;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;ILjava/lang/Object;)Lcom/galiltv/watch/data/model/Match;
     .locals 12
 
     move/from16 v0, p14
@@ -242,14 +242,14 @@
 
     if-eqz v1, :cond_0
 
-    iget-object p1, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object p1, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
     :cond_0
     and-int/lit8 v1, v0, 0x2
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
     goto :goto_0
 
@@ -261,7 +261,7 @@
 
     if-eqz v2, :cond_2
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
     goto :goto_1
 
@@ -273,7 +273,7 @@
 
     if-eqz v3, :cond_3
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
     goto :goto_2
 
@@ -285,7 +285,7 @@
 
     if-eqz v4, :cond_4
 
-    iget-object v4, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v4, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
     goto :goto_3
 
@@ -297,7 +297,7 @@
 
     if-eqz v5, :cond_5
 
-    iget-object v5, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v5, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
     goto :goto_4
 
@@ -309,7 +309,7 @@
 
     if-eqz v6, :cond_6
 
-    iget-object v6, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v6, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
     goto :goto_5
 
@@ -321,7 +321,7 @@
 
     if-eqz v7, :cond_7
 
-    iget-object v7, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v7, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
     goto :goto_6
 
@@ -333,7 +333,7 @@
 
     if-eqz v8, :cond_8
 
-    iget-object v8, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v8, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
     goto :goto_7
 
@@ -345,7 +345,7 @@
 
     if-eqz v9, :cond_9
 
-    iget-object v9, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v9, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
     goto :goto_8
 
@@ -357,7 +357,7 @@
 
     if-eqz v10, :cond_a
 
-    iget-object v10, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v10, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
     goto :goto_9
 
@@ -369,7 +369,7 @@
 
     if-eqz v11, :cond_b
 
-    iget-object v11, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v11, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
     goto :goto_a
 
@@ -381,7 +381,7 @@
 
     if-eqz v0, :cond_c
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     move-object/from16 p15, v0
 
@@ -420,7 +420,7 @@
     goto :goto_b
 
     :goto_c
-    invoke-virtual/range {p2 .. p15}, Lcom/primetv/watch/data/model/Match;->copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;)Lcom/primetv/watch/data/model/Match;
+    invoke-virtual/range {p2 .. p15}, Lcom/galiltv/watch/data/model/Match;->copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;)Lcom/galiltv/watch/data/model/Match;
 
     move-result-object p0
 
@@ -432,7 +432,7 @@
 .method public final component1()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -440,7 +440,7 @@
 .method public final component10()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -448,7 +448,7 @@
 .method public final component11()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -456,15 +456,15 @@
 .method public final component12()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public final component13()Lcom/primetv/watch/data/model/MatchDetails;
+.method public final component13()Lcom/galiltv/watch/data/model/MatchDetails;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     return-object v0
 .end method
@@ -472,7 +472,7 @@
 .method public final component2()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -480,7 +480,7 @@
 .method public final component3()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -488,7 +488,7 @@
 .method public final component4()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -496,7 +496,7 @@
 .method public final component5()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -504,7 +504,7 @@
 .method public final component6()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -512,7 +512,7 @@
 .method public final component7()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -520,7 +520,7 @@
 .method public final component8()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -528,15 +528,15 @@
 .method public final component9()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public final copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;)Lcom/primetv/watch/data/model/Match;
+.method public final copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;)Lcom/galiltv/watch/data/model/Match;
     .locals 14
 
-    new-instance v0, Lcom/primetv/watch/data/model/Match;
+    new-instance v0, Lcom/galiltv/watch/data/model/Match;
 
     move-object v1, p1
 
@@ -564,7 +564,7 @@
 
     move-object/from16 v13, p13
 
-    invoke-direct/range {v0 .. v13}, Lcom/primetv/watch/data/model/Match;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/primetv/watch/data/model/MatchDetails;)V
+    invoke-direct/range {v0 .. v13}, Lcom/galiltv/watch/data/model/Match;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/galiltv/watch/data/model/MatchDetails;)V
 
     return-object v0
 .end method
@@ -587,7 +587,7 @@
     return v0
 
     :cond_0
-    instance-of v1, p1, Lcom/primetv/watch/data/model/Match;
+    instance-of v1, p1, Lcom/galiltv/watch/data/model/Match;
 
     const/4 v2, 0x0
 
@@ -596,11 +596,11 @@
     return v2
 
     :cond_1
-    check-cast p1, Lcom/primetv/watch/data/model/Match;
+    check-cast p1, Lcom/galiltv/watch/data/model/Match;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -611,9 +611,9 @@
     return v2
 
     :cond_2
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -624,9 +624,9 @@
     return v2
 
     :cond_3
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -637,9 +637,9 @@
     return v2
 
     :cond_4
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -650,9 +650,9 @@
     return v2
 
     :cond_5
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -663,9 +663,9 @@
     return v2
 
     :cond_6
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -676,9 +676,9 @@
     return v2
 
     :cond_7
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -689,9 +689,9 @@
     return v2
 
     :cond_8
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -702,9 +702,9 @@
     return v2
 
     :cond_9
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -715,9 +715,9 @@
     return v2
 
     :cond_a
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -728,9 +728,9 @@
     return v2
 
     :cond_b
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -741,9 +741,9 @@
     return v2
 
     :cond_c
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -754,9 +754,9 @@
     return v2
 
     :cond_d
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
-    iget-object p1, p1, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object p1, p1, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     invoke-static {v1, p1}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -773,7 +773,7 @@
 .method public final getAwayLogo()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -781,15 +781,15 @@
 .method public final getAwayTeam()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public final getDetails()Lcom/primetv/watch/data/model/MatchDetails;
+.method public final getDetails()Lcom/galiltv/watch/data/model/MatchDetails;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     return-object v0
 .end method
@@ -797,7 +797,7 @@
 .method public final getHomeLogo()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -805,7 +805,7 @@
 .method public final getHomeTeam()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -813,7 +813,7 @@
 .method public final getId()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -821,7 +821,7 @@
 .method public final getLiveScore()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -829,7 +829,7 @@
 .method public final getLiveStatus()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -837,7 +837,7 @@
 .method public final getMatchPage()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -845,7 +845,7 @@
 .method public final getScore()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -853,7 +853,7 @@
 .method public final getStatus()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -861,7 +861,7 @@
 .method public final getTime()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -869,7 +869,7 @@
 .method public final getTimeAlgeria()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -877,7 +877,7 @@
 .method public hashCode()I
     .locals 3
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -895,7 +895,7 @@
     :goto_0
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
     if-nez v2, :cond_1
 
@@ -913,7 +913,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
     if-nez v2, :cond_2
 
@@ -931,7 +931,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
     if-nez v2, :cond_3
 
@@ -949,7 +949,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
     if-nez v2, :cond_4
 
@@ -967,7 +967,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
     if-nez v2, :cond_5
 
@@ -985,7 +985,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
     if-nez v2, :cond_6
 
@@ -1003,7 +1003,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
     if-nez v2, :cond_7
 
@@ -1021,7 +1021,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
     if-nez v2, :cond_8
 
@@ -1039,7 +1039,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
     if-nez v2, :cond_9
 
@@ -1057,7 +1057,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
     if-nez v2, :cond_a
 
@@ -1075,7 +1075,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
     if-nez v2, :cond_b
 
@@ -1093,14 +1093,14 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     if-nez v2, :cond_c
 
     goto :goto_c
 
     :cond_c
-    invoke-virtual {v2}, Lcom/primetv/watch/data/model/MatchDetails;->hashCode()I
+    invoke-virtual {v2}, Lcom/galiltv/watch/data/model/MatchDetails;->hashCode()I
 
     move-result v1
 
@@ -1119,7 +1119,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1127,7 +1127,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1135,7 +1135,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1143,7 +1143,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1151,7 +1151,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1159,7 +1159,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1167,7 +1167,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1175,7 +1175,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1183,7 +1183,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1191,7 +1191,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1199,7 +1199,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1207,7 +1207,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -1215,7 +1215,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -1237,55 +1237,55 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->id:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->homeTeam:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->awayTeam:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->homeLogo:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->awayLogo:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->time:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->time:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->timeAlgeria:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->status:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->status:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->liveStatus:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->score:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->score:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->liveScore:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->liveScore:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->matchPage:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->matchPage:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Match;->details:Lcom/primetv/watch/data/model/MatchDetails;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Match;->details:Lcom/galiltv/watch/data/model/MatchDetails;
 
     if-nez v0, :cond_0
 
@@ -1300,7 +1300,7 @@
 
     invoke-virtual {p1, v1}, Landroid/os/Parcel;->writeInt(I)V
 
-    invoke-virtual {v0, p1, p2}, Lcom/primetv/watch/data/model/MatchDetails;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-virtual {v0, p1, p2}, Lcom/galiltv/watch/data/model/MatchDetails;->writeToParcel(Landroid/os/Parcel;I)V
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;
+.class public final Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 \u00042\u00020\u0001:\u0001\u0005B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0006"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;",
+        "Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -47,7 +47,7 @@
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->Companion:Ll6/l;
+    sput-object v0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->Companion:Ll6/l;
 
     return-void
 .end method
@@ -95,13 +95,13 @@
 
     new-instance v4, Ll6/q;
 
-    invoke-direct {v4, p0, v0}, Ll6/q;-><init>(Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;Lx6/i;)V
+    invoke-direct {v4, p0, v0}, Ll6/q;-><init>(Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;Lx6/i;)V
 
     invoke-static {p0, v1, v2, v3, v4}, Landroidx/fragment/app/b2;->a(Landroidx/fragment/app/h0;Lu7/d;Lo7/a;Lo7/a;Lo7/a;)Landroidx/lifecycle/ViewModelLazy;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->c:Landroidx/lifecycle/ViewModelLazy;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->c:Landroidx/lifecycle/ViewModelLazy;
 
     return-void
 .end method
@@ -111,7 +111,7 @@
 .method public final g()Lh6/w;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->c:Landroidx/lifecycle/ViewModelLazy;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->c:Landroidx/lifecycle/ViewModelLazy;
 
     invoke-interface {v0}, Lx6/i;->getValue()Ljava/lang/Object;
 
@@ -133,7 +133,7 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->b:Lb3/i;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->b:Lb3/i;
 
     iget-object p1, p1, Lb3/i;->c:Ljava/lang/Object;
 
@@ -153,7 +153,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->b:Lb3/i;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->b:Lb3/i;
 
     return-void
 .end method
@@ -177,9 +177,9 @@
 
     invoke-direct {p1, p2}, Lh6/h0;-><init>(Lo7/b;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->d:Lh6/h0;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->d:Lh6/h0;
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->b:Lb3/i;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->b:Lb3/i;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -197,7 +197,7 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/j1;)V
 
-    iget-object p2, p0, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->d:Lh6/h0;
+    iget-object p2, p0, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->d:Lh6/h0;
 
     const/4 v1, 0x0
 
@@ -277,7 +277,7 @@
 
     const/4 p1, 0x0
 
-    invoke-direct {v5, p0, v1, p1}, Ll6/n;-><init>(Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;Lc7/e;I)V
+    invoke-direct {v5, p0, v1, p1}, Ll6/n;-><init>(Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;Lc7/e;I)V
 
     const/4 v6, 0x3
 
@@ -303,7 +303,7 @@
 
     const/4 p1, 0x1
 
-    invoke-direct {v5, p0, v1, p1}, Ll6/n;-><init>(Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;Lc7/e;I)V
+    invoke-direct {v5, p0, v1, p1}, Ll6/n;-><init>(Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;Lc7/e;I)V
 
     invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lc7/j;Lkotlinx/coroutines/CoroutineStart;Lo7/c;ILjava/lang/Object;)Lkotlinx/coroutines/Job;
 
@@ -321,11 +321,11 @@
 
     const/4 p1, 0x2
 
-    invoke-direct {v5, p0, v1, p1}, Ll6/n;-><init>(Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;Lc7/e;I)V
+    invoke-direct {v5, p0, v1, p1}, Ll6/n;-><init>(Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;Lc7/e;I)V
 
     invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lc7/j;Lkotlinx/coroutines/CoroutineStart;Lo7/c;ILjava/lang/Object;)Lkotlinx/coroutines/Job;
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->g()Lh6/w;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->g()Lh6/w;
 
     move-result-object p1
 
@@ -343,7 +343,7 @@
 
     if-eqz p1, :cond_1
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/tv/TvLiveEventsFragment;->g()Lh6/w;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/tv/TvLiveEventsFragment;->g()Lh6/w;
 
     move-result-object p1
 

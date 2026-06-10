@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/standings/StandingsFragment;
+.class public final Lcom/galiltv/watch/ui/standings/StandingsFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/standings/StandingsFragment;",
+        "Lcom/galiltv/watch/ui/standings/StandingsFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -55,17 +55,17 @@
 
     const/4 v4, 0x0
 
-    invoke-direct {v3, p0, v4}, Lk6/f;-><init>(Lcom/primetv/watch/ui/standings/StandingsFragment;I)V
+    invoke-direct {v3, p0, v4}, Lk6/f;-><init>(Lcom/galiltv/watch/ui/standings/StandingsFragment;I)V
 
     invoke-direct {v0, v2, v3}, Landroidx/navigation/NavArgsLazy;-><init>(Lu7/d;Lo7/a;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->c:Landroidx/navigation/NavArgsLazy;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->c:Landroidx/navigation/NavArgsLazy;
 
     new-instance v0, Lk6/f;
 
     const/4 v2, 0x1
 
-    invoke-direct {v0, p0, v2}, Lk6/f;-><init>(Lcom/primetv/watch/ui/standings/StandingsFragment;I)V
+    invoke-direct {v0, p0, v2}, Lk6/f;-><init>(Lcom/galiltv/watch/ui/standings/StandingsFragment;I)V
 
     sget-object v2, Lx6/j;->c:Lx6/j;
 
@@ -97,21 +97,21 @@
 
     new-instance v4, Lk6/h;
 
-    invoke-direct {v4, p0, v0}, Lk6/h;-><init>(Lcom/primetv/watch/ui/standings/StandingsFragment;Lx6/i;)V
+    invoke-direct {v4, p0, v0}, Lk6/h;-><init>(Lcom/galiltv/watch/ui/standings/StandingsFragment;Lx6/i;)V
 
     invoke-static {p0, v1, v2, v3, v4}, Landroidx/fragment/app/b2;->a(Landroidx/fragment/app/h0;Lu7/d;Lo7/a;Lo7/a;Lo7/a;)Landroidx/lifecycle/ViewModelLazy;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->d:Landroidx/lifecycle/ViewModelLazy;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->d:Landroidx/lifecycle/ViewModelLazy;
 
     return-void
 .end method
 
-.method public static final g(Lcom/primetv/watch/ui/standings/StandingsFragment;ZZ)V
+.method public static final g(Lcom/galiltv/watch/ui/standings/StandingsFragment;ZZ)V
     .locals 4
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -137,7 +137,7 @@
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -147,7 +147,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -157,7 +157,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object p0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -170,7 +170,7 @@
     return-void
 
     :cond_1
-    iget-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -190,7 +190,7 @@
     :goto_1
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -210,7 +210,7 @@
     :goto_2
     invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object p0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -236,7 +236,7 @@
 .method public final h()Lk6/j;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->c:Landroidx/navigation/NavArgsLazy;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->c:Landroidx/navigation/NavArgsLazy;
 
     invoke-interface {v0}, Lx6/i;->getValue()Ljava/lang/Object;
 
@@ -250,7 +250,7 @@
 .method public final i()Lk6/l;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->d:Landroidx/lifecycle/ViewModelLazy;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->d:Landroidx/lifecycle/ViewModelLazy;
 
     invoke-interface {v0}, Lx6/i;->getValue()Ljava/lang/Object;
 
@@ -354,7 +354,7 @@
 
     invoke-direct/range {v0 .. v6}, La3/d;-><init>(Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;Landroid/widget/TextView;Landroid/widget/TextView;Landroid/widget/ProgressBar;Lcom/google/android/material/button/MaterialButton;Landroidx/recyclerview/widget/RecyclerView;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     const-string p1, "getRoot(...)"
 
@@ -391,7 +391,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     return-void
 .end method
@@ -411,7 +411,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
 
     move-result-object p2
 
@@ -423,7 +423,7 @@
 
     invoke-virtual {p1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
 
     move-result-object p2
 
@@ -439,7 +439,7 @@
 
     invoke-static {p2, p1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -447,7 +447,7 @@
 
     check-cast p1, Landroid/widget/TextView;
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
 
     move-result-object p2
 
@@ -465,9 +465,9 @@
 
     invoke-direct {p1, p2}, Landroidx/recyclerview/widget/n0;-><init>(Landroidx/recyclerview/widget/d;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->e:Lk6/b;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->e:Lk6/b;
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -485,7 +485,7 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/j1;)V
 
-    iget-object p2, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->e:Lk6/b;
+    iget-object p2, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->e:Lk6/b;
 
     const/4 v1, 0x0
 
@@ -495,7 +495,7 @@
 
     invoke-virtual {p1, v0}, Landroidx/recyclerview/widget/RecyclerView;->setHasFixedSize(Z)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/standings/StandingsFragment;->b:La3/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/standings/StandingsFragment;->b:La3/d;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -525,7 +525,7 @@
 
     new-instance v5, Lk6/e;
 
-    invoke-direct {v5, p0, v1}, Lk6/e;-><init>(Lcom/primetv/watch/ui/standings/StandingsFragment;Lc7/e;)V
+    invoke-direct {v5, p0, v1}, Lk6/e;-><init>(Lcom/galiltv/watch/ui/standings/StandingsFragment;Lc7/e;)V
 
     const/4 v6, 0x3
 
@@ -537,7 +537,7 @@
 
     invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lc7/j;Lkotlinx/coroutines/CoroutineStart;Lo7/c;ILjava/lang/Object;)Lkotlinx/coroutines/Job;
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/standings/StandingsFragment;->i()Lk6/l;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/standings/StandingsFragment;->i()Lk6/l;
 
     move-result-object p1
 
@@ -555,17 +555,17 @@
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/standings/StandingsFragment;->i()Lk6/l;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/standings/StandingsFragment;->i()Lk6/l;
 
     move-result-object p1
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
 
     move-result-object p2
 
     iget-object p2, p2, Lk6/j;->a:Ljava/lang/String;
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/standings/StandingsFragment;->h()Lk6/j;
 
     move-result-object v0
 

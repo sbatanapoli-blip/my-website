@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/settings/SettingsFragment;
+.class public final Lcom/galiltv/watch/ui/settings/SettingsFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/settings/SettingsFragment;",
+        "Lcom/galiltv/watch/ui/settings/SettingsFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -49,7 +49,7 @@
 .method public final g(Ljava/lang/String;)V
     .locals 2
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
 
     if-eqz v0, :cond_3
 
@@ -178,7 +178,7 @@
     .locals 1
 
     :try_start_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -186,7 +186,7 @@
 
     invoke-virtual {v0, p1}, Landroid/widget/Spinner;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -194,7 +194,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -202,7 +202,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setEnabled(Z)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -341,7 +341,7 @@
 
     invoke-direct/range {v0 .. v9}, Lc6/b;-><init>(Landroid/widget/ScrollView;Lcom/google/android/material/radiobutton/MaterialRadioButton;Lcom/google/android/material/button/MaterialButton;Lcom/google/android/material/switchmaterial/SwitchMaterial;Lcom/google/android/material/radiobutton/MaterialRadioButton;Landroid/widget/Spinner;Lcom/google/android/material/switchmaterial/SwitchMaterial;Lcom/google/android/material/switchmaterial/SwitchMaterial;Lcom/google/android/material/switchmaterial/SwitchMaterial;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     const-string p1, "getRoot(...)"
 
@@ -378,7 +378,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     return-void
 .end method
@@ -408,7 +408,7 @@
 
     move-result-object p1
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
 
     :try_start_0
     new-instance p1, Lm6/g;
@@ -421,7 +421,7 @@
 
     invoke-direct {p1, p2}, Lm6/g;-><init>(Landroid/content/Context;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->d:Lm6/g;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->d:Lm6/g;
 
     new-instance p1, Landroid/support/v4/media/session/d0;
 
@@ -435,7 +435,7 @@
 
     invoke-direct {p1, p2, v3}, Landroid/support/v4/media/session/d0;-><init>(Landroid/content/Context;I)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->e:Landroid/support/v4/media/session/d0;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->e:Landroid/support/v4/media/session/d0;
 
     invoke-virtual {p0}, Landroidx/fragment/app/h0;->requireContext()Landroid/content/Context;
 
@@ -455,7 +455,7 @@
     invoke-virtual {p1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_0
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
 
     const/4 p2, 0x0
 
@@ -471,7 +471,7 @@
 
     move-result p1
 
-    iget-object v3, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v3, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v3}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -479,7 +479,7 @@
 
     invoke-virtual {v3, p1}, Lr/l3;->setChecked(Z)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -493,7 +493,7 @@
 
     invoke-virtual {p1, v3}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->c:Landroid/content/SharedPreferences;
 
     if-eqz p1, :cond_6
 
@@ -516,7 +516,7 @@
 
     if-eqz p2, :cond_1
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -535,7 +535,7 @@
 
     if-eqz p1, :cond_2
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -545,7 +545,7 @@
 
     :cond_2
     :goto_1
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -555,11 +555,11 @@
 
     const/4 v1, 0x0
 
-    invoke-direct {p2, p0, v1}, Lj6/e;-><init>(Lcom/primetv/watch/ui/settings/SettingsFragment;I)V
+    invoke-direct {p2, p0, v1}, Lj6/e;-><init>(Lcom/galiltv/watch/ui/settings/SettingsFragment;I)V
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -569,22 +569,22 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p2, p0, v1}, Lj6/e;-><init>(Lcom/primetv/watch/ui/settings/SettingsFragment;I)V
+    invoke-direct {p2, p0, v1}, Lj6/e;-><init>(Lcom/galiltv/watch/ui/settings/SettingsFragment;I)V
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->d:Lm6/g;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->d:Lm6/g;
 
     if-eqz p1, :cond_5
 
     iget-object p2, p1, Lm6/g;->a:Landroid/content/SharedPreferences;
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->e:Landroid/support/v4/media/session/d0;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->e:Landroid/support/v4/media/session/d0;
 
     if-eqz v1, :cond_5
 
     :try_start_1
-    iget-object v3, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v3, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v3}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -618,7 +618,7 @@
 
     move-result v3
 
-    iget-object v6, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v6, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v6}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -632,7 +632,7 @@
 
     invoke-virtual {v6, v7}, Lr/l3;->setChecked(Z)V
 
-    iget-object v6, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v6, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v6}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -715,7 +715,7 @@
 
     invoke-virtual {v5, v6}, Landroid/widget/ArrayAdapter;->setDropDownViewResource(I)V
 
-    iget-object v6, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v6, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v6}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -725,7 +725,7 @@
 
     if-ltz v3, :cond_4
 
-    iget-object v5, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v5, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v5}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -734,7 +734,7 @@
     invoke-virtual {v5, v3}, Landroid/widget/AdapterView;->setSelection(I)V
 
     :cond_4
-    iget-object v3, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v3, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v3}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -742,11 +742,11 @@
 
     new-instance v5, Lj6/f;
 
-    invoke-direct {v5, p1, p0, v1}, Lj6/f;-><init>(Lm6/g;Lcom/primetv/watch/ui/settings/SettingsFragment;Landroid/support/v4/media/session/d0;)V
+    invoke-direct {v5, p1, p0, v1}, Lj6/f;-><init>(Lm6/g;Lcom/galiltv/watch/ui/settings/SettingsFragment;Landroid/support/v4/media/session/d0;)V
 
     invoke-virtual {v3, v5}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -754,11 +754,11 @@
 
     new-instance v3, Lj6/h;
 
-    invoke-direct {v3, p1, p0}, Lj6/h;-><init>(Lm6/g;Lcom/primetv/watch/ui/settings/SettingsFragment;)V
+    invoke-direct {v3, p1, p0}, Lj6/h;-><init>(Lm6/g;Lcom/galiltv/watch/ui/settings/SettingsFragment;)V
 
     invoke-virtual {v1, v3}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -772,7 +772,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {v1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -786,7 +786,7 @@
 
     invoke-virtual {v1, v3}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -796,7 +796,7 @@
 
     const/4 v3, 0x2
 
-    invoke-direct {v1, p0, v3}, Lj6/e;-><init>(Lcom/primetv/watch/ui/settings/SettingsFragment;I)V
+    invoke-direct {v1, p0, v3}, Lj6/e;-><init>(Lcom/galiltv/watch/ui/settings/SettingsFragment;I)V
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -804,7 +804,7 @@
 
     move-result p1
 
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/ui/settings/SettingsFragment;->h(Z)V
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/ui/settings/SettingsFragment;->h(Z)V
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
 
@@ -829,7 +829,7 @@
 
     :cond_5
     :try_start_2
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -837,7 +837,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setEnabled(Z)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -845,7 +845,7 @@
 
     invoke-virtual {p1, v2}, Landroid/widget/Spinner;->setEnabled(Z)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -853,7 +853,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setEnabled(Z)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -861,7 +861,7 @@
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setEnabled(Z)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/settings/SettingsFragment;->b:Lc6/b;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 

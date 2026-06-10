@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/data/model/Channel;
+.class public final Lcom/galiltv/watch/data/model/Channel;
 .super Ljava/lang/Object;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -18,8 +18,8 @@
 
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/primetv/watch/data/model/Channel$$serializer;,
-        Lcom/primetv/watch/data/model/Channel$Companion;
+        Lcom/galiltv/watch/data/model/Channel$$serializer;,
+        Lcom/galiltv/watch/data/model/Channel$Companion;
     }
 .end annotation
 
@@ -28,7 +28,7 @@
         "\u0000V\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\t\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0018\n\u0002\u0010\u0000\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008$\u0008\u0087\u0008\u0018\u0000 _2\u00020\u0001:\u0002`_B\u00a1\u0001\u0012\n\u0008\u0002\u0010\u0003\u001a\u0004\u0018\u00010\u0002\u0012\n\u0008\u0002\u0010\u0004\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u0002\u0012\n\u0008\u0002\u0010\u0006\u001a\u0004\u0018\u00010\u0002\u0012\n\u0008\u0002\u0010\u0007\u001a\u0004\u0018\u00010\u0002\u0012\n\u0008\u0002\u0010\u0008\u001a\u0004\u0018\u00010\u0002\u0012\n\u0008\u0002\u0010\t\u001a\u0004\u0018\u00010\u0002\u0012\n\u0008\u0002\u0010\n\u001a\u0004\u0018\u00010\u0002\u0012\n\u0008\u0002\u0010\u000b\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0008\u0002\u0010\r\u001a\u00020\u000c\u0012\u000e\u0008\u0002\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00020\u000f0\u000e\u0012\u0008\u0008\u0002\u0010\u0012\u001a\u00020\u0011\u0012\n\u0008\u0002\u0010\u0013\u001a\u0004\u0018\u00010\u0002\u00a2\u0006\u0004\u0008\u0014\u0010\u0015B\u009f\u0001\u0008\u0010\u0012\u0006\u0010\u0016\u001a\u00020\u0011\u0012\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\t\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\n\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u0002\u0012\u0006\u0010\r\u001a\u00020\u000c\u0012\u000e\u0010\u0010\u001a\n\u0012\u0004\u0012\u00020\u000f\u0018\u00010\u000e\u0012\u0006\u0010\u0012\u001a\u00020\u0011\u0012\u0008\u0010\u0013\u001a\u0004\u0018\u00010\u0002\u0012\u0008\u0010\u0018\u001a\u0004\u0018\u00010\u0017\u00a2\u0006\u0004\u0008\u0014\u0010\u0019J\u001d\u0010\u001e\u001a\u00020\u001d2\u0006\u0010\u001b\u001a\u00020\u001a2\u0006\u0010\u001c\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u001e\u0010\u001fJ\r\u0010 \u001a\u00020\u0011\u00a2\u0006\u0004\u0008 \u0010!J\u0012\u0010\"\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\"\u0010#J\u0012\u0010$\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008$\u0010#J\u0010\u0010%\u001a\u00020\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008%\u0010#J\u0012\u0010&\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008&\u0010#J\u0012\u0010\'\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\'\u0010#J\u0012\u0010(\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008(\u0010#J\u0012\u0010)\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008)\u0010#J\u0012\u0010*\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008*\u0010#J\u0012\u0010+\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008+\u0010#J\u0010\u0010,\u001a\u00020\u000cH\u00c6\u0003\u00a2\u0006\u0004\u0008,\u0010-J\u0016\u0010.\u001a\u0008\u0012\u0004\u0012\u00020\u000f0\u000eH\u00c6\u0003\u00a2\u0006\u0004\u0008.\u0010/J\u0010\u00100\u001a\u00020\u0011H\u00c6\u0003\u00a2\u0006\u0004\u00080\u0010!J\u0012\u00101\u001a\u0004\u0018\u00010\u0002H\u00c6\u0003\u00a2\u0006\u0004\u00081\u0010#J\u00aa\u0001\u00102\u001a\u00020\u00002\n\u0008\u0002\u0010\u0003\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0004\u001a\u0004\u0018\u00010\u00022\u0008\u0008\u0002\u0010\u0005\u001a\u00020\u00022\n\u0008\u0002\u0010\u0006\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0007\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u0008\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\t\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\n\u001a\u0004\u0018\u00010\u00022\n\u0008\u0002\u0010\u000b\u001a\u0004\u0018\u00010\u00022\u0008\u0008\u0002\u0010\r\u001a\u00020\u000c2\u000e\u0008\u0002\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00020\u000f0\u000e2\u0008\u0008\u0002\u0010\u0012\u001a\u00020\u00112\n\u0008\u0002\u0010\u0013\u001a\u0004\u0018\u00010\u0002H\u00c6\u0001\u00a2\u0006\u0004\u00082\u00103J\u0010\u00104\u001a\u00020\u0002H\u00d6\u0001\u00a2\u0006\u0004\u00084\u0010#J\u0010\u00105\u001a\u00020\u0011H\u00d6\u0001\u00a2\u0006\u0004\u00085\u0010!J\u001a\u00108\u001a\u00020\u000c2\u0008\u00107\u001a\u0004\u0018\u000106H\u00d6\u0003\u00a2\u0006\u0004\u00088\u00109J\'\u0010A\u001a\u00020\u001d2\u0006\u0010:\u001a\u00020\u00002\u0006\u0010<\u001a\u00020;2\u0006\u0010>\u001a\u00020=H\u0001\u00a2\u0006\u0004\u0008?\u0010@R\u0019\u0010\u0003\u001a\u0004\u0018\u00010\u00028\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010B\u001a\u0004\u0008C\u0010#R\"\u0010\u0004\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u0012\n\u0004\u0008\u0004\u0010B\u0012\u0004\u0008E\u0010F\u001a\u0004\u0008D\u0010#R\u0017\u0010\u0005\u001a\u00020\u00028\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010B\u001a\u0004\u0008G\u0010#R\"\u0010\u0006\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u0012\n\u0004\u0008\u0006\u0010B\u0012\u0004\u0008I\u0010F\u001a\u0004\u0008H\u0010#R\"\u0010\u0007\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u0012\n\u0004\u0008\u0007\u0010B\u0012\u0004\u0008K\u0010F\u001a\u0004\u0008J\u0010#R\"\u0010\u0008\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u0012\n\u0004\u0008\u0008\u0010B\u0012\u0004\u0008M\u0010F\u001a\u0004\u0008L\u0010#R\u0019\u0010\t\u001a\u0004\u0018\u00010\u00028\u0006\u00a2\u0006\u000c\n\u0004\u0008\t\u0010B\u001a\u0004\u0008N\u0010#R\"\u0010\n\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u0012\n\u0004\u0008\n\u0010B\u0012\u0004\u0008P\u0010F\u001a\u0004\u0008O\u0010#R\"\u0010\u000b\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u0012\n\u0004\u0008\u000b\u0010B\u0012\u0004\u0008R\u0010F\u001a\u0004\u0008Q\u0010#R\"\u0010\r\u001a\u00020\u000c8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\r\u0010S\u001a\u0004\u0008\r\u0010-\"\u0004\u0008T\u0010UR\u001d\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00020\u000f0\u000e8\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010V\u001a\u0004\u0008W\u0010/R(\u0010\u0012\u001a\u00020\u00118\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0018\n\u0004\u0008\u0012\u0010X\u0012\u0004\u0008\\\u0010F\u001a\u0004\u0008Y\u0010!\"\u0004\u0008Z\u0010[R\"\u0010\u0013\u001a\u0004\u0018\u00010\u00028\u0006X\u0087\u0004\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010B\u0012\u0004\u0008^\u0010F\u001a\u0004\u0008]\u0010#\u00a8\u0006a"
     }
     d2 = {
-        "Lcom/primetv/watch/data/model/Channel;",
+        "Lcom/galiltv/watch/data/model/Channel;",
         "Landroid/os/Parcelable;",
         "",
         "id",
@@ -43,7 +43,7 @@
         "",
         "isFavorite",
         "",
-        "Lcom/primetv/watch/data/model/StreamSource;",
+        "Lcom/galiltv/watch/data/model/StreamSource;",
         "sources",
         "",
         "sortOrder",
@@ -79,7 +79,7 @@
         "component12",
         "component13",
         "copy",
-        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)Lcom/primetv/watch/data/model/Channel;",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)Lcom/galiltv/watch/data/model/Channel;",
         "toString",
         "hashCode",
         "",
@@ -92,7 +92,7 @@
         "Lkotlinx/serialization/descriptors/SerialDescriptor;",
         "serialDesc",
         "write$Self$app_release",
-        "(Lcom/primetv/watch/data/model/Channel;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V",
+        "(Lcom/galiltv/watch/data/model/Channel;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V",
         "write$Self",
         "Ljava/lang/String;",
         "getId",
@@ -156,13 +156,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Landroid/os/Parcelable$Creator<",
-            "Lcom/primetv/watch/data/model/Channel;",
+            "Lcom/galiltv/watch/data/model/Channel;",
             ">;"
         }
     .end annotation
 .end field
 
-.field public static final Companion:Lcom/primetv/watch/data/model/Channel$Companion;
+.field public static final Companion:Lcom/galiltv/watch/data/model/Channel$Companion;
 
 
 # instance fields
@@ -190,7 +190,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/StreamSource;",
+            "Lcom/galiltv/watch/data/model/StreamSource;",
             ">;"
         }
     .end annotation
@@ -205,23 +205,23 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    new-instance v0, Lcom/primetv/watch/data/model/Channel$Companion;
+    new-instance v0, Lcom/galiltv/watch/data/model/Channel$Companion;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, v1}, Lcom/primetv/watch/data/model/Channel$Companion;-><init>(Lkotlin/jvm/internal/j;)V
+    invoke-direct {v0, v1}, Lcom/galiltv/watch/data/model/Channel$Companion;-><init>(Lkotlin/jvm/internal/j;)V
 
-    sput-object v0, Lcom/primetv/watch/data/model/Channel;->Companion:Lcom/primetv/watch/data/model/Channel$Companion;
+    sput-object v0, Lcom/galiltv/watch/data/model/Channel;->Companion:Lcom/galiltv/watch/data/model/Channel$Companion;
 
-    new-instance v0, Lcom/primetv/watch/data/model/Channel$Creator;
+    new-instance v0, Lcom/galiltv/watch/data/model/Channel$Creator;
 
-    invoke-direct {v0}, Lcom/primetv/watch/data/model/Channel$Creator;-><init>()V
+    invoke-direct {v0}, Lcom/galiltv/watch/data/model/Channel$Creator;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/data/model/Channel;->CREATOR:Landroid/os/Parcelable$Creator;
+    sput-object v0, Lcom/galiltv/watch/data/model/Channel;->CREATOR:Landroid/os/Parcelable$Creator;
 
     new-instance v0, Lkotlinx/serialization/internal/ArrayListSerializer;
 
-    sget-object v2, Lcom/primetv/watch/data/model/StreamSource$$serializer;->INSTANCE:Lcom/primetv/watch/data/model/StreamSource$$serializer;
+    sget-object v2, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->INSTANCE:Lcom/galiltv/watch/data/model/StreamSource$$serializer;
 
     invoke-direct {v0, v2}, Lkotlinx/serialization/internal/ArrayListSerializer;-><init>(Lkotlinx/serialization/KSerializer;)V
 
@@ -281,7 +281,7 @@
 
     aput-object v1, v2, v0
 
-    sput-object v2, Lcom/primetv/watch/data/model/Channel;->$childSerializers:[Lkotlinx/serialization/KSerializer;
+    sput-object v2, Lcom/galiltv/watch/data/model/Channel;->$childSerializers:[Lkotlinx/serialization/KSerializer;
 
     return-void
 .end method
@@ -321,7 +321,7 @@
 
     move-object/from16 v0, p0
 
-    invoke-direct/range {v0 .. v15}, Lcom/primetv/watch/data/model/Channel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;ILkotlin/jvm/internal/j;)V
+    invoke-direct/range {v0 .. v15}, Lcom/galiltv/watch/data/model/Channel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;ILkotlin/jvm/internal/j;)V
 
     return-void
 .end method
@@ -337,24 +337,24 @@
 
     if-nez v0, :cond_0
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     goto :goto_0
 
     :cond_0
-    iput-object p2, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iput-object p2, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     :goto_0
     and-int/lit8 p2, p1, 0x2
 
     if-nez p2, :cond_1
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     goto :goto_1
 
     :cond_1
-    iput-object p3, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iput-object p3, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     :goto_1
     and-int/lit8 p2, p1, 0x4
@@ -363,84 +363,84 @@
 
     const-string p2, ""
 
-    iput-object p2, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iput-object p2, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     goto :goto_2
 
     :cond_2
-    iput-object p4, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iput-object p4, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     :goto_2
     and-int/lit8 p2, p1, 0x8
 
     if-nez p2, :cond_3
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     goto :goto_3
 
     :cond_3
-    iput-object p5, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iput-object p5, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     :goto_3
     and-int/lit8 p2, p1, 0x10
 
     if-nez p2, :cond_4
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     goto :goto_4
 
     :cond_4
-    iput-object p6, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iput-object p6, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     :goto_4
     and-int/lit8 p2, p1, 0x20
 
     if-nez p2, :cond_5
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     goto :goto_5
 
     :cond_5
-    iput-object p7, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iput-object p7, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     :goto_5
     and-int/lit8 p2, p1, 0x40
 
     if-nez p2, :cond_6
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     goto :goto_6
 
     :cond_6
-    iput-object p8, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iput-object p8, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     :goto_6
     and-int/lit16 p2, p1, 0x80
 
     if-nez p2, :cond_7
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     goto :goto_7
 
     :cond_7
-    iput-object p9, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iput-object p9, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     :goto_7
     and-int/lit16 p2, p1, 0x100
 
     if-nez p2, :cond_8
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     goto :goto_8
 
     :cond_8
-    iput-object p10, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iput-object p10, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     :goto_8
     and-int/lit16 p2, p1, 0x200
@@ -449,12 +449,12 @@
 
     if-nez p2, :cond_9
 
-    iput-boolean p3, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iput-boolean p3, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     goto :goto_9
 
     :cond_9
-    iput-boolean p11, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iput-boolean p11, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     :goto_9
     and-int/lit16 p2, p1, 0x400
@@ -463,38 +463,38 @@
 
     sget-object p2, Ly6/w;->b:Ly6/w;
 
-    iput-object p2, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iput-object p2, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     goto :goto_a
 
     :cond_a
-    iput-object p12, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iput-object p12, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     :goto_a
     and-int/lit16 p2, p1, 0x800
 
     if-nez p2, :cond_b
 
-    iput p3, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iput p3, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     goto :goto_b
 
     :cond_b
-    iput p13, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iput p13, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     :goto_b
     and-int/lit16 p1, p1, 0x1000
 
     if-nez p1, :cond_c
 
-    iput-object v1, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iput-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     return-void
 
     :cond_c
     move-object/from16 p1, p14
 
-    iput-object p1, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iput-object p1, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     return-void
 .end method
@@ -515,7 +515,7 @@
             "Ljava/lang/String;",
             "Z",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/StreamSource;",
+            "Lcom/galiltv/watch/data/model/StreamSource;",
             ">;I",
             "Ljava/lang/String;",
             ")V"
@@ -532,31 +532,31 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iput-object p1, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iput-object p2, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
-    iput-object p3, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iput-object p3, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
-    iput-object p4, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iput-object p4, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
-    iput-object p5, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iput-object p5, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
-    iput-object p6, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iput-object p6, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
-    iput-object p7, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iput-object p7, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
-    iput-object p8, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iput-object p8, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
-    iput-object p9, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iput-object p9, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
-    iput-boolean p10, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iput-boolean p10, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
-    iput-object p11, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iput-object p11, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
-    iput p12, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iput p12, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
-    iput-object p13, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iput-object p13, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     return-void
 .end method
@@ -753,7 +753,7 @@
     goto :goto_c
 
     :goto_d
-    invoke-direct/range {p1 .. p14}, Lcom/primetv/watch/data/model/Channel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)V
+    invoke-direct/range {p1 .. p14}, Lcom/galiltv/watch/data/model/Channel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)V
 
     return-void
 .end method
@@ -761,12 +761,12 @@
 .method public static final synthetic access$get$childSerializers$cp()[Lkotlinx/serialization/KSerializer;
     .locals 1
 
-    sget-object v0, Lcom/primetv/watch/data/model/Channel;->$childSerializers:[Lkotlinx/serialization/KSerializer;
+    sget-object v0, Lcom/galiltv/watch/data/model/Channel;->$childSerializers:[Lkotlinx/serialization/KSerializer;
 
     return-object v0
 .end method
 
-.method public static synthetic copy$default(Lcom/primetv/watch/data/model/Channel;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;ILjava/lang/Object;)Lcom/primetv/watch/data/model/Channel;
+.method public static synthetic copy$default(Lcom/galiltv/watch/data/model/Channel;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;ILjava/lang/Object;)Lcom/galiltv/watch/data/model/Channel;
     .locals 12
 
     move/from16 v0, p14
@@ -775,14 +775,14 @@
 
     if-eqz v1, :cond_0
 
-    iget-object p1, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object p1, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     :cond_0
     and-int/lit8 v1, v0, 0x2
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     goto :goto_0
 
@@ -794,7 +794,7 @@
 
     if-eqz v2, :cond_2
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     goto :goto_1
 
@@ -806,7 +806,7 @@
 
     if-eqz v3, :cond_3
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     goto :goto_2
 
@@ -818,7 +818,7 @@
 
     if-eqz v4, :cond_4
 
-    iget-object v4, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v4, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     goto :goto_3
 
@@ -830,7 +830,7 @@
 
     if-eqz v5, :cond_5
 
-    iget-object v5, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v5, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     goto :goto_4
 
@@ -842,7 +842,7 @@
 
     if-eqz v6, :cond_6
 
-    iget-object v6, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v6, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     goto :goto_5
 
@@ -854,7 +854,7 @@
 
     if-eqz v7, :cond_7
 
-    iget-object v7, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v7, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     goto :goto_6
 
@@ -866,7 +866,7 @@
 
     if-eqz v8, :cond_8
 
-    iget-object v8, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v8, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     goto :goto_7
 
@@ -878,7 +878,7 @@
 
     if-eqz v9, :cond_9
 
-    iget-boolean v9, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v9, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     goto :goto_8
 
@@ -890,7 +890,7 @@
 
     if-eqz v10, :cond_a
 
-    iget-object v10, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v10, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     goto :goto_9
 
@@ -902,7 +902,7 @@
 
     if-eqz v11, :cond_b
 
-    iget v11, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v11, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     goto :goto_a
 
@@ -914,7 +914,7 @@
 
     if-eqz v0, :cond_c
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     move-object/from16 p15, v0
 
@@ -953,7 +953,7 @@
     goto :goto_b
 
     :goto_c
-    invoke-virtual/range {p2 .. p15}, Lcom/primetv/watch/data/model/Channel;->copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)Lcom/primetv/watch/data/model/Channel;
+    invoke-virtual/range {p2 .. p15}, Lcom/galiltv/watch/data/model/Channel;->copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)Lcom/galiltv/watch/data/model/Channel;
 
     move-result-object p0
 
@@ -1032,10 +1032,10 @@
     return-void
 .end method
 
-.method public static final synthetic write$Self$app_release(Lcom/primetv/watch/data/model/Channel;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V
+.method public static final synthetic write$Self$app_release(Lcom/galiltv/watch/data/model/Channel;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V
     .locals 4
 
-    sget-object v0, Lcom/primetv/watch/data/model/Channel;->$childSerializers:[Lkotlinx/serialization/KSerializer;
+    sget-object v0, Lcom/galiltv/watch/data/model/Channel;->$childSerializers:[Lkotlinx/serialization/KSerializer;
 
     const/4 v1, 0x0
 
@@ -1048,14 +1048,14 @@
     goto :goto_0
 
     :cond_0
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     if-eqz v2, :cond_1
 
     :goto_0
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1071,14 +1071,14 @@
     goto :goto_1
 
     :cond_2
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     if-eqz v2, :cond_3
 
     :goto_1
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1094,7 +1094,7 @@
     goto :goto_2
 
     :cond_4
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     const-string v3, ""
 
@@ -1105,7 +1105,7 @@
     if-nez v2, :cond_5
 
     :goto_2
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeStringElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILjava/lang/String;)V
 
@@ -1121,14 +1121,14 @@
     goto :goto_3
 
     :cond_6
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     if-eqz v2, :cond_7
 
     :goto_3
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1144,14 +1144,14 @@
     goto :goto_4
 
     :cond_8
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     if-eqz v2, :cond_9
 
     :goto_4
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1167,14 +1167,14 @@
     goto :goto_5
 
     :cond_a
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     if-eqz v2, :cond_b
 
     :goto_5
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1190,14 +1190,14 @@
     goto :goto_6
 
     :cond_c
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     if-eqz v2, :cond_d
 
     :goto_6
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1213,14 +1213,14 @@
     goto :goto_7
 
     :cond_e
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     if-eqz v2, :cond_f
 
     :goto_7
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1236,14 +1236,14 @@
     goto :goto_8
 
     :cond_10
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     if-eqz v2, :cond_11
 
     :goto_8
     sget-object v2, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     invoke-interface {p1, p2, v1, v2, v3}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1259,12 +1259,12 @@
     goto :goto_9
 
     :cond_12
-    iget-boolean v2, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v2, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     if-eqz v2, :cond_13
 
     :goto_9
-    iget-boolean v2, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v2, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     invoke-interface {p1, p2, v1, v2}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeBooleanElement(Lkotlinx/serialization/descriptors/SerialDescriptor;IZ)V
 
@@ -1280,7 +1280,7 @@
     goto :goto_a
 
     :cond_14
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     sget-object v3, Ly6/w;->b:Ly6/w;
 
@@ -1293,7 +1293,7 @@
     :goto_a
     aget-object v0, v0, v1
 
-    iget-object v2, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v2, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     invoke-interface {p1, p2, v1, v0, v2}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1309,12 +1309,12 @@
     goto :goto_b
 
     :cond_16
-    iget v1, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v1, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     if-eqz v1, :cond_17
 
     :goto_b
-    iget v1, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v1, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     invoke-interface {p1, p2, v0, v1}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeIntElement(Lkotlinx/serialization/descriptors/SerialDescriptor;II)V
 
@@ -1330,14 +1330,14 @@
     goto :goto_c
 
     :cond_18
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     if-eqz v1, :cond_19
 
     :goto_c
     sget-object v1, Lkotlinx/serialization/internal/StringSerializer;->INSTANCE:Lkotlinx/serialization/internal/StringSerializer;
 
-    iget-object p0, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object p0, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     invoke-interface {p1, p2, v0, v1, p0}, Lkotlinx/serialization/encoding/CompositeEncoder;->encodeNullableSerializableElement(Lkotlinx/serialization/descriptors/SerialDescriptor;ILkotlinx/serialization/SerializationStrategy;Ljava/lang/Object;)V
 
@@ -1350,7 +1350,7 @@
 .method public final component1()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1358,7 +1358,7 @@
 .method public final component10()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     return v0
 .end method
@@ -1369,12 +1369,12 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/StreamSource;",
+            "Lcom/galiltv/watch/data/model/StreamSource;",
             ">;"
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     return-object v0
 .end method
@@ -1382,7 +1382,7 @@
 .method public final component12()I
     .locals 1
 
-    iget v0, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v0, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     return v0
 .end method
@@ -1390,7 +1390,7 @@
 .method public final component13()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1398,7 +1398,7 @@
 .method public final component2()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1406,7 +1406,7 @@
 .method public final component3()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1414,7 +1414,7 @@
 .method public final component4()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1422,7 +1422,7 @@
 .method public final component5()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1430,7 +1430,7 @@
 .method public final component6()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1438,7 +1438,7 @@
 .method public final component7()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1446,7 +1446,7 @@
 .method public final component8()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1454,12 +1454,12 @@
 .method public final component9()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     return-object v0
 .end method
 
-.method public final copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)Lcom/primetv/watch/data/model/Channel;
+.method public final copy(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)Lcom/galiltv/watch/data/model/Channel;
     .locals 15
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -1475,11 +1475,11 @@
             "Ljava/lang/String;",
             "Z",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/StreamSource;",
+            "Lcom/galiltv/watch/data/model/StreamSource;",
             ">;I",
             "Ljava/lang/String;",
             ")",
-            "Lcom/primetv/watch/data/model/Channel;"
+            "Lcom/galiltv/watch/data/model/Channel;"
         }
     .end annotation
 
@@ -1495,7 +1495,7 @@
 
     invoke-static {v12, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v1, Lcom/primetv/watch/data/model/Channel;
+    new-instance v1, Lcom/galiltv/watch/data/model/Channel;
 
     move-object/from16 v2, p1
 
@@ -1519,7 +1519,7 @@
 
     move-object/from16 v14, p13
 
-    invoke-direct/range {v1 .. v14}, Lcom/primetv/watch/data/model/Channel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)V
+    invoke-direct/range {v1 .. v14}, Lcom/galiltv/watch/data/model/Channel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZLjava/util/List;ILjava/lang/String;)V
 
     return-object v1
 .end method
@@ -1542,7 +1542,7 @@
     return v0
 
     :cond_0
-    instance-of v1, p1, Lcom/primetv/watch/data/model/Channel;
+    instance-of v1, p1, Lcom/galiltv/watch/data/model/Channel;
 
     const/4 v2, 0x0
 
@@ -1551,11 +1551,11 @@
     return v2
 
     :cond_1
-    check-cast p1, Lcom/primetv/watch/data/model/Channel;
+    check-cast p1, Lcom/galiltv/watch/data/model/Channel;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1566,9 +1566,9 @@
     return v2
 
     :cond_2
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1579,9 +1579,9 @@
     return v2
 
     :cond_3
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1592,9 +1592,9 @@
     return v2
 
     :cond_4
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1605,9 +1605,9 @@
     return v2
 
     :cond_5
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1618,9 +1618,9 @@
     return v2
 
     :cond_6
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1631,9 +1631,9 @@
     return v2
 
     :cond_7
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1644,9 +1644,9 @@
     return v2
 
     :cond_8
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1657,9 +1657,9 @@
     return v2
 
     :cond_9
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1670,18 +1670,18 @@
     return v2
 
     :cond_a
-    iget-boolean v1, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v1, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
-    iget-boolean v3, p1, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v3, p1, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     if-eq v1, v3, :cond_b
 
     return v2
 
     :cond_b
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
-    iget-object v3, p1, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v3, p1, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     invoke-static {v1, v3}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1692,18 +1692,18 @@
     return v2
 
     :cond_c
-    iget v1, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v1, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
-    iget v3, p1, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v3, p1, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     if-eq v1, v3, :cond_d
 
     return v2
 
     :cond_d
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
-    iget-object p1, p1, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object p1, p1, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     invoke-static {v1, p1}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -1720,7 +1720,7 @@
 .method public final getCreatedAt()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1728,7 +1728,7 @@
 .method public final getDrmLicenseUrl()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1736,7 +1736,7 @@
 .method public final getDrmScheme()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1744,7 +1744,7 @@
 .method public final getId()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1752,7 +1752,7 @@
 .method public final getLogoUrl()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1760,7 +1760,7 @@
 .method public final getName()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1768,7 +1768,7 @@
 .method public final getPackageId()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1776,7 +1776,7 @@
 .method public final getReferrer()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1784,7 +1784,7 @@
 .method public final getSortOrder()I
     .locals 1
 
-    iget v0, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v0, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     return v0
 .end method
@@ -1795,12 +1795,12 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/StreamSource;",
+            "Lcom/galiltv/watch/data/model/StreamSource;",
             ">;"
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     return-object v0
 .end method
@@ -1808,7 +1808,7 @@
 .method public final getStreamUrl()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1816,7 +1816,7 @@
 .method public final getUserAgent()Ljava/lang/String;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -1824,7 +1824,7 @@
 .method public hashCode()I
     .locals 4
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     const/4 v1, 0x0
 
@@ -1844,7 +1844,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     if-nez v3, :cond_1
 
@@ -1862,13 +1862,13 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     invoke-static {v0, v2, v3}, La0/a;->b(IILjava/lang/String;)I
 
     move-result v0
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     if-nez v3, :cond_2
 
@@ -1886,7 +1886,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     if-nez v3, :cond_3
 
@@ -1904,7 +1904,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     if-nez v3, :cond_4
 
@@ -1922,7 +1922,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     if-nez v3, :cond_5
 
@@ -1940,7 +1940,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     if-nez v3, :cond_6
 
@@ -1958,7 +1958,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     if-nez v3, :cond_7
 
@@ -1976,7 +1976,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-boolean v3, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v3, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     if-eqz v3, :cond_8
 
@@ -1992,7 +1992,7 @@
 
     mul-int/lit8 v0, v0, 0x1f
 
-    iget-object v3, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v3, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     invoke-virtual {v3}, Ljava/lang/Object;->hashCode()I
 
@@ -2002,13 +2002,13 @@
 
     mul-int/lit8 v3, v3, 0x1f
 
-    iget v0, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v0, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     add-int/2addr v3, v0
 
     mul-int/lit8 v3, v3, 0x1f
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     if-nez v0, :cond_9
 
@@ -2028,7 +2028,7 @@
 .method public final isFavorite()Z
     .locals 1
 
-    iget-boolean v0, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     return v0
 .end method
@@ -2036,7 +2036,7 @@
 .method public final setFavorite(Z)V
     .locals 0
 
-    iput-boolean p1, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iput-boolean p1, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     return-void
 .end method
@@ -2044,7 +2044,7 @@
 .method public final setSortOrder(I)V
     .locals 0
 
-    iput p1, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iput p1, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     return-void
 .end method
@@ -2058,7 +2058,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2066,7 +2066,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2074,7 +2074,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2082,7 +2082,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2090,7 +2090,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2098,7 +2098,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2106,7 +2106,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2114,7 +2114,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2122,7 +2122,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -2130,7 +2130,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-boolean v1, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v1, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
@@ -2138,7 +2138,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
@@ -2146,7 +2146,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget v1, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget v1, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -2154,7 +2154,7 @@
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     const/16 v2, 0x29
 
@@ -2172,47 +2172,47 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->id:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->id:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->packageId:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->packageId:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->name:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->name:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->logoUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->streamUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->userAgent:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->referrer:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->referrer:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->drmLicenseUrl:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->drmScheme:Ljava/lang/String;
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 
-    iget-boolean v0, p0, Lcom/primetv/watch/data/model/Channel;->isFavorite:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/data/model/Channel;->isFavorite:Z
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeInt(I)V
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/Channel;->sources:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/Channel;->sources:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
@@ -2235,18 +2235,18 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/primetv/watch/data/model/StreamSource;
+    check-cast v1, Lcom/galiltv/watch/data/model/StreamSource;
 
-    invoke-virtual {v1, p1, p2}, Lcom/primetv/watch/data/model/StreamSource;->writeToParcel(Landroid/os/Parcel;I)V
+    invoke-virtual {v1, p1, p2}, Lcom/galiltv/watch/data/model/StreamSource;->writeToParcel(Landroid/os/Parcel;I)V
 
     goto :goto_0
 
     :cond_0
-    iget p2, p0, Lcom/primetv/watch/data/model/Channel;->sortOrder:I
+    iget p2, p0, Lcom/galiltv/watch/data/model/Channel;->sortOrder:I
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    iget-object p2, p0, Lcom/primetv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
+    iget-object p2, p0, Lcom/galiltv/watch/data/model/Channel;->createdAt:Ljava/lang/String;
 
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
 

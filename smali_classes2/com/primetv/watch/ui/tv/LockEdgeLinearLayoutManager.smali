@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/tv/LockEdgeLinearLayoutManager;
+.class public final Lcom/galiltv/watch/ui/tv/LockEdgeLinearLayoutManager;
 .super Landroidx/recyclerview/widget/LinearLayoutManager;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0018\u00002\u00020\u0001\u00a8\u0006\u0002"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/tv/LockEdgeLinearLayoutManager;",
+        "Lcom/galiltv/watch/ui/tv/LockEdgeLinearLayoutManager;",
         "Landroidx/recyclerview/widget/LinearLayoutManager;",
         "app_release"
     }
@@ -62,7 +62,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/tv/LockEdgeLinearLayoutManager;->p:Lo7/b;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/tv/LockEdgeLinearLayoutManager;->p:Lo7/b;
 
     const/4 v1, 0x1
 

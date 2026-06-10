@@ -1,4 +1,4 @@
-.class public Lcom/primetv/watch/data/api/۟ۡ۟ۥۡ;
+.class public Lcom/galiltv/watch/data/api/۟ۡ۟ۥۡ;
 .super Ljava/lang/Object;
 
 
@@ -26,9 +26,9 @@
 
     if-gtz v0, :cond_0
 
-    check-cast p0, Lcom/primetv/watch/MainActivity;
+    check-cast p0, Lcom/galiltv/watch/MainActivity;
 
-    iget-object v1, p0, Lcom/primetv/watch/MainActivity;->E:Landroid/net/ConnectivityManager;
+    iget-object v1, p0, Lcom/galiltv/watch/MainActivity;->E:Landroid/net/ConnectivityManager;
 
     :goto_0
     return-object v1

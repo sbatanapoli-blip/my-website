@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/SecurityWarningFragment;
+.class public final Lcom/galiltv/watch/SecurityWarningFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 \u00042\u00020\u0001:\u0001\u0005B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0006"
     }
     d2 = {
-        "Lcom/primetv/watch/SecurityWarningFragment;",
+        "Lcom/galiltv/watch/SecurityWarningFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -45,7 +45,7 @@
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/SecurityWarningFragment;->Companion:Lz5/q;
+    sput-object v0, Lcom/galiltv/watch/SecurityWarningFragment;->Companion:Lz5/q;
 
     return-void
 .end method
@@ -161,7 +161,7 @@
 
     invoke-direct/range {v0 .. v5}, Landroid/support/v4/media/session/d0;-><init>(Landroid/view/ViewGroup;Landroid/view/View;Landroid/widget/TextView;Landroid/view/View;I)V
 
-    iput-object v0, p0, Lcom/primetv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
+    iput-object v0, p0, Lcom/galiltv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
 
     const-string p1, "getRoot(...)"
 
@@ -198,7 +198,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/primetv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
+    iput-object v0, p0, Lcom/galiltv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
 
     return-void
 .end method
@@ -224,9 +224,9 @@
 
     invoke-direct {p1, p2}, Ld6/c;-><init>(Landroid/content/Context;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/SecurityWarningFragment;->c:Ld6/c;
+    iput-object p1, p0, Lcom/galiltv/watch/SecurityWarningFragment;->c:Ld6/c;
 
-    iget-object p1, p0, Lcom/primetv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -335,7 +335,7 @@
 
     invoke-static {v2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
-    iget-object v6, p0, Lcom/primetv/watch/SecurityWarningFragment;->c:Ld6/c;
+    iget-object v6, p0, Lcom/galiltv/watch/SecurityWarningFragment;->c:Ld6/c;
 
     if-eqz v6, :cond_4
 
@@ -380,7 +380,7 @@
 
     invoke-static {p2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
-    iget-object v5, p0, Lcom/primetv/watch/SecurityWarningFragment;->c:Ld6/c;
+    iget-object v5, p0, Lcom/galiltv/watch/SecurityWarningFragment;->c:Ld6/c;
 
     if-eqz v5, :cond_6
 
@@ -410,7 +410,7 @@
 
     if-nez p1, :cond_8
 
-    iget-object p1, p0, Lcom/primetv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -432,7 +432,7 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/x0;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/SecurityWarningFragment;->b:Landroid/support/v4/media/session/d0;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 

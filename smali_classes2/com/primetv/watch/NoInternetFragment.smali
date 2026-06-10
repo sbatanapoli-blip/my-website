@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/NoInternetFragment;
+.class public final Lcom/galiltv/watch/NoInternetFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 \u00042\u00020\u0001:\u0001\u0005B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0006"
     }
     d2 = {
-        "Lcom/primetv/watch/NoInternetFragment;",
+        "Lcom/galiltv/watch/NoInternetFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -47,7 +47,7 @@
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/NoInternetFragment;->Companion:Lz5/p;
+    sput-object v0, Lcom/galiltv/watch/NoInternetFragment;->Companion:Lz5/p;
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/NoInternetFragment;->c:Landroid/os/Handler;
+    iput-object v0, p0, Lcom/galiltv/watch/NoInternetFragment;->c:Landroid/os/Handler;
 
     return-void
 .end method
@@ -133,7 +133,7 @@
 
     invoke-direct {p2, p1, p3}, Landroid/support/v4/media/j;-><init>(Landroidx/constraintlayout/widget/ConstraintLayout;Lcom/google/android/material/button/MaterialButton;)V
 
-    iput-object p2, p0, Lcom/primetv/watch/NoInternetFragment;->b:Landroid/support/v4/media/j;
+    iput-object p2, p0, Lcom/galiltv/watch/NoInternetFragment;->b:Landroid/support/v4/media/j;
 
     const-string p2, "getRoot(...)"
 
@@ -168,20 +168,20 @@
 
     invoke-super {p0}, Landroidx/fragment/app/h0;->onDestroyView()V
 
-    iget-object v0, p0, Lcom/primetv/watch/NoInternetFragment;->d:Landroidx/core/app/a;
+    iget-object v0, p0, Lcom/galiltv/watch/NoInternetFragment;->d:Landroidx/core/app/a;
 
     if-eqz v0, :cond_0
 
-    iget-object v1, p0, Lcom/primetv/watch/NoInternetFragment;->c:Landroid/os/Handler;
+    iget-object v1, p0, Lcom/galiltv/watch/NoInternetFragment;->c:Landroid/os/Handler;
 
     invoke-virtual {v1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     :cond_0
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/primetv/watch/NoInternetFragment;->d:Landroidx/core/app/a;
+    iput-object v0, p0, Lcom/galiltv/watch/NoInternetFragment;->d:Landroidx/core/app/a;
 
-    iput-object v0, p0, Lcom/primetv/watch/NoInternetFragment;->b:Landroid/support/v4/media/j;
+    iput-object v0, p0, Lcom/galiltv/watch/NoInternetFragment;->b:Landroid/support/v4/media/j;
 
     const-string v0, "NoInternetFragment"
 
@@ -201,7 +201,7 @@
 
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/h0;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/NoInternetFragment;->b:Landroid/support/v4/media/j;
+    iget-object p1, p0, Lcom/galiltv/watch/NoInternetFragment;->b:Landroid/support/v4/media/j;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 

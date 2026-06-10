@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/MyApplication;
+.class public final Lcom/galiltv/watch/MyApplication;
 .super Landroid/app/Application;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 \u00042\u00020\u0001:\u0001\u0005B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0006"
     }
     d2 = {
-        "Lcom/primetv/watch/MyApplication;",
+        "Lcom/galiltv/watch/MyApplication;",
         "Landroid/app/Application;",
         "<init>",
         "()V",
@@ -39,7 +39,7 @@
 
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/MyApplication;->Companion:Lz5/o;
+    sput-object v0, Lcom/galiltv/watch/MyApplication;->Companion:Lz5/o;
 
     return-void
 .end method

@@ -1,4 +1,4 @@
-.class public final synthetic Lcom/primetv/watch/data/model/StreamSource$$serializer;
+.class public final synthetic Lcom/galiltv/watch/data/model/StreamSource$$serializer;
 .super Ljava/lang/Object;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lcom/primetv/watch/data/model/StreamSource;
+    value = Lcom/galiltv/watch/data/model/StreamSource;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -20,7 +20,7 @@
     value = {
         "Ljava/lang/Object;",
         "Lkotlinx/serialization/internal/GeneratedSerializer<",
-        "Lcom/primetv/watch/data/model/StreamSource;",
+        "Lcom/galiltv/watch/data/model/StreamSource;",
         ">;"
     }
 .end annotation
@@ -30,9 +30,9 @@
         "\u0000:\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0011\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\u00c7\u0002\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u001d\u0010\t\u001a\u00020\u00082\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0015\u0010\r\u001a\u00020\u00022\u0006\u0010\u000c\u001a\u00020\u000b\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u0017\u0010\u0011\u001a\u000c\u0012\u0008\u0012\u0006\u0012\u0002\u0008\u00030\u00100\u000f\u00a2\u0006\u0004\u0008\u0011\u0010\u0012R\u0017\u0010\u0014\u001a\u00020\u00138\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017\u00a8\u0006\u0018"
     }
     d2 = {
-        "com/primetv/watch/data/model/StreamSource.$serializer",
+        "com/galiltv/watch/data/model/StreamSource.$serializer",
         "Lkotlinx/serialization/internal/GeneratedSerializer;",
-        "Lcom/primetv/watch/data/model/StreamSource;",
+        "Lcom/galiltv/watch/data/model/StreamSource;",
         "<init>",
         "()V",
         "Lkotlinx/serialization/encoding/Encoder;",
@@ -40,11 +40,11 @@
         "value",
         "Lx6/g0;",
         "serialize",
-        "(Lkotlinx/serialization/encoding/Encoder;Lcom/primetv/watch/data/model/StreamSource;)V",
+        "(Lkotlinx/serialization/encoding/Encoder;Lcom/galiltv/watch/data/model/StreamSource;)V",
         "Lkotlinx/serialization/encoding/Decoder;",
         "decoder",
         "deserialize",
-        "(Lkotlinx/serialization/encoding/Decoder;)Lcom/primetv/watch/data/model/StreamSource;",
+        "(Lkotlinx/serialization/encoding/Decoder;)Lcom/galiltv/watch/data/model/StreamSource;",
         "",
         "Lkotlinx/serialization/KSerializer;",
         "childSerializers",
@@ -67,7 +67,7 @@
 
 
 # static fields
-.field public static final INSTANCE:Lcom/primetv/watch/data/model/StreamSource$$serializer;
+.field public static final INSTANCE:Lcom/galiltv/watch/data/model/StreamSource$$serializer;
 
 .field private static final descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
@@ -76,15 +76,15 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    new-instance v0, Lcom/primetv/watch/data/model/StreamSource$$serializer;
+    new-instance v0, Lcom/galiltv/watch/data/model/StreamSource$$serializer;
 
-    invoke-direct {v0}, Lcom/primetv/watch/data/model/StreamSource$$serializer;-><init>()V
+    invoke-direct {v0}, Lcom/galiltv/watch/data/model/StreamSource$$serializer;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/data/model/StreamSource$$serializer;->INSTANCE:Lcom/primetv/watch/data/model/StreamSource$$serializer;
+    sput-object v0, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->INSTANCE:Lcom/galiltv/watch/data/model/StreamSource$$serializer;
 
     new-instance v1, Lkotlinx/serialization/internal/PluginGeneratedSerialDescriptor;
 
-    const-string v2, "com.primetv.watch.data.model.StreamSource"
+    const-string v2, "com.galiltv.watch.data.model.StreamSource"
 
     const/4 v3, 0x4
 
@@ -108,7 +108,7 @@
 
     invoke-virtual {v1, v0, v2}, Lkotlinx/serialization/internal/PluginGeneratedSerialDescriptor;->addElement(Ljava/lang/String;Z)V
 
-    sput-object v1, Lcom/primetv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sput-object v1, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     return-void
 .end method
@@ -166,7 +166,7 @@
     return-object v3
 .end method
 
-.method public final deserialize(Lkotlinx/serialization/encoding/Decoder;)Lcom/primetv/watch/data/model/StreamSource;
+.method public final deserialize(Lkotlinx/serialization/encoding/Decoder;)Lcom/galiltv/watch/data/model/StreamSource;
     .locals 19
 
     move-object/from16 v0, p1
@@ -175,7 +175,7 @@
 
     invoke-static {v0, v1}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v1, Lcom/primetv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v1, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     invoke-interface {v0, v1}, Lkotlinx/serialization/encoding/Decoder;->beginStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)Lkotlinx/serialization/encoding/CompositeDecoder;
 
@@ -332,11 +332,11 @@
     :goto_1
     invoke-interface {v0, v1}, Lkotlinx/serialization/encoding/CompositeDecoder;->endStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)V
 
-    new-instance v12, Lcom/primetv/watch/data/model/StreamSource;
+    new-instance v12, Lcom/galiltv/watch/data/model/StreamSource;
 
     const/16 v18, 0x0
 
-    invoke-direct/range {v12 .. v18}, Lcom/primetv/watch/data/model/StreamSource;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
+    invoke-direct/range {v12 .. v18}, Lcom/galiltv/watch/data/model/StreamSource;-><init>(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lkotlinx/serialization/internal/SerializationConstructorMarker;)V
 
     return-object v12
 .end method
@@ -344,7 +344,7 @@
 .method public bridge synthetic deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
     .locals 0
 
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/data/model/StreamSource$$serializer;->deserialize(Lkotlinx/serialization/encoding/Decoder;)Lcom/primetv/watch/data/model/StreamSource;
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->deserialize(Lkotlinx/serialization/encoding/Decoder;)Lcom/galiltv/watch/data/model/StreamSource;
 
     move-result-object p1
 
@@ -354,12 +354,12 @@
 .method public final getDescriptor()Lkotlinx/serialization/descriptors/SerialDescriptor;
     .locals 1
 
-    sget-object v0, Lcom/primetv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v0, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     return-object v0
 .end method
 
-.method public final serialize(Lkotlinx/serialization/encoding/Encoder;Lcom/primetv/watch/data/model/StreamSource;)V
+.method public final serialize(Lkotlinx/serialization/encoding/Encoder;Lcom/galiltv/watch/data/model/StreamSource;)V
     .locals 1
 
     const-string v0, "encoder"
@@ -370,13 +370,13 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/primetv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v0, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     invoke-interface {p1, v0}, Lkotlinx/serialization/encoding/Encoder;->beginStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)Lkotlinx/serialization/encoding/CompositeEncoder;
 
     move-result-object p1
 
-    invoke-static {p2, p1, v0}, Lcom/primetv/watch/data/model/StreamSource;->write$Self$app_release(Lcom/primetv/watch/data/model/StreamSource;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V
+    invoke-static {p2, p1, v0}, Lcom/galiltv/watch/data/model/StreamSource;->write$Self$app_release(Lcom/galiltv/watch/data/model/StreamSource;Lkotlinx/serialization/encoding/CompositeEncoder;Lkotlinx/serialization/descriptors/SerialDescriptor;)V
 
     invoke-interface {p1, v0}, Lkotlinx/serialization/encoding/CompositeEncoder;->endStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)V
 
@@ -386,9 +386,9 @@
 .method public bridge synthetic serialize(Lkotlinx/serialization/encoding/Encoder;Ljava/lang/Object;)V
     .locals 0
 
-    check-cast p2, Lcom/primetv/watch/data/model/StreamSource;
+    check-cast p2, Lcom/galiltv/watch/data/model/StreamSource;
 
-    invoke-virtual {p0, p1, p2}, Lcom/primetv/watch/data/model/StreamSource$$serializer;->serialize(Lkotlinx/serialization/encoding/Encoder;Lcom/primetv/watch/data/model/StreamSource;)V
+    invoke-virtual {p0, p1, p2}, Lcom/galiltv/watch/data/model/StreamSource$$serializer;->serialize(Lkotlinx/serialization/encoding/Encoder;Lcom/galiltv/watch/data/model/StreamSource;)V
 
     return-void
 .end method

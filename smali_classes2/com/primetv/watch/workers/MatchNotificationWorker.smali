@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/workers/MatchNotificationWorker;
+.class public final Lcom/galiltv/watch/workers/MatchNotificationWorker;
 .super Landroidx/work/CoroutineWorker;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\u0008"
     }
     d2 = {
-        "Lcom/primetv/watch/workers/MatchNotificationWorker;",
+        "Lcom/galiltv/watch/workers/MatchNotificationWorker;",
         "Landroidx/work/CoroutineWorker;",
         "Landroid/content/Context;",
         "context",
@@ -76,7 +76,7 @@
     :cond_0
     new-instance v0, Ln6/a;
 
-    invoke-direct {v0, p0, p1}, Ln6/a;-><init>(Lcom/primetv/watch/workers/MatchNotificationWorker;Lc7/e;)V
+    invoke-direct {v0, p0, p1}, Ln6/a;-><init>(Lcom/galiltv/watch/workers/MatchNotificationWorker;Lc7/e;)V
 
     :goto_0
     iget-object p1, v0, Ln6/a;->b:Ljava/lang/Object;
@@ -115,7 +115,7 @@
 
     const/4 v4, 0x0
 
-    invoke-direct {v2, p0, v4}, Ln6/b;-><init>(Lcom/primetv/watch/workers/MatchNotificationWorker;Lc7/e;)V
+    invoke-direct {v2, p0, v4}, Ln6/b;-><init>(Lcom/galiltv/watch/workers/MatchNotificationWorker;Lc7/e;)V
 
     iput v3, v0, Ln6/a;->d:I
 

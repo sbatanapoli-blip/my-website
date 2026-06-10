@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/leagues/LeaguesFragment;
+.class public final Lcom/galiltv/watch/ui/leagues/LeaguesFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001:\u0001\u0004B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0005"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/leagues/LeaguesFragment;",
+        "Lcom/galiltv/watch/ui/leagues/LeaguesFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -78,13 +78,13 @@
 
     new-instance v4, Lg6/k;
 
-    invoke-direct {v4, p0, v0}, Lg6/k;-><init>(Lcom/primetv/watch/ui/leagues/LeaguesFragment;Lx6/i;)V
+    invoke-direct {v4, p0, v0}, Lg6/k;-><init>(Lcom/galiltv/watch/ui/leagues/LeaguesFragment;Lx6/i;)V
 
     invoke-static {p0, v1, v2, v3, v4}, Landroidx/fragment/app/b2;->a(Landroidx/fragment/app/h0;Lu7/d;Lo7/a;Lo7/a;Lo7/a;)Landroidx/lifecycle/ViewModelLazy;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->c:Landroidx/lifecycle/ViewModelLazy;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->c:Landroidx/lifecycle/ViewModelLazy;
 
     return-void
 .end method
@@ -94,7 +94,7 @@
 .method public final g()Lg6/r;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->c:Landroidx/lifecycle/ViewModelLazy;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->c:Landroidx/lifecycle/ViewModelLazy;
 
     invoke-interface {v0}, Lx6/i;->getValue()Ljava/lang/Object;
 
@@ -166,7 +166,7 @@
 
     invoke-direct/range {v0 .. v5}, Lb3/i;-><init>(Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;Landroid/widget/TextView;Landroidx/recyclerview/widget/RecyclerView;Lcom/airbnb/lottie/LottieAnimationView;Landroidx/swiperefreshlayout/widget/SwipeRefreshLayout;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
 
     const-string p1, "getRoot(...)"
 
@@ -203,7 +203,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
 
     return-void
 .end method
@@ -227,7 +227,7 @@
 
     invoke-direct {p1, p2}, Lg6/d;-><init>(Lg6/e;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->d:Lg6/d;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->d:Lg6/d;
 
     new-instance p1, Landroidx/recyclerview/widget/GridLayoutManager;
 
@@ -247,7 +247,7 @@
 
     move-result p2
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -257,7 +257,7 @@
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/j1;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->d:Lg6/d;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->d:Lg6/d;
 
     const/4 v1, 0x0
 
@@ -279,7 +279,7 @@
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/RecyclerView;->addItemDecoration(Landroidx/recyclerview/widget/f1;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/leagues/LeaguesFragment;->b:Lb3/i;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -317,7 +317,7 @@
 
     new-instance v5, Lg6/i;
 
-    invoke-direct {v5, p0, v1}, Lg6/i;-><init>(Lcom/primetv/watch/ui/leagues/LeaguesFragment;Lc7/e;)V
+    invoke-direct {v5, p0, v1}, Lg6/i;-><init>(Lcom/galiltv/watch/ui/leagues/LeaguesFragment;Lc7/e;)V
 
     const/4 v6, 0x3
 

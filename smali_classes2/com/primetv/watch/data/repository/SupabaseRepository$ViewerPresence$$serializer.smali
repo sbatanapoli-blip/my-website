@@ -1,4 +1,4 @@
-.class public final synthetic Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
+.class public final synthetic Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
 .super Ljava/lang/Object;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -21,7 +21,7 @@
         "\u0000:\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0011\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\u00c7\u0002\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u001d\u0010\t\u001a\u00020\u00082\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0015\u0010\r\u001a\u00020\u00022\u0006\u0010\u000c\u001a\u00020\u000b\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u0017\u0010\u0011\u001a\u000c\u0012\u0008\u0012\u0006\u0012\u0002\u0008\u00030\u00100\u000f\u00a2\u0006\u0004\u0008\u0011\u0010\u0012R\u0017\u0010\u0014\u001a\u00020\u00138\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017\u00a8\u0006\u0018"
     }
     d2 = {
-        "com/primetv/watch/data/repository/SupabaseRepository.ViewerPresence.$serializer",
+        "com/galiltv/watch/data/repository/SupabaseRepository.ViewerPresence.$serializer",
         "Lkotlinx/serialization/internal/GeneratedSerializer;",
         "Lb6/b;",
         "<init>",
@@ -58,7 +58,7 @@
 
 
 # static fields
-.field public static final INSTANCE:Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
+.field public static final INSTANCE:Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
 
 .field private static final descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
@@ -67,15 +67,15 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    new-instance v0, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
+    new-instance v0, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
 
-    invoke-direct {v0}, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;-><init>()V
+    invoke-direct {v0}, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;-><init>()V
 
-    sput-object v0, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->INSTANCE:Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
+    sput-object v0, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->INSTANCE:Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;
 
     new-instance v1, Lkotlinx/serialization/internal/PluginGeneratedSerialDescriptor;
 
-    const-string v2, "com.primetv.watch.data.repository.SupabaseRepository.ViewerPresence"
+    const-string v2, "com.galiltv.watch.data.repository.SupabaseRepository.ViewerPresence"
 
     const/4 v3, 0x2
 
@@ -91,7 +91,7 @@
 
     invoke-virtual {v1, v0, v2}, Lkotlinx/serialization/internal/PluginGeneratedSerialDescriptor;->addElement(Ljava/lang/String;Z)V
 
-    sput-object v1, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sput-object v1, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     return-void
 .end method
@@ -140,7 +140,7 @@
 
     invoke-static {p1, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v0, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     invoke-interface {p1, v0}, Lkotlinx/serialization/encoding/Decoder;->beginStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)Lkotlinx/serialization/encoding/CompositeDecoder;
 
@@ -239,7 +239,7 @@
 .method public bridge synthetic deserialize(Lkotlinx/serialization/encoding/Decoder;)Ljava/lang/Object;
     .locals 0
 
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->deserialize(Lkotlinx/serialization/encoding/Decoder;)Lb6/b;
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->deserialize(Lkotlinx/serialization/encoding/Decoder;)Lb6/b;
 
     move-result-object p1
 
@@ -249,7 +249,7 @@
 .method public final getDescriptor()Lkotlinx/serialization/descriptors/SerialDescriptor;
     .locals 1
 
-    sget-object v0, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v0, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     return-object v0
 .end method
@@ -265,7 +265,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->f(Ljava/lang/Object;Ljava/lang/String;)V
 
-    sget-object v0, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
+    sget-object v0, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->descriptor:Lkotlinx/serialization/descriptors/SerialDescriptor;
 
     invoke-interface {p1, v0}, Lkotlinx/serialization/encoding/Encoder;->beginStructure(Lkotlinx/serialization/descriptors/SerialDescriptor;)Lkotlinx/serialization/encoding/CompositeEncoder;
 
@@ -293,7 +293,7 @@
 
     check-cast p2, Lb6/b;
 
-    invoke-virtual {p0, p1, p2}, Lcom/primetv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->serialize(Lkotlinx/serialization/encoding/Encoder;Lb6/b;)V
+    invoke-virtual {p0, p1, p2}, Lcom/galiltv/watch/data/repository/SupabaseRepository$ViewerPresence$$serializer;->serialize(Lkotlinx/serialization/encoding/Encoder;Lb6/b;)V
 
     return-void
 .end method

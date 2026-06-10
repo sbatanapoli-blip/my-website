@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/tv/TvHomeFragment;
+.class public final Lcom/galiltv/watch/ui/tv/TvHomeFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,7 +9,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/tv/TvHomeFragment;",
+        "Lcom/galiltv/watch/ui/tv/TvHomeFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -41,7 +41,7 @@
 
     const v0, 0x7f0b0249
 
-    iput v0, p0, Lcom/primetv/watch/ui/tv/TvHomeFragment;->d:I
+    iput v0, p0, Lcom/galiltv/watch/ui/tv/TvHomeFragment;->d:I
 
     return-void
 .end method
@@ -161,7 +161,7 @@
 
     invoke-direct {p2, p1, p3, v0, v1}, Landroid/support/v4/media/session/d0;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;I)V
 
-    iput-object p2, p0, Lcom/primetv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
+    iput-object p2, p0, Lcom/galiltv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
 
     const-string p2, "getRoot(...)"
 
@@ -198,7 +198,7 @@
 
     const/4 v0, 0x0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
 
     return-void
 .end method
@@ -208,7 +208,7 @@
 
     invoke-super {p0}, Landroidx/fragment/app/h0;->onResume()V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -236,7 +236,7 @@
 
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/h0;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -254,7 +254,7 @@
 
     const v1, 0x7f0b0051
 
-    invoke-direct {v0, p0, p1, v1}, Ll6/j;-><init>(Lcom/primetv/watch/ui/tv/TvHomeFragment;Landroid/view/View;I)V
+    invoke-direct {v0, p0, p1, v1}, Ll6/j;-><init>(Lcom/galiltv/watch/ui/tv/TvHomeFragment;Landroid/view/View;I)V
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -266,7 +266,7 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/tv/TvHomeFragment;->b:Landroid/support/v4/media/session/d0;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -282,7 +282,7 @@
 
     const v0, 0x7f0b0050
 
-    invoke-direct {p2, p0, p1, v0}, Ll6/j;-><init>(Lcom/primetv/watch/ui/tv/TvHomeFragment;Landroid/view/View;I)V
+    invoke-direct {p2, p0, p1, v0}, Ll6/j;-><init>(Lcom/galiltv/watch/ui/tv/TvHomeFragment;Landroid/view/View;I)V
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

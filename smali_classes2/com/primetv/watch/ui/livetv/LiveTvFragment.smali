@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/ui/livetv/LiveTvFragment;
+.class public final Lcom/galiltv/watch/ui/livetv/LiveTvFragment;
 .super Landroidx/fragment/app/h0;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -12,7 +12,7 @@
         "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u0007\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
     }
     d2 = {
-        "Lcom/primetv/watch/ui/livetv/LiveTvFragment;",
+        "Lcom/galiltv/watch/ui/livetv/LiveTvFragment;",
         "Landroidx/fragment/app/h0;",
         "<init>",
         "()V",
@@ -47,7 +47,7 @@
 
 .field public d:Lm6/q;
 
-.field public e:Lcom/primetv/watch/data/model/Channel;
+.field public e:Lcom/galiltv/watch/data/model/Channel;
 
 .field public f:Ljava/lang/String;
 
@@ -110,43 +110,43 @@
 
     const/4 v2, 0x0
 
-    invoke-direct {v1, p0, v2}, Li6/p;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v1, p0, v2}, Li6/p;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     new-instance v2, Li6/p;
 
     const/4 v3, 0x1
 
-    invoke-direct {v2, p0, v3}, Li6/p;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v2, p0, v3}, Li6/p;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     new-instance v3, Li6/q;
 
-    invoke-direct {v3, p0}, Li6/q;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;)V
+    invoke-direct {v3, p0}, Li6/q;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;)V
 
     invoke-static {p0, v0, v1, v2, v3}, Landroidx/fragment/app/b2;->a(Landroidx/fragment/app/h0;Lu7/d;Lo7/a;Lo7/a;Lo7/a;)Landroidx/lifecycle/ViewModelLazy;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->c:Landroidx/lifecycle/ViewModelLazy;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->c:Landroidx/lifecycle/ViewModelLazy;
 
     sget-object v0, Ly6/w;->b:Ly6/w;
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->D:Ljava/util/List;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->D:Ljava/util/List;
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->E:Ljava/util/List;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->E:Ljava/util/List;
 
     new-instance v0, Li6/n;
 
-    invoke-direct {v0, p0}, Li6/n;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;)V
+    invoke-direct {v0, p0}, Li6/n;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->F:Li6/n;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->F:Li6/n;
 
     return-void
 .end method
 
-.method public static g(Lcom/primetv/watch/ui/livetv/LiveTvFragment;)V
+.method public static g(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;)V
     .locals 4
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->q()Z
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->q()Z
 
     move-result v0
 
@@ -155,9 +155,9 @@
     goto :goto_0
 
     :cond_0
-    iget-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
-    iput-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->k:Z
+    iput-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->k:Z
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -196,7 +196,7 @@
     return-void
 .end method
 
-.method public static final h(Lcom/primetv/watch/ui/livetv/LiveTvFragment;Ljava/lang/String;)V
+.method public static final h(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;Ljava/lang/String;)V
     .locals 5
 
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -205,12 +205,12 @@
 
     if-nez v0, :cond_0
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->E:Ljava/util/List;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->E:Ljava/util/List;
 
     goto :goto_1
 
     :cond_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->E:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->E:Ljava/util/List;
 
     new-instance v1, Ljava/util/ArrayList;
 
@@ -234,9 +234,9 @@
 
     move-object v3, v2
 
-    check-cast v3, Lcom/primetv/watch/data/model/Channel;
+    check-cast v3, Lcom/galiltv/watch/data/model/Channel;
 
-    invoke-virtual {v3}, Lcom/primetv/watch/data/model/Channel;->getName()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/galiltv/watch/data/model/Channel;->getName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -256,7 +256,7 @@
     move-object p1, v1
 
     :goto_1
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->A:Li6/c;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->A:Li6/c;
 
     const/4 v1, 0x0
 
@@ -264,7 +264,7 @@
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/n0;->b(Ljava/util/List;)V
 
-    iget-object p0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->C:Li6/e;
+    iget-object p0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->C:Li6/e;
 
     if-eqz p0, :cond_3
 
@@ -287,7 +287,7 @@
     throw v1
 .end method
 
-.method public static final i(Lcom/primetv/watch/ui/livetv/LiveTvFragment;Ljava/lang/String;)V
+.method public static final i(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;Ljava/lang/String;)V
     .locals 5
 
     invoke-virtual {p1}, Ljava/lang/String;->length()I
@@ -296,12 +296,12 @@
 
     if-nez v0, :cond_0
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->D:Ljava/util/List;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->D:Ljava/util/List;
 
     goto :goto_1
 
     :cond_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->D:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->D:Ljava/util/List;
 
     new-instance v1, Ljava/util/ArrayList;
 
@@ -325,9 +325,9 @@
 
     move-object v3, v2
 
-    check-cast v3, Lcom/primetv/watch/data/model/Package;
+    check-cast v3, Lcom/galiltv/watch/data/model/Package;
 
-    invoke-virtual {v3}, Lcom/primetv/watch/data/model/Package;->getName()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/galiltv/watch/data/model/Package;->getName()Ljava/lang/String;
 
     move-result-object v3
 
@@ -347,7 +347,7 @@
     move-object p1, v1
 
     :goto_1
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->z:Li6/x;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->z:Li6/x;
 
     const/4 v1, 0x0
 
@@ -355,7 +355,7 @@
 
     invoke-virtual {v0, p1}, Landroidx/recyclerview/widget/n0;->b(Ljava/util/List;)V
 
-    iget-object p0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->B:Li6/e;
+    iget-object p0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->B:Li6/e;
 
     if-eqz p0, :cond_3
 
@@ -449,7 +449,7 @@
     return-object v2
 
     :cond_0
-    invoke-static {v2}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->m(Landroid/view/ViewGroup;)Landroid/view/ViewGroup;
+    invoke-static {v2}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->m(Landroid/view/ViewGroup;)Landroid/view/ViewGroup;
 
     move-result-object v2
 
@@ -473,9 +473,9 @@
 .method public final k()V
     .locals 5
 
-    iget v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->i:I
+    iget v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->i:I
 
-    iput v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->l:I
+    iput v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->l:I
 
     invoke-virtual {p0}, Landroidx/fragment/app/h0;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -596,11 +596,11 @@
 
     move-result-object v0
 
-    instance-of v2, v0, Lcom/primetv/watch/MainActivity;
+    instance-of v2, v0, Lcom/galiltv/watch/MainActivity;
 
     if-eqz v2, :cond_4
 
-    check-cast v0, Lcom/primetv/watch/MainActivity;
+    check-cast v0, Lcom/galiltv/watch/MainActivity;
 
     goto :goto_1
 
@@ -610,14 +610,14 @@
     :goto_1
     if-eqz v0, :cond_5
 
-    invoke-virtual {v0, v3}, Lcom/primetv/watch/MainActivity;->E(Z)V
+    invoke-virtual {v0, v3}, Lcom/galiltv/watch/MainActivity;->E(Z)V
 
     :cond_5
     const/4 v0, 0x3
 
-    iput v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->i:I
+    iput v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->i:I
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -627,7 +627,7 @@
 
     invoke-virtual {v2, v0}, Landroidx/media3/ui/PlayerView;->setResizeMode(I)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -635,7 +635,7 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -659,7 +659,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -669,15 +669,15 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
-    invoke-virtual {p0, v3}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->y(Z)V
+    invoke-virtual {p0, v3}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->y(Z)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->e:Lcom/primetv/watch/data/model/Channel;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->e:Lcom/galiltv/watch/data/model/Channel;
 
     if-eqz v0, :cond_6
 
-    invoke-virtual {p0, v0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->v(Lcom/primetv/watch/data/model/Channel;)V
+    invoke-virtual {p0, v0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->v(Lcom/galiltv/watch/data/model/Channel;)V
 
-    invoke-virtual {v0}, Lcom/primetv/watch/data/model/Channel;->getSources()Ljava/util/List;
+    invoke-virtual {v0}, Lcom/galiltv/watch/data/model/Channel;->getSources()Ljava/util/List;
 
     move-result-object v0
 
@@ -687,7 +687,7 @@
 
     if-nez v0, :cond_6
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->v:Landroid/widget/HorizontalScrollView;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->v:Landroid/widget/HorizontalScrollView;
 
     if-eqz v0, :cond_6
 
@@ -700,11 +700,11 @@
 .method public final l()V
     .locals 4
 
-    iget-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->j:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->j:Z
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->o()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->o()V
 
     :cond_0
     invoke-virtual {p0}, Landroidx/fragment/app/h0;->requireActivity()Landroidx/fragment/app/FragmentActivity;
@@ -715,17 +715,17 @@
 
     invoke-virtual {v0, v1}, Landroid/app/Activity;->setRequestedOrientation(I)V
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->w()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->w()V
 
     invoke-virtual {p0}, Landroidx/fragment/app/h0;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
     move-result-object v0
 
-    instance-of v1, v0, Lcom/primetv/watch/MainActivity;
+    instance-of v1, v0, Lcom/galiltv/watch/MainActivity;
 
     if-eqz v1, :cond_1
 
-    check-cast v0, Lcom/primetv/watch/MainActivity;
+    check-cast v0, Lcom/galiltv/watch/MainActivity;
 
     goto :goto_0
 
@@ -737,14 +737,14 @@
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {v0, v1}, Lcom/primetv/watch/MainActivity;->E(Z)V
+    invoke-virtual {v0, v1}, Lcom/galiltv/watch/MainActivity;->E(Z)V
 
     :cond_2
-    iget v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->l:I
+    iget v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->l:I
 
-    iput v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->i:I
+    iput v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->i:I
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -752,11 +752,11 @@
 
     check-cast v0, Landroidx/media3/ui/PlayerView;
 
-    iget v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->l:I
+    iget v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->l:I
 
     invoke-virtual {v0, v2}, Landroidx/media3/ui/PlayerView;->setResizeMode(I)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -764,7 +764,7 @@
 
     check-cast v0, Landroid/widget/FrameLayout;
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -786,7 +786,7 @@
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -794,9 +794,9 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    invoke-virtual {p0, v1}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->y(Z)V
+    invoke-virtual {p0, v1}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->y(Z)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->v:Landroid/widget/HorizontalScrollView;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->v:Landroid/widget/HorizontalScrollView;
 
     if-eqz v0, :cond_3
 
@@ -805,7 +805,7 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     :cond_3
-    iput-boolean v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iput-boolean v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
     return-void
 .end method
@@ -813,7 +813,7 @@
 .method public final n()Li6/v;
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->c:Landroidx/lifecycle/ViewModelLazy;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->c:Landroidx/lifecycle/ViewModelLazy;
 
     invoke-interface {v0}, Lx6/i;->getValue()Ljava/lang/Object;
 
@@ -827,14 +827,14 @@
 .method public final o()V
     .locals 5
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->w:Landroid/widget/FrameLayout;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->w:Landroid/widget/FrameLayout;
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
     :cond_0
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->y:Landroid/widget/LinearLayout;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->y:Landroid/widget/LinearLayout;
 
     if-nez v1, :cond_1
 
@@ -892,7 +892,7 @@
 
     invoke-virtual {v0}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->q:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->q:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_2
 
@@ -903,7 +903,7 @@
     :cond_2
     const/4 v0, 0x0
 
-    iput-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->j:Z
+    iput-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->j:Z
 
     return-void
 .end method
@@ -925,28 +925,28 @@
 
     if-ne p1, v0, :cond_0
 
-    iget-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
     if-nez v0, :cond_0
 
-    iput-boolean v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iput-boolean v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->k()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->k()V
 
     return-void
 
     :cond_0
     if-ne p1, v1, :cond_1
 
-    iget-boolean p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iget-boolean p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
     if-eqz p1, :cond_1
 
     const/4 p1, 0x0
 
-    iput-boolean p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iput-boolean p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->l()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->l()V
 
     :cond_1
     return-void
@@ -1109,7 +1109,7 @@
 
     move-object/from16 v2, p0
 
-    iput-object v3, v2, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iput-object v3, v2, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     const-string v0, "getRoot(...)"
 
@@ -1146,7 +1146,7 @@
 
     invoke-super {p0}, Landroidx/fragment/app/h0;->onDestroy()V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_2
 
@@ -1182,7 +1182,7 @@
     const/4 v0, 0x0
 
     :try_start_0
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v1, :cond_0
 
@@ -1190,7 +1190,7 @@
 
     if-eqz v1, :cond_0
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->F:Li6/n;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->F:Li6/n;
 
     invoke-interface {v1, v2}, Landroidx/media3/common/Player;->removeListener(Landroidx/media3/common/Player$Listener;)V
 
@@ -1203,7 +1203,7 @@
 
     :cond_0
     :goto_0
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->g:Landroid/support/v4/media/session/d0;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->g:Landroid/support/v4/media/session/d0;
 
     if-eqz v1, :cond_1
 
@@ -1228,9 +1228,9 @@
     invoke-virtual {v1, v2}, Lj3/h;->e(Lj3/i;)V
 
     :cond_1
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->o()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->o()V
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->w:Landroid/widget/FrameLayout;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->w:Landroid/widget/FrameLayout;
 
     if-eqz v1, :cond_3
 
@@ -1255,7 +1255,7 @@
     invoke-virtual {v2, v1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
     :cond_3
-    iget-boolean v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iget-boolean v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
     if-eqz v1, :cond_6
 
@@ -1271,11 +1271,11 @@
 
     move-result-object v1
 
-    instance-of v2, v1, Lcom/primetv/watch/MainActivity;
+    instance-of v2, v1, Lcom/galiltv/watch/MainActivity;
 
     if-eqz v2, :cond_4
 
-    check-cast v1, Lcom/primetv/watch/MainActivity;
+    check-cast v1, Lcom/galiltv/watch/MainActivity;
 
     goto :goto_2
 
@@ -1287,10 +1287,10 @@
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/primetv/watch/MainActivity;->E(Z)V
+    invoke-virtual {v1, v2}, Lcom/galiltv/watch/MainActivity;->E(Z)V
 
     :cond_5
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->w()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->w()V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1305,7 +1305,7 @@
 
     :cond_6
     :goto_4
-    iput-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     return-void
 .end method
@@ -1315,7 +1315,7 @@
 
     invoke-super {p0}, Landroidx/fragment/app/h0;->onPause()V
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
 
     move-result-object v0
 
@@ -1357,7 +1357,7 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_0
 
@@ -1370,11 +1370,11 @@
     invoke-interface {v0, v1}, Landroidx/media3/common/Player;->setPlayWhenReady(Z)V
 
     :cond_0
-    iget-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->j:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->j:Z
 
     if-eqz v0, :cond_1
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->o()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->o()V
 
     :cond_1
     return-void
@@ -1389,7 +1389,7 @@
 
     if-eqz p1, :cond_1
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1399,14 +1399,14 @@
 
     invoke-virtual {p1, v0}, Landroidx/media3/ui/PlayerView;->setUseController(Z)V
 
-    iget-boolean p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->j:Z
+    iget-boolean p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->j:Z
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->o()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->o()V
 
     :cond_0
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1419,7 +1419,7 @@
     return-void
 
     :cond_1
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1431,20 +1431,20 @@
 
     invoke-virtual {p1, v1}, Landroidx/media3/ui/PlayerView;->setUseController(Z)V
 
-    iget-boolean p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->k:Z
+    iget-boolean p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->k:Z
 
     if-eqz p1, :cond_2
 
-    iput-boolean v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iput-boolean v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->k()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->k()V
 
     return-void
 
     :cond_2
-    iput-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iput-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->l()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->l()V
 
     return-void
 .end method
@@ -1460,7 +1460,7 @@
 
     if-le v0, v1, :cond_1
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_0
 
@@ -1475,10 +1475,10 @@
     if-nez v0, :cond_2
 
     :cond_1
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->p()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->p()V
 
     :cond_2
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_3
 
@@ -1491,24 +1491,24 @@
     invoke-interface {v0, v1}, Landroidx/media3/common/Player;->setPlayWhenReady(Z)V
 
     :cond_3
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->e:Lcom/primetv/watch/data/model/Channel;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->e:Lcom/galiltv/watch/data/model/Channel;
 
     if-eqz v0, :cond_4
 
-    invoke-virtual {v0}, Lcom/primetv/watch/data/model/Channel;->getId()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/galiltv/watch/data/model/Channel;->getId()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_4
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Li6/v;->c(Ljava/lang/String;)V
 
     :cond_4
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_5
 
@@ -1524,7 +1524,7 @@
 
     if-ne v0, v1, :cond_5
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1539,7 +1539,7 @@
     return-void
 
     :cond_5
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_6
 
@@ -1555,7 +1555,7 @@
 
     if-ne v0, v1, :cond_6
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1582,7 +1582,7 @@
 
     if-le v0, v1, :cond_0
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->p()V
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->p()V
 
     :cond_0
     return-void
@@ -1597,7 +1597,7 @@
 
     invoke-super {p0, p1, p2}, Landroidx/fragment/app/h0;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
 
     move-result-object p1
 
@@ -1617,7 +1617,7 @@
 
     iput-object p2, p1, Li6/v;->b:Landroid/content/Context;
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1629,7 +1629,7 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setScaleX(F)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1639,7 +1639,7 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setScaleY(F)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-nez p1, :cond_0
 
@@ -1651,7 +1651,7 @@
 
     invoke-static {p2, v0}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1659,7 +1659,7 @@
 
     check-cast v1, Landroidx/media3/ui/PlayerView;
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1667,7 +1667,7 @@
 
     check-cast v2, Landroid/widget/ProgressBar;
 
-    iget-object v3, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v3, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v3}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1677,7 +1677,7 @@
 
     invoke-direct {p1, p2, v1, v2, v3}, Lm6/q;-><init>(Landroid/content/Context;Landroidx/media3/ui/PlayerView;Landroid/view/View;Landroid/view/View;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     :cond_0
     :try_start_0
@@ -1693,7 +1693,7 @@
 
     invoke-direct {p1, p2, v0}, Landroid/support/v4/media/session/d0;-><init>(Landroid/content/Context;I)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->g:Landroid/support/v4/media/session/d0;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->g:Landroid/support/v4/media/session/d0;
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -1717,13 +1717,13 @@
 
     const/4 v0, 0x3
 
-    invoke-direct {p2, p0, v0}, Li6/h;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {p2, p0, v0}, Li6/h;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-direct {p1, p2}, Li6/x;-><init>(Li6/h;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->z:Li6/x;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->z:Li6/x;
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1741,7 +1741,7 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/j1;)V
 
-    iget-object p2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->z:Li6/x;
+    iget-object p2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->z:Li6/x;
 
     const/4 v1, 0x0
 
@@ -1757,19 +1757,19 @@
 
     const/4 v2, 0x4
 
-    invoke-direct {p2, p0, v2}, Li6/h;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {p2, p0, v2}, Li6/h;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     new-instance v2, Li6/h;
 
     const/4 v3, 0x5
 
-    invoke-direct {v2, p0, v3}, Li6/h;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v2, p0, v3}, Li6/h;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-direct {p1, p2, v2}, Li6/c;-><init>(Li6/h;Li6/h;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->A:Li6/c;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->A:Li6/c;
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1785,7 +1785,7 @@
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/j1;)V
 
-    iget-object p2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->A:Li6/c;
+    iget-object p2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->A:Li6/c;
 
     if-eqz p2, :cond_2
 
@@ -1799,7 +1799,7 @@
 
     invoke-direct {p1, p0, p2}, Landroidx/recyclerview/widget/y;-><init>(Ljava/lang/Object;I)V
 
-    iget-object p2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1809,7 +1809,7 @@
 
     invoke-virtual {p2, p1}, Landroidx/recyclerview/widget/RecyclerView;->addOnScrollListener(Landroidx/recyclerview/widget/o1;)V
 
-    iget-object p2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1825,11 +1825,11 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p2, p0, v0}, Li6/h;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {p2, p0, v0}, Li6/h;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-direct {p1, p2}, Li6/e;-><init>(Li6/h;)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->B:Li6/e;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->B:Li6/e;
 
     new-instance p1, Li6/e;
 
@@ -1837,13 +1837,13 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p2, p0, v0}, Li6/h;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {p2, p0, v0}, Li6/h;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     const/4 v0, 0x0
 
     invoke-direct {p1, p2, v0}, Li6/e;-><init>(Li6/h;B)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->C:Li6/e;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->C:Li6/e;
 
     invoke-virtual {p0}, Landroidx/fragment/app/h0;->requireActivity()Landroidx/fragment/app/FragmentActivity;
 
@@ -1865,7 +1865,7 @@
 
     const/4 v2, 0x2
 
-    invoke-direct {v0, p0, v2}, Li6/h;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v0, p0, v2}, Li6/h;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     new-instance v2, Landroidx/fragment/app/u0;
 
@@ -1883,7 +1883,7 @@
     invoke-virtual {p1, v2}, Lf/b0;->b(Lf/s;)Lf/z;
 
     :goto_1
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1895,11 +1895,11 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p2, p0, v0}, Li6/o;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {p2, p0, v0}, Li6/o;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1911,11 +1911,11 @@
 
     const/4 v0, 0x1
 
-    invoke-direct {p2, p0, v0}, Li6/o;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {p2, p0, v0}, Li6/o;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {p1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -1925,7 +1925,7 @@
 
     const/4 v0, 0x0
 
-    invoke-direct {p2, p0, v0}, Li6/f;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {p2, p0, v0}, Li6/f;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -1943,7 +1943,7 @@
 
     new-instance v5, Li6/m;
 
-    invoke-direct {v5, p0, v1}, Li6/m;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;Lc7/e;)V
+    invoke-direct {v5, p0, v1}, Li6/m;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;Lc7/e;)V
 
     const/4 v6, 0x3
 
@@ -1955,7 +1955,7 @@
 
     invoke-static/range {v2 .. v7}, Lkotlinx/coroutines/BuildersKt;->launch$default(Lkotlinx/coroutines/CoroutineScope;Lc7/j;Lkotlinx/coroutines/CoroutineStart;Lo7/c;ILjava/lang/Object;)Lkotlinx/coroutines/Job;
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
 
     move-result-object p1
 
@@ -1981,11 +1981,11 @@
 .method public final p()V
     .locals 10
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     if-eqz v0, :cond_0
 
@@ -1999,7 +1999,7 @@
 
     invoke-static {v1, v2}, Lkotlin/jvm/internal/s;->e(Ljava/lang/Object;Ljava/lang/String;)V
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v2}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2007,7 +2007,7 @@
 
     check-cast v2, Landroidx/media3/ui/PlayerView;
 
-    iget-object v3, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v3, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v3}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2015,7 +2015,7 @@
 
     check-cast v3, Landroid/widget/ProgressBar;
 
-    iget-object v4, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v4, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v4}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2025,10 +2025,10 @@
 
     invoke-direct {v0, v1, v2, v3, v4}, Lm6/q;-><init>(Landroid/content/Context;Landroidx/media3/ui/PlayerView;Landroid/view/View;Landroid/view/View;)V
 
-    iput-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iput-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     :cond_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_2
 
@@ -2169,9 +2169,9 @@
 
     :cond_2
     :goto_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->F:Li6/n;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->F:Li6/n;
 
     if-eqz v0, :cond_3
 
@@ -2182,7 +2182,7 @@
     invoke-interface {v0, v1}, Landroidx/media3/common/Player;->removeListener(Landroidx/media3/common/Player$Listener;)V
 
     :cond_3
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_4
 
@@ -2193,7 +2193,7 @@
     invoke-interface {v0, v1}, Landroidx/media3/common/Player;->addListener(Landroidx/media3/common/Player$Listener;)V
 
     :cond_4
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2211,7 +2211,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2225,7 +2225,7 @@
 
     if-nez v0, :cond_6
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2233,7 +2233,7 @@
 
     check-cast v0, Landroidx/media3/ui/PlayerView;
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v1, :cond_5
 
@@ -2286,27 +2286,27 @@
     return v0
 .end method
 
-.method public final r(Lcom/primetv/watch/data/model/Channel;)V
+.method public final r(Lcom/galiltv/watch/data/model/Channel;)V
     .locals 4
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->e:Lcom/primetv/watch/data/model/Channel;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->e:Lcom/galiltv/watch/data/model/Channel;
 
     if-eqz p1, :cond_0
 
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/Channel;->getId()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/Channel;->getId()Ljava/lang/String;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->n()Li6/v;
 
     move-result-object v1
 
     invoke-virtual {v1, v0}, Li6/v;->c(Ljava/lang/String;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2318,7 +2318,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2330,17 +2330,17 @@
 
     invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    iget-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->h:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->h:Z
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->v(Lcom/primetv/watch/data/model/Channel;)V
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->v(Lcom/galiltv/watch/data/model/Channel;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->v:Landroid/widget/HorizontalScrollView;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->v:Landroid/widget/HorizontalScrollView;
 
     if-eqz v0, :cond_2
 
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/Channel;->getSources()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/Channel;->getSources()Ljava/util/List;
 
     move-result-object v3
 
@@ -2356,7 +2356,7 @@
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     :cond_2
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/Channel;->getSources()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/Channel;->getSources()Ljava/util/List;
 
     move-result-object v0
 
@@ -2366,7 +2366,7 @@
 
     if-nez v0, :cond_3
 
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/Channel;->getSources()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/Channel;->getSources()Ljava/util/List;
 
     move-result-object p1
 
@@ -2374,21 +2374,21 @@
 
     move-result-object p1
 
-    check-cast p1, Lcom/primetv/watch/data/model/StreamSource;
+    check-cast p1, Lcom/galiltv/watch/data/model/StreamSource;
 
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/StreamSource;->getUrl()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/StreamSource;->getUrl()Ljava/lang/String;
 
     move-result-object p1
 
     goto :goto_0
 
     :cond_3
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/Channel;->getStreamUrl()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/Channel;->getStreamUrl()Ljava/lang/String;
 
     move-result-object p1
 
     :goto_0
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->s(Ljava/lang/String;)V
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->s(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -2396,7 +2396,7 @@
 .method public final s(Ljava/lang/String;)V
     .locals 9
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2408,13 +2408,13 @@
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    iput-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->f:Ljava/lang/String;
+    iput-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->f:Ljava/lang/String;
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->d:Lm6/q;
 
     if-eqz v0, :cond_6
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->e:Lcom/primetv/watch/data/model/Channel;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->e:Lcom/galiltv/watch/data/model/Channel;
 
     invoke-static {p0}, Landroidx/lifecycle/LifecycleOwnerKt;->getLifecycleScope(Landroidx/lifecycle/LifecycleOwner;)Landroidx/lifecycle/LifecycleCoroutineScope;
 
@@ -2479,7 +2479,7 @@
 
     new-instance v6, Lm6/n;
 
-    invoke-direct {v6, v0, p1, v2, v7}, Lm6/n;-><init>(Lm6/q;Ljava/lang/String;Lcom/primetv/watch/data/model/Channel;Lc7/e;)V
+    invoke-direct {v6, v0, p1, v2, v7}, Lm6/n;-><init>(Lm6/q;Ljava/lang/String;Lcom/galiltv/watch/data/model/Channel;Lc7/e;)V
 
     const/4 v7, 0x3
 
@@ -2508,7 +2508,7 @@
 .method public final t()V
     .locals 4
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->n:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->n:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_0
 
@@ -2516,12 +2516,12 @@
 
     const/4 v2, 0x1
 
-    invoke-direct {v1, p0, v2}, Li6/f;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v1, p0, v2}, Li6/f;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->o:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->o:Landroid/widget/ImageButton;
 
     const/4 v1, 0x0
 
@@ -2533,12 +2533,12 @@
 
     const/4 v3, 0x2
 
-    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_1
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->q:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->q:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_2
 
@@ -2546,12 +2546,12 @@
 
     const/4 v3, 0x3
 
-    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_2
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->r:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->r:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_3
 
@@ -2559,18 +2559,18 @@
 
     const/4 v3, 0x4
 
-    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     :cond_3
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->q()Z
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->q()Z
 
     move-result v0
 
     if-eqz v0, :cond_4
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->p:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->p:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_5
 
@@ -2578,14 +2578,14 @@
 
     const/4 v3, 0x5
 
-    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v2, p0, v3}, Li6/f;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     goto :goto_0
 
     :cond_4
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->p:Landroid/widget/ImageButton;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->p:Landroid/widget/ImageButton;
 
     if-eqz v0, :cond_5
 
@@ -2595,7 +2595,7 @@
 
     :cond_5
     :goto_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->s:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->s:Landroid/widget/LinearLayout;
 
     if-eqz v0, :cond_6
 
@@ -2613,7 +2613,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2629,7 +2629,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v1}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -2647,7 +2647,7 @@
 
     check-cast v1, Landroid/widget/FrameLayout;
 
-    iput-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->w:Landroid/widget/FrameLayout;
+    iput-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->w:Landroid/widget/FrameLayout;
 
     const v1, 0x7f0b0326
 
@@ -2655,7 +2655,7 @@
 
     move-result-object v1
 
-    iput-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->x:Landroid/view/View;
+    iput-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->x:Landroid/view/View;
 
     const v1, 0x7f0b00e2
 
@@ -2665,7 +2665,7 @@
 
     check-cast v1, Landroid/widget/LinearLayout;
 
-    iput-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->y:Landroid/widget/LinearLayout;
+    iput-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->y:Landroid/widget/LinearLayout;
 
     const v1, 0x7f0b0330
 
@@ -2685,7 +2685,7 @@
 
     invoke-virtual {v1, v2}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/j1;)V
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->B:Li6/e;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->B:Li6/e;
 
     const/4 v4, 0x0
 
@@ -2709,13 +2709,13 @@
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setLayoutManager(Landroidx/recyclerview/widget/j1;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->C:Li6/e;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->C:Li6/e;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v0, v1}, Landroidx/recyclerview/widget/RecyclerView;->setAdapter(Landroidx/recyclerview/widget/x0;)V
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->x:Landroid/view/View;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->x:Landroid/view/View;
 
     if-eqz v0, :cond_0
 
@@ -2723,7 +2723,7 @@
 
     const/4 v2, 0x6
 
-    invoke-direct {v1, p0, v2}, Li6/f;-><init>(Lcom/primetv/watch/ui/livetv/LiveTvFragment;I)V
+    invoke-direct {v1, p0, v2}, Li6/f;-><init>(Lcom/galiltv/watch/ui/livetv/LiveTvFragment;I)V
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2763,10 +2763,10 @@
     return-void
 .end method
 
-.method public final v(Lcom/primetv/watch/data/model/Channel;)V
+.method public final v(Lcom/galiltv/watch/data/model/Channel;)V
     .locals 11
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->u:Landroid/widget/LinearLayout;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->u:Landroid/widget/LinearLayout;
 
     if-nez v0, :cond_0
 
@@ -2775,7 +2775,7 @@
     :cond_0
     invoke-virtual {v0}, Landroid/view/ViewGroup;->removeAllViews()V
 
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/Channel;->getSources()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/Channel;->getSources()Ljava/util/List;
 
     move-result-object v1
 
@@ -2788,7 +2788,7 @@
     goto/16 :goto_2
 
     :cond_1
-    invoke-virtual {p1}, Lcom/primetv/watch/data/model/Channel;->getSources()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/galiltv/watch/data/model/Channel;->getSources()Ljava/util/List;
 
     move-result-object p1
 
@@ -2817,7 +2817,7 @@
 
     if-ltz v2, :cond_6
 
-    check-cast v3, Lcom/primetv/watch/data/model/StreamSource;
+    check-cast v3, Lcom/galiltv/watch/data/model/StreamSource;
 
     new-instance v6, Landroid/widget/TextView;
 
@@ -2827,7 +2827,7 @@
 
     invoke-direct {v6, v7}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
-    invoke-virtual {v3}, Lcom/primetv/watch/data/model/StreamSource;->getName()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/galiltv/watch/data/model/StreamSource;->getName()Ljava/lang/String;
 
     move-result-object v7
 
@@ -2895,14 +2895,14 @@
 
     invoke-virtual {v6, v5}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    iget-object v5, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->f:Ljava/lang/String;
+    iget-object v5, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->f:Ljava/lang/String;
 
     if-nez v5, :cond_2
 
     if-eqz v2, :cond_4
 
     :cond_2
-    invoke-virtual {v3}, Lcom/primetv/watch/data/model/StreamSource;->getUrl()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/galiltv/watch/data/model/StreamSource;->getUrl()Ljava/lang/String;
 
     move-result-object v2
 
@@ -2923,7 +2923,7 @@
 
     new-instance v2, Li6/j;
 
-    invoke-direct {v2, v0, v6, p0, v3}, Li6/j;-><init>(Landroid/widget/LinearLayout;Landroid/widget/TextView;Lcom/primetv/watch/ui/livetv/LiveTvFragment;Lcom/primetv/watch/data/model/StreamSource;)V
+    invoke-direct {v2, v0, v6, p0, v3}, Li6/j;-><init>(Landroid/widget/LinearLayout;Landroid/widget/TextView;Lcom/galiltv/watch/ui/livetv/LiveTvFragment;Lcom/galiltv/watch/data/model/StreamSource;)V
 
     invoke-virtual {v6, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
@@ -2933,15 +2933,15 @@
 
     if-eqz v2, :cond_5
 
-    iget-object v2, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->f:Ljava/lang/String;
+    iget-object v2, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->f:Ljava/lang/String;
 
     if-nez v2, :cond_5
 
-    invoke-virtual {v3}, Lcom/primetv/watch/data/model/StreamSource;->getUrl()Ljava/lang/String;
+    invoke-virtual {v3}, Lcom/galiltv/watch/data/model/StreamSource;->getUrl()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-virtual {p0, v2}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->s(Ljava/lang/String;)V
+    invoke-virtual {p0, v2}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->s(Ljava/lang/String;)V
 
     :cond_5
     invoke-virtual {v0, v6}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
@@ -3049,11 +3049,11 @@
 .method public final x()V
     .locals 2
 
-    iget-boolean v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->m:Z
+    iget-boolean v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->m:Z
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -3066,7 +3066,7 @@
     return-void
 
     :cond_0
-    iget-object v0, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
+    iget-object v0, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->b:Lc6/a;
 
     invoke-static {v0}, Lkotlin/jvm/internal/s;->c(Ljava/lang/Object;)V
 
@@ -3102,41 +3102,41 @@
     const/16 p1, 0x8
 
     :goto_0
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->n:Landroid/widget/ImageButton;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->n:Landroid/widget/ImageButton;
 
     if-eqz v1, :cond_1
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_1
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->r:Landroid/widget/ImageButton;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->r:Landroid/widget/ImageButton;
 
     if-eqz v1, :cond_2
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_2
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->q:Landroid/widget/ImageButton;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->q:Landroid/widget/ImageButton;
 
     if-eqz v1, :cond_3
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_3
-    invoke-virtual {p0}, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->q()Z
+    invoke-virtual {p0}, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->q()Z
 
     move-result v1
 
     if-eqz v1, :cond_4
 
-    iget-object v1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->p:Landroid/widget/ImageButton;
+    iget-object v1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->p:Landroid/widget/ImageButton;
 
     if-eqz v1, :cond_4
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
 
     :cond_4
-    iget-object p1, p0, Lcom/primetv/watch/ui/livetv/LiveTvFragment;->o:Landroid/widget/ImageButton;
+    iget-object p1, p0, Lcom/galiltv/watch/ui/livetv/LiveTvFragment;->o:Landroid/widget/ImageButton;
 
     if-eqz p1, :cond_5
 

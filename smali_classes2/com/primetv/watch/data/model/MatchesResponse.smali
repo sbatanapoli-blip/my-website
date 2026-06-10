@@ -1,4 +1,4 @@
-.class public final Lcom/primetv/watch/data/model/MatchesResponse;
+.class public final Lcom/galiltv/watch/data/model/MatchesResponse;
 .super Ljava/lang/Object;
 .source "r8-map-id-aa146af3f148a1b6b875a833953e1fa15578e27c9e7d512379efe593c27a9647"
 
@@ -9,11 +9,11 @@
         "\u0000*\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0000\u0008\u0086\u0008\u0018\u00002\u00020\u0001B\u0019\u0012\u0010\u0008\u0002\u0010\u0002\u001a\n\u0012\u0004\u0012\u00020\u0004\u0018\u00010\u0003\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0011\u0010\t\u001a\n\u0012\u0004\u0012\u00020\u0004\u0018\u00010\u0003H\u00c6\u0003J\u001b\u0010\n\u001a\u00020\u00002\u0010\u0008\u0002\u0010\u0002\u001a\n\u0012\u0004\u0012\u00020\u0004\u0018\u00010\u0003H\u00c6\u0001J\u0013\u0010\u000b\u001a\u00020\u000c2\u0008\u0010\r\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003J\t\u0010\u000e\u001a\u00020\u000fH\u00d6\u0001J\t\u0010\u0010\u001a\u00020\u0011H\u00d6\u0001R\u001e\u0010\u0002\u001a\n\u0012\u0004\u0012\u00020\u0004\u0018\u00010\u00038\u0006X\u0087\u0004\u00a2\u0006\u0008\n\u0000\u001a\u0004\u0008\u0007\u0010\u0008\u00a8\u0006\u0012"
     }
     d2 = {
-        "Lcom/primetv/watch/data/model/MatchesResponse;",
+        "Lcom/galiltv/watch/data/model/MatchesResponse;",
         "",
         "leagues",
         "",
-        "Lcom/primetv/watch/data/model/LeagueMatches;",
+        "Lcom/galiltv/watch/data/model/LeagueMatches;",
         "<init>",
         "(Ljava/util/List;)V",
         "getLeagues",
@@ -48,7 +48,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/LeagueMatches;",
+            "Lcom/galiltv/watch/data/model/LeagueMatches;",
             ">;"
         }
     .end annotation
@@ -63,7 +63,7 @@
 
     const/4 v1, 0x1
 
-    invoke-direct {p0, v0, v1, v0}, Lcom/primetv/watch/data/model/MatchesResponse;-><init>(Ljava/util/List;ILkotlin/jvm/internal/j;)V
+    invoke-direct {p0, v0, v1, v0}, Lcom/galiltv/watch/data/model/MatchesResponse;-><init>(Ljava/util/List;ILkotlin/jvm/internal/j;)V
 
     return-void
 .end method
@@ -74,14 +74,14 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/LeagueMatches;",
+            "Lcom/galiltv/watch/data/model/LeagueMatches;",
             ">;)V"
         }
     .end annotation
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iput-object p1, p0, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
     return-void
 .end method
@@ -96,22 +96,22 @@
     const/4 p1, 0x0
 
     :cond_0
-    invoke-direct {p0, p1}, Lcom/primetv/watch/data/model/MatchesResponse;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/galiltv/watch/data/model/MatchesResponse;-><init>(Ljava/util/List;)V
 
     return-void
 .end method
 
-.method public static synthetic copy$default(Lcom/primetv/watch/data/model/MatchesResponse;Ljava/util/List;ILjava/lang/Object;)Lcom/primetv/watch/data/model/MatchesResponse;
+.method public static synthetic copy$default(Lcom/galiltv/watch/data/model/MatchesResponse;Ljava/util/List;ILjava/lang/Object;)Lcom/galiltv/watch/data/model/MatchesResponse;
     .locals 0
 
     and-int/lit8 p2, p2, 0x1
 
     if-eqz p2, :cond_0
 
-    iget-object p1, p0, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iget-object p1, p0, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
     :cond_0
-    invoke-virtual {p0, p1}, Lcom/primetv/watch/data/model/MatchesResponse;->copy(Ljava/util/List;)Lcom/primetv/watch/data/model/MatchesResponse;
+    invoke-virtual {p0, p1}, Lcom/galiltv/watch/data/model/MatchesResponse;->copy(Ljava/util/List;)Lcom/galiltv/watch/data/model/MatchesResponse;
 
     move-result-object p0
 
@@ -126,31 +126,31 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/LeagueMatches;",
+            "Lcom/galiltv/watch/data/model/LeagueMatches;",
             ">;"
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
     return-object v0
 .end method
 
-.method public final copy(Ljava/util/List;)Lcom/primetv/watch/data/model/MatchesResponse;
+.method public final copy(Ljava/util/List;)Lcom/galiltv/watch/data/model/MatchesResponse;
     .locals 1
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/LeagueMatches;",
+            "Lcom/galiltv/watch/data/model/LeagueMatches;",
             ">;)",
-            "Lcom/primetv/watch/data/model/MatchesResponse;"
+            "Lcom/galiltv/watch/data/model/MatchesResponse;"
         }
     .end annotation
 
-    new-instance v0, Lcom/primetv/watch/data/model/MatchesResponse;
+    new-instance v0, Lcom/galiltv/watch/data/model/MatchesResponse;
 
-    invoke-direct {v0, p1}, Lcom/primetv/watch/data/model/MatchesResponse;-><init>(Ljava/util/List;)V
+    invoke-direct {v0, p1}, Lcom/galiltv/watch/data/model/MatchesResponse;-><init>(Ljava/util/List;)V
 
     return-object v0
 .end method
@@ -165,7 +165,7 @@
     return v0
 
     :cond_0
-    instance-of v1, p1, Lcom/primetv/watch/data/model/MatchesResponse;
+    instance-of v1, p1, Lcom/galiltv/watch/data/model/MatchesResponse;
 
     const/4 v2, 0x0
 
@@ -174,11 +174,11 @@
     return v2
 
     :cond_1
-    check-cast p1, Lcom/primetv/watch/data/model/MatchesResponse;
+    check-cast p1, Lcom/galiltv/watch/data/model/MatchesResponse;
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
-    iget-object p1, p1, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iget-object p1, p1, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
     invoke-static {v1, p1}, Lkotlin/jvm/internal/s;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
 
@@ -198,12 +198,12 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/primetv/watch/data/model/LeagueMatches;",
+            "Lcom/galiltv/watch/data/model/LeagueMatches;",
             ">;"
         }
     .end annotation
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
     return-object v0
 .end method
@@ -211,7 +211,7 @@
 .method public hashCode()I
     .locals 1
 
-    iget-object v0, p0, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iget-object v0, p0, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
     if-nez v0, :cond_0
 
@@ -236,7 +236,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    iget-object v1, p0, Lcom/primetv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
+    iget-object v1, p0, Lcom/galiltv/watch/data/model/MatchesResponse;->leagues:Ljava/util/List;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
