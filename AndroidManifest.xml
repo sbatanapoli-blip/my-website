@@ -1,42 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:compileSdkVersion="35"
     android:compileSdkVersionCodename="15"
-    package="com.kiratv"
+    package="com.galiltv"
     platformBuildVersionCode="35"
-    platformBuildVersionName="15"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Permet à l'application de créer des sockets réseau et d'utiliser des protocoles réseau personnalisés. Le navigateur et d'autres applications permettent d'envoyer des données sur Internet. Cette autorisation n'est donc pas nécessaire pour envoyer des données sur Internet. -->
-    <uses-permission
-        android:name="android.permission.INTERNET" />
-    <!-- Permet à l'application d'accéder à des informations sur les connexions réseau, comme les réseaux existants et connectés. -->
-    <uses-permission
-        android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- Permet à l'application d'accéder à des informations sur les réseaux Wi-Fi afin de savoir si une connexion Wi-Fi est activée et pour connaître le nom des appareils connectés au Wi-Fi, par exemple. -->
-    <uses-permission
-        android:name="android.permission.ACCESS_WIFI_STATE" />
-    <!-- Permet à l'application de recevoir des paquets envoyés à tous les appareils (et pas seulement à votre téléphone) d'un réseau Wi-Fi qui utilise des adresses de multidiffusion. Cette autorisation entraîne une consommation d'énergie supérieure au mode de diffusion simple. -->
-    <uses-permission
-        android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
-    <!-- Permet à l'appli de déterminer la position approximative des appareils Wi‑Fi à proximité, de les afficher et de s'y connecter -->
+    platformBuildVersionName="15">
+
+    <!-- ✅ الصلاحيات خارج التطبيق -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <uses-permission
         android:name="android.permission.NEARBY_WIFI_DEVICES"
         android:usesPermissionFlags="neverForLocation" />
-    <!-- Permet à une application de demander l'installation de packages. -->
-    <uses-permission
-        android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-    <!-- Autorise l'appli à afficher des notifications -->
-    <uses-permission
-        android:name="android.permission.POST_NOTIFICATIONS" />
-    <!-- Cette appli peut programmer le déclenchement de "Travail" au moment voulu. Cela signifie aussi qu'elle peut s'exécuter lorsque vous n'utilisez pas activement l'appareil. -->
-    <uses-permission
-        android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-    <!-- Cette appli peut programmer des actions, comme des alarmes et des rappels, pour vous envoyer des notifications au moment voulu. -->
-    <uses-permission
-        android:name="android.permission.USE_EXACT_ALARM" />
-    <!-- Permet à l'application de se lancer une fois le démarrage du système terminé. Elle peut rallonger le temps de démarrage du téléphone et ralentir son fonctionnement global en raison de son exécution continue. -->
-    <uses-permission
-        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA" />
+    <uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- ✅ الميزات خارج التطبيق -->
     <uses-feature
         android:name="android.software.leanback"
         android:required="false" />
@@ -52,34 +40,26 @@
     <uses-feature
         android:name="android.hardware.screen.landscape"
         android:required="true" />
-    <queries>
-        <intent>
-            <action
-                android:name="android.intent.action.MAIN" />
-        </intent>
-        <package
-            android:name="com.google.android.gms.policy_cast_dynamite" />
-    </queries>
-    <!-- Autorise l'application à utiliser des services de premier plan. -->
-    <uses-permission
-        android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission
-        android:name="com.android.providers.tv.permission.WRITE_EPG_DATA" />
-    <uses-permission
-        android:name="com.android.providers.tv.permission.READ_EPG_DATA" />
-    <!-- Permet à l'application d'empêcher le téléphone de passer en mode veille. -->
-    <uses-permission
-        android:name="android.permission.WAKE_LOCK" />
+
+    <!-- الصلاحيات الخاصة -->
     <permission
         android:name="com.galiltv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
     <uses-permission
-        android:name="com.kiratv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+        android:name="com.galiltv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <package android:name="com.google.android.gms.policy_cast_dynamite" />
+    </queries>
+
+    <!-- ✅ التطبيق -->
     <application
         android:theme="@style/Theme.App.Splash"
         android:label="GalilTV"
         android:icon="@mipmap/ic_launcher"
-        android:name="com.galiltv.watch.MyApplication"
+        android:name="com.primetv.watch.MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:supportsRtl="false"
@@ -89,9 +69,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:localeConfig="@xml/locales_config">
+
         <meta-data
             android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
-            android:value="com.galiltv.watch.cast.CastOptionsProvider" />
+            android:value="com.primetv.watch.cast.CastOptionsProvider" />
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
@@ -101,6 +83,7 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
         <activity
             android:theme="@style/Theme.App.Splash"
             android:name="com.primetv.watch.MainActivity"
@@ -113,12 +96,10 @@
             android:supportsPictureInPicture="true"
             android:windowLayoutInDisplayCutoutMode="shortEdges">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.MAIN" />
-                <category
-                    android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:theme="@style/Theme.App.Splash"
             android:name="com.primetv.watch.ui.activation.ActivationActivity"
@@ -126,10 +107,11 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan"
             android:windowLayoutInDisplayCutoutMode="shortEdges" />
+
         <activity
             android:theme="@style/Theme.App.Splash"
             android:icon="@drawable/tv_newbanner"
-            android:name="com.galiltv.watch.TvMainActivity"
+            android:name="com.primetv.watch.TvMainActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:screenOrientation="sensorLandscape"
@@ -140,15 +122,14 @@
                 android:name="android.view.orientation"
                 android:value="landscape" />
             <intent-filter>
-                <action
-                    android:name="android.intent.action.MAIN" />
-                <category
-                    android:name="android.intent.category.LEANBACK_LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:theme="@style/Theme.App.Splash"
-            android:name="com.galiltv.watch.ui.tv.TvActivationActivity"
+            android:name="com.primetv.watch.ui.tv.TvActivationActivity"
             android:exported="false"
             android:screenOrientation="sensorLandscape"
             android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize"
@@ -158,6 +139,7 @@
                 android:name="android.view.orientation"
                 android:value="landscape" />
         </activity>
+
         <receiver
             android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
             android:exported="false" />
@@ -190,13 +172,16 @@
                 android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
+
         <activity
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
         <service
             android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
             android:enabled="@bool/enable_system_alarm_service_default"
@@ -209,85 +194,80 @@
             android:exported="true"
             android:directBootAware="false" />
         <service
-            android:name="androidx.work.impl.foreground.SystemForegroundService"
-            android:enabled="@bool/enable_system_foreground_service_default"
+            android:name="androidx.work.impl.foreground.SystemForegroundService"            android:enabled="@bool/enable_system_foreground_service_default"
             android:exported="false"
             android:directBootAware="false" />
+
         <receiver
             android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
             android:enabled="true"
             android:exported="false"
             android:directBootAware="false" />
+
         <receiver
             android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
             android:enabled="false"
             android:exported="false"
             android:directBootAware="false">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-                <action
-                    android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
             </intent-filter>
         </receiver>
+
         <receiver
             android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
             android:enabled="false"
             android:exported="false"
             android:directBootAware="false">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.BATTERY_OKAY" />
-                <action
-                    android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.BATTERY_LOW" />
             </intent-filter>
         </receiver>
+
         <receiver
             android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
             android:enabled="false"
             android:exported="false"
             android:directBootAware="false">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-                <action
-                    android:name="android.intent.action.DEVICE_STORAGE_OK" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
             </intent-filter>
         </receiver>
+
         <receiver
             android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
             android:enabled="false"
             android:exported="false"
             android:directBootAware="false">
             <intent-filter>
-                <action
-                    android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />            </intent-filter>
         </receiver>
+
         <receiver
             android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
             android:enabled="false"
             android:exported="false"
             android:directBootAware="false">
             <intent-filter>
-                <action
-                    android:name="android.intent.action.BOOT_COMPLETED" />
-                <action
-                    android:name="android.intent.action.TIME_SET" />
-                <action
-                    android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
             </intent-filter>
         </receiver>
+
         <receiver
             android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
             android:enabled="@bool/enable_system_alarm_service_default"
             android:exported="false"
             android:directBootAware="false">
             <intent-filter>
-                <action
-                    android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
             </intent-filter>
         </receiver>
+
         <receiver
             android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
             android:permission="android.permission.DUMP"
@@ -295,45 +275,36 @@
             android:exported="true"
             android:directBootAware="false">
             <intent-filter>
-                <action
-                    android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
             </intent-filter>
         </receiver>
+
         <uses-library
             android:name="androidx.window.extensions"
             android:required="false" />
         <uses-library
             android:name="androidx.window.sidecar"
             android:required="false" />
-        <uses-feature
-            android:name="android.hardware.touchscreen"
-            android:required="false" />
-        <uses-feature
-            android:name="android.software.leanback"
-            android:required="false" />
+
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
             android:permission="android.permission.DUMP"
             android:enabled="true"
             android:exported="true"
             android:directBootAware="false">
-            <intent-filter>
-                <action
-                    android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            <intent-filter>                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
             </intent-filter>
             <intent-filter>
-                <action
-                    android:name="androidx.profileinstaller.action.SKIP_FILE" />
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
             </intent-filter>
             <intent-filter>
-                <action
-                    android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
             </intent-filter>
             <intent-filter>
-                <action
-                    android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
+
         <service
             android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
             android:exported="false">
