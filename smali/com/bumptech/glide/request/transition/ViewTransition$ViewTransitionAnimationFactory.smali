@@ -1,0 +1,19 @@
+.class interface abstract Lcom/bumptech/glide/request/transition/ViewTransition$ViewTransitionAnimationFactory;
+.super Ljava/lang/Object;
+.source "r8-map-id-26b7ea099bd0f7f7963a95025b5353c85da3ce06d22b4c6a5aedeb33aa4a418f"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bumptech/glide/request/transition/ViewTransition;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "ViewTransitionAnimationFactory"
+.end annotation
+
+
+# virtual methods
+.method public abstract build(Landroid/content/Context;)Landroid/view/animation/Animation;
+.end method

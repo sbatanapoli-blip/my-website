@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/contact_developer">
+        <menu>
+            <item
+                android:icon="@drawable/ic_facebook"
+                android:id="@id/nav_facebook"
+                android:title="Facebook" />
+            <item
+                android:icon="@drawable/ic_telegram"
+                android:id="@id/nav_telegram"
+                android:title="Telegram" />
+            <item
+                android:icon="@drawable/ic_instagram"
+                android:id="@id/nav_instagram"
+                android:title="Instagram" />
+            <item
+                android:icon="@drawable/ic_gmail"
+                android:id="@id/nav_gmail"
+                android:title="Gmail" />
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/ic_share"
+        android:id="@id/nav_share"
+        android:title="@string/share_app" />
+</menu>

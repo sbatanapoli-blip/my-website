@@ -1,0 +1,108 @@
+.class final Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$ParcelFileDescriptorInitializer;
+.super Ljava/lang/Object;
+.source "r8-map-id-26b7ea099bd0f7f7963a95025b5353c85da3ce06d22b4c6a5aedeb33aa4a418f"
+
+# interfaces
+.implements Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$MediaInitializer;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "ParcelFileDescriptorInitializer"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$MediaInitializer<",
+        "Landroid/os/ParcelFileDescriptor;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+
+# virtual methods
+.method public initializeExtractor(Landroid/media/MediaExtractor;Landroid/os/ParcelFileDescriptor;)V
+    .locals 0
+
+    .line 2
+    invoke-virtual {p2}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Landroid/media/MediaExtractor;->setDataSource(Ljava/io/FileDescriptor;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic initializeExtractor(Landroid/media/MediaExtractor;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p2, Landroid/os/ParcelFileDescriptor;
+
+    invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$ParcelFileDescriptorInitializer;->initializeExtractor(Landroid/media/MediaExtractor;Landroid/os/ParcelFileDescriptor;)V
+
+    return-void
+.end method
+
+.method public initializeRetriever(Landroid/media/MediaMetadataRetriever;Landroid/os/ParcelFileDescriptor;)V
+    .locals 0
+
+    .line 2
+    invoke-virtual {p2}, Landroid/os/ParcelFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Landroid/media/MediaMetadataRetriever;->setDataSource(Ljava/io/FileDescriptor;)V
+
+    return-void
+.end method
+
+.method public bridge synthetic initializeRetriever(Landroid/media/MediaMetadataRetriever;Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p2, Landroid/os/ParcelFileDescriptor;
+
+    invoke-virtual {p0, p1, p2}, Lcom/bumptech/glide/load/resource/bitmap/VideoDecoder$ParcelFileDescriptorInitializer;->initializeRetriever(Landroid/media/MediaMetadataRetriever;Landroid/os/ParcelFileDescriptor;)V
+
+    return-void
+.end method

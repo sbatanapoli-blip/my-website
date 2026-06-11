@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_live_tv"
+        android:id="@id/liveTvFragment"
+        android:title="@string/live_tv" />
+    <item
+        android:icon="@drawable/ic_events"
+        android:id="@id/liveEventsFragment"
+        android:title="@string/live_events" />
+    <item
+        android:icon="@drawable/ic_leagues"
+        android:id="@id/leaguesFragment"
+        android:title="@string/leagues" />
+</menu>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView
+        android:id="@id/quality_scroll_view"
+        android:paddingLeft="16.0dip"
+        android:paddingRight="16.0dip"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50.0dip"
+        android:layout_alignParentTop="true"
+        android:paddingHorizontal="16.0dip">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/quality_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <RelativeLayout
+        android:padding="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <ImageButton
+            android:id="@id/show_channels_button"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="4.0dip"
+            android:visibility="gone"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:src="@drawable/ic_menu"
+            android:scaleType="centerInside"
+            android:contentDescription="Show Channels"
+            android:layout_alignParentStart="true"
+            app:tint="@android:color/white" />
+        <ImageButton
+            android:id="@id/pip_button"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="4.0dip"
+            android:visibility="gone"
+            android:layout_width="38.0dip"
+            android:layout_height="38.0dip"
+            android:src="@drawable/ic_pip"
+            android:scaleType="centerInside"
+            android:contentDescription="Picture-in-Picture"
+            android:layout_alignParentEnd="true"
+            app:tint="@android:color/white" />
+        <androidx.mediarouter.app.MediaRouteButton
+            android:id="@id/media_route_button"
+            android:background="?selectableItemBackgroundBorderless"
+            android:layout_width="38.0dip"
+            android:layout_height="38.0dip"
+            android:contentDescription="@string/cast"
+            android:mediaRouteTypes="user"
+            android:layout_marginEnd="4.0dip"
+            android:layout_toStartOf="@id/pip_button"
+            app:tint="@android:color/white" />
+        <ImageButton
+            android:id="@id/btn_settings"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="6.0dip"
+            android:visibility="visible"
+            android:layout_width="38.0dip"
+            android:layout_height="38.0dip"
+            android:src="@drawable/ic_quality"
+            android:scaleType="centerInside"
+            android:contentDescription="Quality Settings"
+            android:layout_marginEnd="4.0dip"
+            android:layout_toStartOf="@id/media_route_button"
+            app:tint="@android:color/white" />
+        <ImageButton
+            android:id="@id/btn_servers"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="6.0dip"
+            android:visibility="gone"
+            android:layout_width="38.0dip"
+            android:layout_height="38.0dip"
+            android:src="@drawable/ic_server"
+            android:scaleType="centerInside"
+            android:contentDescription="Server Selection"
+            android:layout_marginEnd="4.0dip"
+            android:layout_toStartOf="@id/btn_volume"
+            app:tint="@android:color/white" />
+        <ImageButton
+            android:id="@id/btn_volume"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="6.0dip"
+            android:visibility="visible"
+            android:layout_width="38.0dip"
+            android:layout_height="38.0dip"
+            android:src="@drawable/ic_volume"
+            android:scaleType="centerInside"
+            android:contentDescription="Volume"
+            android:layout_marginEnd="4.0dip"
+            android:layout_toStartOf="@id/btn_settings"
+            app:tint="@android:color/white" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:paddingBottom="6.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingStart="10.0dip"
+        android:paddingEnd="10.0dip">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@id/live_indicator_layout"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
+            <ImageView
+                android:layout_width="6.0dip"
+                android:layout_height="6.0dip"
+                android:src="@drawable/live_dot" />
+            <TextView
+                android:textSize="11.0sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LIVE"
+                android:layout_marginStart="3.0dip" />
+            <View
+                android:background="#60ffffff"
+                android:layout_width="1.0dip"
+                android:layout_height="12.0dip"
+                android:layout_marginStart="6.0dip"
+                android:layout_marginEnd="6.0dip" />
+            <ImageView
+                android:layout_width="12.0dip"
+                android:layout_height="12.0dip"
+                android:src="@drawable/ic_eye"
+                app:tint="@android:color/white" />
+        </LinearLayout>
+        <ImageButton
+            android:id="@id/exo_fullscreen"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="3.0dip"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:src="@drawable/ic_fullscreen_enter"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"
+            android:contentDescription="Fullscreen"
+            android:layout_alignParentEnd="true"
+            app:tint="@android:color/white" />
+        <ImageButton
+            android:id="@id/btn_resize"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="3.0dip"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:src="@drawable/ic_resize_mode"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"
+            android:contentDescription="Resize Mode"
+            android:layout_marginEnd="8.0dip"
+            android:layout_toStartOf="@id/exo_fullscreen"
+            app:tint="@android:color/white" />
+    </RelativeLayout>
+</RelativeLayout>

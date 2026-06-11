@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#ff181717"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_gravity="center_horizontal"
+        android:background="#40ffffff"
+        android:layout_width="44.0dip"
+        android:layout_height="5.0dip"
+        android:layout_marginTop="12.0dip" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20.0dip"
+        android:paddingTop="16.0dip"
+        android:paddingRight="20.0dip"
+        android:paddingBottom="14.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20.0dip">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <ImageView
+                android:id="@id/img_detail_home"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:scaleType="centerInside" />
+            <TextView
+                android:textSize="13.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/tv_detail_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:maxLines="2" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="26.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffddb261"
+                android:id="@id/tv_detail_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VS" />
+            <TextView
+                android:textSize="12.0sp"
+                android:textColor="#80ffffff"
+                android:id="@id/tv_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4.0dip" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0">
+            <ImageView
+                android:id="@id/img_detail_away"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:scaleType="centerInside" />
+            <TextView
+                android:textSize="13.0sp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/tv_detail_away"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:background="#15ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip" />
+    <com.google.android.material.tabs.TabLayout
+        android:id="@id/tab_layout"
+        android:background="#0dffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="#ffddb261"
+        app:tabIndicatorFullWidth="false"
+        app:tabIndicatorHeight="3.0dip"
+        app:tabMode="fixed"
+        app:tabPaddingEnd="4.0dip"
+        app:tabPaddingStart="4.0dip"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabSelectedTextColor="#ffffffff"
+        app:tabTextColor="#60ffffff" />
+    <FrameLayout
+        android:id="@id/pb_detail"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <ProgressBar
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/scroll_detail"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:fillViewport="true"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/section_info"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="16.0dip"
+                android:paddingRight="16.0dip"
+                android:paddingBottom="32.0dip"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16.0dip" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/section_standings"
+                android:paddingLeft="10.0dip"
+                android:paddingTop="16.0dip"
+                android:paddingRight="10.0dip"
+                android:paddingBottom="32.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10.0dip" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/section_h2h"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="16.0dip"
+                android:paddingRight="16.0dip"
+                android:paddingBottom="32.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16.0dip" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/section_referees"
+                android:paddingLeft="16.0dip"
+                android:paddingTop="16.0dip"
+                android:paddingRight="16.0dip"
+                android:paddingBottom="32.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16.0dip" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

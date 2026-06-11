@@ -1,0 +1,50 @@
+.class public final Lorg/jsoup/internal/SharedConstants;
+.super Ljava/lang/Object;
+.source "r8-map-id-26b7ea099bd0f7f7963a95025b5353c85da3ce06d22b4c6a5aedeb33aa4a418f"
+
+
+# static fields
+.field public static final AttrRangeKey:Ljava/lang/String; = "jsoup.attrs"
+
+.field public static final DefaultBufferSize:I = 0x8000
+
+.field public static final EndRangeKey:Ljava/lang/String; = "jsoup.end"
+
+.field public static final RangeKey:Ljava/lang/String; = "jsoup.start"
+
+.field public static final UserDataKey:Ljava/lang/String; = "/jsoup.userdata"
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method

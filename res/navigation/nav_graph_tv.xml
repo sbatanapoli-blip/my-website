@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    android:id="@id/nav_graph_tv"
+    app:startDestination="@id/tvActivationFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment
+        android:label="Activation"
+        android:name="com.primetv.watch.ui.tv.TvActivationFragment"
+        android:id="@id/tvActivationFragment" />
+    <fragment
+        android:label="Home"
+        android:name="com.primetv.watch.ui.tv.TvHomeFragment"
+        android:id="@id/tvHomeFragment">
+        <action
+            android:id="@id/action_tvHomeFragment_to_tvLiveTvFragment"
+            app:destination="@id/tvLiveTvFragment" />
+        <action
+            android:id="@id/action_tvHomeFragment_to_tvLiveEventsFragment"
+            app:destination="@id/tvLiveEventsFragment" />
+    </fragment>
+    <fragment
+        android:label="Live TV"
+        android:name="com.primetv.watch.ui.tv.TvLiveTvFragment"
+        android:id="@id/tvLiveTvFragment" />
+    <fragment
+        android:label="Live Events"
+        android:name="com.primetv.watch.ui.tv.TvLiveEventsFragment"
+        android:id="@id/tvLiveEventsFragment" />
+</navigation>

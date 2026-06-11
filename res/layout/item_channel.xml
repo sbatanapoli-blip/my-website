@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?selectableItemBackground"
+    android:padding="7.0dip"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@id/channel_logo"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/channels"
+        app:shapeAppearanceOverlay="@style/CircleImageStyle" />
+    <TextView
+        android:textSize="12.0sp"
+        android:textColor="?colorOnSurface"
+        android:id="@id/channel_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_marginStart="8.0dip" />
+    <ImageView
+        android:id="@id/iv_favorite"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="5.0dip"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="35.0dip"
+        android:layout_height="35.0dip"
+        android:src="@drawable/ic_favorite_border"
+        android:contentDescription="Favorite" />
+</LinearLayout>

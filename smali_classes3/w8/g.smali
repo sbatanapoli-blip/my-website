@@ -1,0 +1,99 @@
+.class public final Lw8/g;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lx7/a;
+
+
+# static fields
+.field public static final b:Lw8/g;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lw8/g;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lw8/g;->b:Lw8/g;
+
+    .line 7
+    .line 8
+    return-void
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    sget-object v0, Lw8/h;->g:[Ld8/v;
+
+    .line 2
+    .line 3
+    sget-object v0, Lw8/d;->a:Ll9/h;
+
+    .line 4
+    .line 5
+    new-instance v1, Lq9/b0;
+
+    .line 6
+    .line 7
+    const-string v2, "Deprecated in Java"
+
+    .line 8
+    .line 9
+    invoke-direct {v1, v2}, Lq9/g;-><init>(Ljava/lang/Object;)V
+
+    .line 10
+    .line 11
+    .line 12
+    new-instance v2, Lg7/l;
+
+    .line 13
+    .line 14
+    invoke-direct {v2, v0, v1}, Lg7/l;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    .line 15
+    .line 16
+    .line 17
+    invoke-static {v2}, Lh7/f0;->f0(Lg7/l;)Ljava/util/Map;
+
+    .line 18
+    .line 19
+    .line 20
+    move-result-object v0
+
+    .line 21
+    return-object v0
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+.end method

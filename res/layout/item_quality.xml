@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="?selectableItemBackground"
+    android:padding="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="@android:color/white"
+        android:id="@id/quality_name"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="1920 x 1080"
+        android:layout_weight="1.0" />
+    <RadioButton
+        android:id="@id/quality_radio"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/yellow_button" />
+</LinearLayout>

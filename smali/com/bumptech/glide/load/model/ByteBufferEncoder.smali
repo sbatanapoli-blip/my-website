@@ -1,0 +1,87 @@
+.class public Lcom/bumptech/glide/load/model/ByteBufferEncoder;
+.super Ljava/lang/Object;
+.source "r8-map-id-26b7ea099bd0f7f7963a95025b5353c85da3ce06d22b4c6a5aedeb33aa4a418f"
+
+# interfaces
+.implements Lcom/bumptech/glide/load/Encoder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/bumptech/glide/load/Encoder<",
+        "Ljava/nio/ByteBuffer;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final TAG:Ljava/lang/String; = "ByteBufferEncoder"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+.end method
+
+
+# virtual methods
+.method public bridge synthetic encode(Ljava/lang/Object;Ljava/io/File;Lcom/bumptech/glide/load/Options;)Z
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/nio/ByteBuffer;
+
+    invoke-virtual {p0, p1, p2, p3}, Lcom/bumptech/glide/load/model/ByteBufferEncoder;->encode(Ljava/nio/ByteBuffer;Ljava/io/File;Lcom/bumptech/glide/load/Options;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public encode(Ljava/nio/ByteBuffer;Ljava/io/File;Lcom/bumptech/glide/load/Options;)Z
+    .locals 0
+
+    .line 2
+    :try_start_0
+    invoke-static {p1, p2}, Lcom/bumptech/glide/util/ByteBufferUtil;->toFile(Ljava/nio/ByteBuffer;Ljava/io/File;)V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :catch_0
+    const/4 p1, 0x0
+
+    return p1
+.end method

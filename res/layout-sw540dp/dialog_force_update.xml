@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="#cc000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="center"
+        android:layout_width="540.0dip"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/bottom_nav_background"
+        app:cardCornerRadius="24.0dip"
+        app:cardElevation="24.0dip">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:background="@color/gold"
+                android:layout_width="fill_parent"
+                android:layout_height="4.0dip" />
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="28.0dip"
+                android:paddingBottom="28.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="32.0dip"
+                android:paddingEnd="32.0dip">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@id/updateAnimation"
+                    android:layout_width="110.0dip"
+                    android:layout_height="110.0dip"
+                    android:layout_marginEnd="24.0dip"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/update_animation" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <TextView
+                        android:textSize="22.0sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gold"
+                        android:id="@id/titleText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="تحديث جديد متاح"
+                        android:fontFamily="@font/kufi" />
+                    <TextView
+                        android:textSize="13.0sp"
+                        android:textColor="@color/bottom_nav_background"
+                        android:id="@id/versionBadge"
+                        android:background="@drawable/bg_version_badge"
+                        android:paddingTop="4.0dip"
+                        android:paddingBottom="4.0dip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6.0dip"
+                        android:text="v1.0.0"
+                        android:fontFamily="@font/kufi"
+                        android:paddingStart="12.0dip"
+                        android:paddingEnd="12.0dip" />
+                    <TextView
+                        android:textSize="15.0sp"
+                        android:textColor="#ccffffff"
+                        android:id="@id/messageText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10.0dip"
+                        android:text="يتوفر تحديث هام وإلزامي. يرجى التحديث للمتابعة."
+                        android:lineSpacingExtra="4.0dip"
+                        android:fontFamily="@font/kufi" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@id/progressSection"
+                        android:visibility="gone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14.0dip">
+                        <ProgressBar
+                            android:id="@id/progressBar"
+                            android:layout_width="fill_parent"
+                            android:layout_height="10.0dip"
+                            android:max="100"
+                            android:progress="0"
+                            android:progressDrawable="@drawable/progress_bar_update"
+                            style="?android:progressBarStyleHorizontal" />
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8.0dip">
+                            <TextView
+                                android:textSize="13.0sp"
+                                android:textColor="#80ffffff"
+                                android:id="@id/tvDownloadSize"
+                                android:layout_width="0.0dip"
+                                android:layout_height="wrap_content"
+                                android:text="0 MB"
+                                android:layout_weight="1.0"
+                                android:fontFamily="@font/kufi" />
+                            <TextView
+                                android:textSize="13.0sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/gold"
+                                android:id="@id/tvProgress"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:fontFamily="@font/kufi" />
+                        </LinearLayout>
+                        <TextView
+                            android:textSize="12.0sp"
+                            android:textColor="#80ffffff"
+                            android:id="@id/tvStatus"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4.0dip"
+                            android:text="جارٍ التحميل..."
+                            android:fontFamily="@font/kufi" />
+                    </LinearLayout>
+                    <TextView
+                        android:textSize="11.0sp"
+                        android:textColor="#80ffa726"
+                        android:id="@id/warningText"
+                        android:visibility="gone"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8.0dip"
+                        android:text="⚠️ قد يستغرق التحميل بضع دقائق"
+                        android:fontFamily="@font/kufi" />
+                    <LinearLayout
+                        android:gravity="start"
+                        android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18.0dip">
+                        <com.google.android.material.button.MaterialButton
+                            android:textSize="15.0sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:id="@id/btnUpdateNow"
+                            android:focusable="true"
+                            android:nextFocusRight="@id/btnCloseApp"
+                            android:layout_width="0.0dip"
+                            android:layout_height="52.0dip"
+                            android:text="تحديث الآن"
+                            android:layout_weight="1.0"
+                            android:fontFamily="@font/kufi"
+                            android:layout_marginEnd="10.0dip"
+                            android:backgroundTint="#ff2a2a2a"
+                            app:cornerRadius="14.0dip"
+                            app:strokeColor="#30ffffff"
+                            app:strokeWidth="1.0dip" />
+                        <com.google.android.material.button.MaterialButton
+                            android:textSize="14.0sp"
+                            android:textColor="#ffffffff"
+                            android:id="@id/btnCloseApp"
+                            android:focusable="true"
+                            android:nextFocusLeft="@id/btnUpdateNow"
+                            android:layout_width="0.0dip"
+                            android:layout_height="52.0dip"
+                            android:text="إغلاق التطبيق"
+                            android:layout_weight="1.0"
+                            android:fontFamily="@font/kufi"
+                            android:backgroundTint="#ff2a2a2a"
+                            app:cornerRadius="14.0dip"
+                            app:strokeColor="#30ffffff"
+                            app:strokeWidth="1.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>
